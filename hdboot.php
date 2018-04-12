@@ -5071,25 +5071,34 @@
               <br>Assim, os dados do novo Ato estarão disponíveis para edição, sendo que o Número e a Data são gerados automaticamente.
               <br>No campo 'Registro', ao selecionar o que desejar cadastrar, serão preenchidos o Tipo, a Classe de Registro e o Texto do mesmo.
               <br>Assim, basta incluir as Partes Envolvidas, se necessário, em tal Ato/Registro, através da janela a esquerda da tela.
-              <br>Caso o Imóvel em questão tenha um Proprietário cadastrado, o mesmo será incluído como Parte Envolvida do Ato, exibindo uma tela
+              <br><br>Caso o Imóvel em questão tenha um Proprietário cadastrado, o mesmo será incluído como Parte Envolvida do Ato, exibindo uma tela
               de confirmação de tal operação. Para Incluir ou Excluir uma Parte Envolvida, basta clicar nos botões correspondentes à direta da janela
               em questão, sendo que cada Ato possui as devidas associações de Papéis de Partes Envolvidas.
-              <br>Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
+              <br><br>Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
 
-              <br>Feito isso, clique em
+              <br><br>Feito isso, clique em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
               para finalizar o cadastro do Rascunho de Ato.
-              Assim, o mesmo será exibido na janela no canto superior esquerdo da tela.
-              <br>Para registrá-lo, basta clicar em
+              Assim, o mesmo será exibido na janela no canto superior esquerdo da tela. Para registrá-lo, basta clicar em
               <img src="Prints Sagres/Balcao/registrar.png" alt="Registrar">.
+
+              <br><br>Caso deseje alterar um Ato/Registro basta clicar em <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">.
+              Assim, os dados de tal Ato estarão habilitados para edição e o mesmo poderá ser novamente gravado no Sistema.
+
+              <br><br>Para excluir um Ato/Registro basta clicar em <img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
+              Assim, tal Ato será excluído do Protocolo ao qual ele estava vinculado.
+
+              <br><br> <b>Observação.:</b> &nbsp; Se a inclusão de Atos/Registros for feita através da tela "Atos Registrados", caso seja possível, o
+              Ato em questão será registrado automaticamente e não gravado como Rascunho, como acontece na tela "Atos Rascunho".
+
             </p>
           </div>
 
             <br>
 
             <figure>
-              <img src="Prints Sagres/Balcao/AtoRegistro.png" alt="Rascunho Atos" style="padding-left: 60px;" width="115%" height="auto">
-              <figcaption style="padding-left: 450px;">Rascunho Atos</figcaption>
+              <img src="Prints Sagres/Balcao/AtoRegistro.png" alt="Rascunho Atos" style="padding-left: 20px;" width="115%" height="auto">
+              <figcaption style="padding-left: 420px;">Rascunho Atos</figcaption>
             </figure>
         </div>
 
