@@ -1,0 +1,10 @@
+Balcao -> ged -> bloqueados
+
+Financeiro -> atos extra jud
+
+Consultas -> dashboard -> financeiro
+
+Processos -> INCRA
+
+USUÁRIO ATENDENTE
+Consultas ----> Mala Direta

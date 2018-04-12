@@ -1,0 +1,680 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi"> -->
+
+	<title>Menu</title>
+
+	<link type="text/css" rel="stylesheet" href="src/jquery.treefilter.css">
+	<link type="text/css" rel="stylesheet" href="lorem.css">
+	<link href='http://fonts.googleapis.com/css?family=roboto:400,300,700' rel='stylesheet' type='text/css'>
+
+	<style>
+		body		{background:#fff;}
+		/* .container	{font-family:"roboto"; font-size:16px; background:#fff; border-radius:3px;
+					border:1px solid #ddd;} */
+		/* .container{ position: absolute; z-index: 100;} */
+		h1	{font-weight:100; font-size:44px; margin-top:0px; z-index: -1;}
+
+		.ms1	{font-size:14px; outline:none; z-index: 100; float: left; padding: 5px 750px 5px 0px; }
+		.ms2	{font-size:14px; outline:none; z-index: 100; float: left; padding: 5px 250px 5px 50px; }
+		.ms3	{font-size:14px; outline:none; z-index: 100; float: left; padding: 5px 0px 5px 50px; }
+		.ms4	{float: left; padding: 5px 0px 5px 80px; z-index: 100; }
+		.ms5	{float: left; padding: 5px 0px 5px 2px; z-index: 100; }
+
+		#my-search { z-index: 100; padding: 5px 10px; height: 75%; width: 170%; }
+		#my-search2 { z-index: 100; padding: 5px 10px; height: 75%; width: 150%; }
+		#my-search3 { width: 170%; height: 30px; padding: 0px 10px; }
+
+		ul#my-tree	{position: absolute; margin:0; padding:40px 30px; color: solid black; z-index: -1; }
+		ul#my-tree	li {margin:15px 0; }
+
+		.header{
+		 padding: 8px 15px;
+		 width: 100%;
+		 background: #eee;
+		 position: fixed;
+		 top: 0;
+		 left: 0;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1></h1>
+
+	<!-- /////////////////////////////////// ARVORE DE TOPICOS /////////////////////////////////////////////// -->
+	<div class="container">
+
+		<div class="header">
+      <!-- ///// Searches //// -->
+			<div class="ms1"><input type="search" id="my-search" placeholder="Pesquisar Tópico.."></div>
+			<!-- <div class="ms2"><input type="search" id="my-search2" placeholder="Palavra-Chave em Tópico.."></div> -->
+			<div class="ms3"><input type="search" id="my-search3" placeholder="Palavra-Chave em Tópico/Documento.."></div>
+			<!-- <div class="ms4"><button data-search="next" id="bt1" title="Próximo">&darr;</button></div>
+			<div class="ms5"><button data-search="prev" id="bt1" title="Anterior">&uarr;</button></div> -->
+    </div>
+
+		<ul id="my-tree">
+			<li id="L1">
+				<div><span onclick="teste('.L1')">1</span></div>
+				<ul>
+					<li id="L2">
+						<div><span onclick="teste('.L2')">1.1</span></div>
+						<ul>
+							<li id="L1"><div><span onclick="teste('.L1')">1.1.1</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">1.1.2</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">1.1.3</span></div></li>
+						</ul>
+					</li>
+					<li id="L2"><div><span onclick="teste('.L2')">1.2</span></div>
+						<ul>
+							<li id="L3"><div><span onclick="teste('.L3')">1.2.1</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">1.2.2</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">1.2.3</span></div></li>
+						</ul>
+					</li>
+					<li id="L2"><div><span onclick="teste('.L2')">1.3</span></div>
+						<ul>
+							<li id="L1"><div><span onclick="teste('.L1')">1.3.1</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">1.3.2</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">1.3.3</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">1.3.4</span></div>
+								<ul>
+									<li id="L1"><div><span onclick="teste('.L1')">1.3.1.1</span></div></li>
+									<li id="L2"><div><span onclick="teste('.L2')">1.3.1.2</span></div></li>
+									<li id="L1"><div><span onclick="teste('.L1')">1.3.1.3</span></div></li>
+									<li id="L2"><div><span onclick="teste('.L2')">1.3.1.4</span></div></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li id="L2"><div><span onclick="teste('.L2')">1.4</span></div>
+						<ul>
+							<li id="L1"><div><span onclick="teste('.L1')">1.4.1</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">1.4.2</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">1.4.3</span></div></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="L2">
+				<div><span onclick="teste('.L2')">2</span></div>
+				<ul>
+					<li id="L2">
+						<div><span onclick="teste('.L2')">2.1</span></div>
+						<ul>
+							<li id="L1"><div><span onclick="teste('.L1')">2.1.1</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">2.1.2</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">2.1.3</span></div></li>
+						</ul>
+					</li>
+					<li id="L2"><div><span onclick="teste('.L2')">2.2</span></div>
+						<ul>
+							<li id="L2"><div><span onclick="teste('.L2')">2.2.1</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">2.2.2</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">2.2.3</span></div></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="L1">
+				<div><span onclick="teste('.L2')">3</span></div>
+				<ul>
+					<li id="L1">
+						<div><span onclick="teste('.L1')">3.1</span></div>
+						<ul>
+							<li id="L2"><div><span onclick="teste('.L2')">3.1.1</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">3.1.2</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">3.1.3</span></div></li>
+						</ul>
+					</li>
+					<li id="L2"><div><span onclick="teste('.L2')">3.2</span></div>
+						<ul>
+							<li id="L2"><div><span onclick="teste('.L2')">3.2.1</span></div></li>
+							<li id="L1"><div><span onclick="teste('.L1')">3.2.2</span></div></li>
+							<li id="L2"><div><span onclick="teste('.L2')">5</span></div></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<!-- <div class="v1"></div> -->
+
+	<!-- ///////////////////////////////////// LOREM  PAGE /////////////////////////////////////////////////////-->
+			<div class="content L1" hidden=true id="not">
+				<p>
+					Lorem1 ipsum dolor bota sit amet, consectetur adipiscing elit. Duis eu ullamcorper orci, eget porttitor justo. Aliquam id sollicitudin elit. Nulla in sodales ipsum. Donec vulputate venenatis magna. Vestibulum sit amet leo lacinia, cursus lectus in, gravida
+					metus. In ultricies sed tortor non pellentesque. Mauris quis tempor neque. Donec nec sagittis magna. Integer fringilla posuere metus eu mollis. Ut ac porta metus. Duis sed lacinia metus. Nunc malesuada iaculis risus vitae bibendum.
+				</p>
+
+				<p>
+					Vivamus posuere condimentum leo eu hendrerit. Pellentesque placerat iaculis ante a rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu ipsum ac magna congue congue sed maximus tortor. Vivamus id odio elementum, vehicula nunc
+					ut, efficitur felis. Nullam hendrerit velit libero, gravida porttitor tortor ullamcorper eu. Ut ut lectus non enim sagittis aliquam quis in orci. Donec a arcu eu eros cursus cursus. Donec dictum dignissim tellus, dictum egestas purus pellentesque
+					sed.
+				</p>
+
+				<p>
+					Vestibulum eu ornare urna, nec aliquam lectus. Phasellus eu odio sapien. Vestibulum eu turpis at lorem sagittis posuere. Quisque tellus nunc, facilisis id lacus nec, ornare rhoncus elit. Vivamus vehicula eros a condimentum venenatis. Sed orci massa, pulvinar
+					sed erat nec, pellentesque suscipit leo. Mauris lobortis tincidunt nunc, sed tempus ex congue vitae. Curabitur lobortis mauris in ex malesuada, quis vehicula neque lobortis. Curabitur aliquam porttitor tellus eget tempus. Donec maximus tempus tristique.
+					Aliquam tincidunt odio dictum, scelerisque ipsum ut, facilisis quam. Ut nec malesuada neque.
+				</p>
+
+				<p>
+					Proin felis eros, tincidunt vitae scelerisque sit amet, dictum nec ante. Praesent tincidunt ac lacus nec elementum. Vivamus sed gravida purus, sed efficitur tortor. Nulla non molestie arcu. Sed tincidunt consectetur ligula sed lobortis. In non sapien
+					ac urna lacinia placerat sed nec lacus. Aenean lobortis tincidunt sapien a hendrerit. Quisque eu turpis accumsan nisl blandit efficitur.
+				</p>
+
+				<p>
+					Nam sit amet pellentesque est. Sed ligula turpis, ultricies sit amet mattis elementum, tristique non risus. Phasellus at congue ex. Proin nisi leo, vestibulum vitae accumsan in, imperdiet id dolor. Quisque at blandit nisl. Class aptent taciti sociosqu
+					ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc eget metus augue. Morbi faucibus venenatis sapien, fermentum porttitor felis pharetra a. Nam interdum nibh tortor, quis maximus turpis blandit eget. Praesent in feugiat neque, sed
+					vulputate quam. Curabitur erat quam, efficitur et congue quis, iaculis euismod libero. Quisque odio sapien, efficitur non mauris ac, tincidunt condimentum turpis.
+				</p>
+
+				<p>
+					Maecenas dapibus aliquam vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent convallis viverra leo quis porta. Sed sit amet porttitor quam. Fusce nec risus non augue consectetur ultricies. Aliquam
+					elit lorem, tincidunt ac dolor vel, vulputate consectetur ex. In hac habitasse platea dictumst. Sed eget nisl aliquam, cursus odio nec, commodo lorem. Nulla mollis tortor eu odio rutrum vulputate. Donec condimentum molestie mauris, nec sodales nisi
+					volutpat aliquam. Nulla mollis libero sed nibh volutpat, ac mollis elit tincidunt. Vestibulum cursus velit vitae felis aliquam ultricies. Donec vehicula dictum feugiat. Vestibulum volutpat sollicitudin sagittis.
+				</p>
+
+				<p>
+					Proin vel hendrerit nulla. Vivamus vehicula nibh nec lorem blandit, quis aliquam ipsum suscipit. Nulla at vestibulum felis. Aenean ac nibh eget enim molestie pulvinar. Duis nulla justo, tristique id nulla nec, faucibus imperdiet arcu. In vel pretium dui,
+					at lobortis sapien. Phasellus ullamcorper id enim eget dictum. Ut imperdiet rutrum est a rutrum. Curabitur eget dignissim tellus. Fusce tempus leo nisl, vitae auctor diam feugiat sit amet. Vestibulum accumsan justo eget odio imperdiet, consectetur
+					efficitur ex dapibus.
+				</p>
+
+				<p>
+					Aliquam consequat, diam eu ullamcorper porta, diam eros rhoncus turpis, in rutrum sem diam a risus. Duis lacinia velit sed ante feugiat venenatis. Aenean orci leo, dictum non finibus nec, dignissim quis eros. Nullam sit amet orci ac purus blandit commodo
+					sit amet eget neque. Sed pellentesque dictum tortor. Ut dui erat, tempus in odio in, aliquet convallis mi. Morbi efficitur justo ante, quis ultricies turpis suscipit ac. Sed sit amet nisl rutrum, laoreet mauris id, ullamcorper orci. In facilisis nisi
+					eget fringilla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut ultricies dui. Pellentesque elit urna, imperdiet sed congue eget, hendrerit sed urna.
+				</p>
+
+				<p>
+					Proin vel hendrerit nulla. Vivamus vehicula nibh nec lorem blandit, quis aliquam ipsum suscipit. Nulla at vestibulum felis. Aenean ac nibh eget enim molestie pulvinar. Duis nulla justo, tristique id nulla nec, faucibus imperdiet arcu. In vel pretium dui,
+					at lobortis sapien. Phasellus ullamcorper id enim eget dictum. Ut imperdiet rutrum est a rutrum. Curabitur eget dignissim tellus. Fusce tempus leo nisl, vitae auctor diam feugiat sit amet. Vestibulum accumsan justo eget odio imperdiet, consectetur
+					efficitur ex dapibus.
+				</p>
+
+				<p>
+					Sedulse pharetra odio a nibh pharetra rutrum. Suspendisse ut ullamcorper lectus. Donec ipsum mauris, congue et lobortis sit amet, ultricies ac tellus. Sed nisi risus, condimentum at varius quis, condimentum ac velit. In condimentum, magna sed ornare eleifend,
+					dolor nulla mollis felis, quis feugiat elit turpis non ipsum. Etiam aliquam est imperdiet dolor rutrum, at varius leo sodales. Morbi quis iaculis metus.
+				</p>
+
+				<p>
+					Maecenas auctor nec ligula ac luctus. Nam sit amet euismod mauris. Donec et diam sit amet eros efficitur tempor. Mauris non erat sit amet nunc interdum pulvinar. Sed luctus hendrerit justo eget pulvinar. Cras non arcu sed ligula faucibus pulvinar. Sed
+					egestas risus nisl. Duis quis arcu tempus, cursus erat ac, gravida enim. Cras et condimentum ante. Nullam eleifend egestas velit, quis semper est imperdiet non. Donec quis purus varius, placerat mi et, dictum lorem. Sed quis finibus nisi, vitae molestie
+					metus. Donec lobortis eros quis vestibulum vulputate opa.
+				</p>
+			</div>
+
+			<div class="content L2" hidden=true id="not">
+	      <p>
+	        Lorem2 ipsum dolor bota sit amet, consectetur adipiscing elit. Duis eu ullamcorper orci, eget porttitor justo. Aliquam id sollicitudin elit. Nulla in sodales ipsum. Donec vulputate venenatis magna. Vestibulum sit amet leo lacinia, cursus lectus in, gravida
+	        metus. In ultricies sed tortor non pellentesque. Mauris quis tempor neque. Donec nec sagittis magna. Integer fringilla posuere metus eu mollis. Ut ac porta metus. Duis sed lacinia metus. Nunc malesuada iaculis risus vitae bibendum.
+	      </p>
+
+				<p> <button type="button" name="button">botao</button> </p>
+
+	      <p>
+	        Vivamus posuere condimentum leo eu hendrerit. Pellentesque placerat iaculis ante a rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu ipsum ac magna congue congue sed maximus tortor. Vivamus id odio elementum, vehicula nunc
+	        ut, efficitur felis. Nullam hendrerit velit libero, gravida porttitor tortor ullamcorper eu. Ut ut lectus non enim sagittis aliquam quis in orci. Donec a arcu eu eros cursus cursus. Donec dictum dignissim tellus, dictum egestas purus pellentesque
+	        sed.
+	      </p>
+
+	      <p>
+	        Vestibulum eu ornare urna, nec aliquam lectus. Phasellus eu odio sapien. Vestibulum eu turpis at lorem sagittis posuere. Quisque tellus nunc, facilisis id lacus nec, ornare rhoncus elit. Vivamus vehicula eros a condimentum venenatis. Sed orci massa, pulvinar
+	        sed erat nec, pellentesque suscipit leo. Mauris lobortis tincidunt nunc, sed tempus ex congue vitae. Curabitur lobortis mauris in ex malesuada, quis vehicula neque lobortis. Curabitur aliquam porttitor tellus eget tempus. Donec maximus tempus tristique.
+	        Aliquam tincidunt odio dictum, scelerisque ipsum ut, facilisis quam. Ut nec malesuada neque.
+	      </p>
+
+	      <p>
+	        Proin felis eros, tincidunt vitae scelerisque sit amet, dictum nec ante. Praesent tincidunt ac lacus nec elementum. Vivamus sed gravida purus, sed efficitur tortor. Nulla non molestie arcu. Sed tincidunt consectetur ligula sed lobortis. In non sapien
+	        ac urna lacinia placerat sed nec lacus. Aenean lobortis tincidunt sapien a hendrerit. Quisque eu turpis accumsan nisl blandit efficitur.
+	      </p>
+
+	      <p>
+	        Nam sit amet pellentesque est. Sed ligula turpis, ultricies sit amet mattis elementum, tristique non risus. Phasellus at congue ex. Proin nisi leo, vestibulum vitae accumsan in, imperdiet id dolor. Quisque at blandit nisl. Class aptent taciti sociosqu
+	        ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc eget metus augue. Morbi faucibus venenatis sapien, fermentum porttitor felis pharetra a. Nam interdum nibh tortor, quis maximus turpis blandit eget. Praesent in feugiat neque, sed
+	        vulputate quam. Curabitur erat quam, efficitur et congue quis, iaculis euismod libero. Quisque odio sapien, efficitur non mauris ac, tincidunt condimentum turpis.
+	      </p>
+
+	      <p>
+	        Maecenas dapibus aliquam vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent convallis viverra leo quis porta. Sed sit amet porttitor quam. Fusce nec risus non augue consectetur ultricies. Aliquam
+	        elit lorem, tincidunt ac dolor vel, vulputate consectetur ex. In hac habitasse platea dictumst. Sed eget nisl aliquam, cursus odio nec, commodo lorem. Nulla mollis tortor eu odio rutrum vulputate. Donec condimentum molestie mauris, nec sodales nisi
+	        volutpat aliquam. Nulla mollis libero sed nibh volutpat, ac mollis elit tincidunt. Vestibulum cursus velit vitae felis aliquam ultricies. Donec vehicula dictum feugiat. Vestibulum volutpat sollicitudin sagittis.
+	      </p>
+
+	      <p>
+	        Proin vel hendrerit nulla. Vivamus vehicula nibh nec lorem blandit, quis aliquam ipsum suscipit. Nulla at vestibulum felis. Aenean ac nibh eget enim molestie pulvinar. Duis nulla justo, tristique id nulla nec, faucibus imperdiet arcu. In vel pretium dui,
+	        at lobortis sapien. Phasellus ullamcorper id enim eget dictum. Ut imperdiet rutrum est a rutrum. Curabitur eget dignissim tellus. Fusce tempus leo nisl, vitae auctor diam feugiat sit amet. Vestibulum accumsan justo eget odio imperdiet, consectetur
+	        efficitur ex dapibus.
+	      </p>
+
+	      <p>
+	        Aliquam consequat, diam eu ullamcorper porta, diam eros rhoncus turpis, in rutrum sem diam a risus. Duis lacinia velit sed ante feugiat venenatis. Aenean orci leo, dictum non finibus nec, dignissim quis eros. Nullam sit amet orci ac purus blandit commodo
+	        sit amet eget neque. Sed pellentesque dictum tortor. Ut dui erat, tempus in odio in, aliquet convallis mi. Morbi efficitur justo ante, quis ultricies turpis suscipit ac. Sed sit amet nisl rutrum, laoreet mauris id, ullamcorper orci. In facilisis nisi
+	        eget fringilla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut ultricies dui. Pellentesque elit urna, imperdiet sed congue eget, hendrerit sed urna.
+	      </p>
+
+	      <p>
+	        Proin vel hendrerit nulla. Vivamus vehicula nibh nec lorem blandit, quis aliquam ipsum suscipit. Nulla at vestibulum felis. Aenean ac nibh eget enim molestie pulvinar. Duis nulla justo, tristique id nulla nec, faucibus imperdiet arcu. In vel pretium dui,
+	        at lobortis sapien. Phasellus ullamcorper id enim eget dictum. Ut imperdiet rutrum est a rutrum. Curabitur eget dignissim tellus. Fusce tempus leo nisl, vitae auctor diam feugiat sit amet. Vestibulum accumsan justo eget odio imperdiet, consectetur
+	        efficitur ex dapibus.
+	      </p>
+
+	      <p>
+	        Sedulso pharetra odio a nibh pharetra rutrum. Suspendisse ut ullamcorper lectus. Donec ipsum mauris, congue et lobortis sit amet, ultricies ac tellus. Sed nisi risus, condimentum at varius quis, condimentum ac velit. In condimentum, magna sed ornare eleifend,
+	        dolor nulla mollis felis, quis feugiat elit turpis non ipsum. Etiam aliquam est imperdiet dolor rutrum, at varius leo sodales. Morbi quis iaculis metus.
+	      </p>
+
+	      <p>
+	        Maecenas auctor nec ligula ac luctus. Nam sit amet euismod mauris. Donec et diam sit amet eros efficitur tempor. Mauris non erat sit amet nunc interdum pulvinar. Sed luctus hendrerit justo eget pulvinar. Cras non arcu sed ligula faucibus pulvinar. Sed
+	        egestas risus nisl. Duis quis arcu tempus, cursus erat ac, gravida enim. Cras et condimentum ante. Nullam eleifend egestas velit, quis semper est imperdiet non. Donec quis purus varius, placerat mi et, dictum lorem. Sed quis finibus nisi, vitae molestie
+	        metus. Donec lobortis eros quis vestibulum vulputate opa.
+	      </p>
+	    </div>
+
+			<div class="content L3" hidden=true id="not">
+	      <p>
+	        Lorem3 ipsum dolor bota sit amet, consectetur adipiscing elit. Duis eu ullamcorper orci, eget porttitor justo. Aliquam id sollicitudin elit. Nulla in sodales ipsum. Donec vulputate venenatis magna. Vestibulum sit amet leo lacinia, cursus lectus in, gravida
+	        metus. In ultricies sed tortor non pellentesque. Mauris quis tempor neque. Donec nec sagittis magna. Integer fringilla posuere metus eu mollis. Ut ac porta metus. Duis sed lacinia metus. Nunc malesuada iaculis risus vitae bibendum.
+	      </p>
+
+				<p> <button type="button" name="button">botao</button> </p>
+
+	      <p>
+	        Vivamus posuere condimentum leo eu hendrerit. Pellentesque placerat iaculis ante a rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu ipsum ac magna congue congue sed maximus tortor. Vivamus id odio elementum, vehicula nunc
+	        ut, efficitur felis. Nullam hendrerit velit libero, gravida porttitor tortor ullamcorper eu. Ut ut lectus non enim sagittis aliquam quis in orci. Donec a arcu eu eros cursus cursus. Donec dictum dignissim tellus, dictum egestas purus pellentesque
+	        sed.
+	      </p>
+
+	      <p>
+	        Vestibulum eu ornare urna, nec aliquam lectus. Phasellus eu odio sapien. Vestibulum eu turpis at lorem sagittis posuere. Quisque tellus nunc, facilisis id lacus nec, ornare rhoncus elit. Vivamus vehicula eros a condimentum venenatis. Sed orci massa, pulvinar
+	        sed erat nec, pellentesque suscipit leo. Mauris lobortis tincidunt nunc, sed tempus ex congue vitae. Curabitur lobortis mauris in ex malesuada, quis vehicula neque lobortis. Curabitur aliquam porttitor tellus eget tempus. Donec maximus tempus tristique.
+	        Aliquam tincidunt odio dictum, scelerisque ipsum ut, facilisis quam. Ut nec malesuada neque.
+	      </p>
+
+	      <p>
+	        Proin felis eros, tincidunt vitae scelerisque sit amet, dictum nec ante. Praesent tincidunt ac lacus nec elementum. Vivamus sed gravida purus, sed efficitur tortor. Nulla non molestie arcu. Sed tincidunt consectetur ligula sed lobortis. In non sapien
+	        ac urna lacinia placerat sed nec lacus. Aenean lobortis tincidunt sapien a hendrerit. Quisque eu turpis accumsan nisl blandit efficitur.
+	      </p>
+
+	      <p>
+	        Nam sit amet pellentesque est. Sed ligula turpis, ultricies sit amet mattis elementum, tristique non risus. Phasellus at congue ex. Proin nisi leo, vestibulum vitae accumsan in, imperdiet id dolor. Quisque at blandit nisl. Class aptent taciti sociosqu
+	        ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc eget metus augue. Morbi faucibus venenatis sapien, fermentum porttitor felis pharetra a. Nam interdum nibh tortor, quis maximus turpis blandit eget. Praesent in feugiat neque, sed
+	        vulputate quam. Curabitur erat quam, efficitur et congue quis, iaculis euismod libero. Quisque odio sapien, efficitur non mauris ac, tincidunt condimentum turpis.
+	      </p>
+
+	      <p>
+	        Maecenas dapibus aliquam vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent convallis viverra leo quis porta. Sed sit amet porttitor quam. Fusce nec risus non augue consectetur ultricies. Aliquam
+	        elit lorem, tincidunt ac dolor vel, vulputate consectetur ex. In hac habitasse platea dictumst. Sed eget nisl aliquam, cursus odio nec, commodo lorem. Nulla mollis tortor eu odio rutrum vulputate. Donec condimentum molestie mauris, nec sodales nisi
+	        volutpat aliquam. Nulla mollis libero sed nibh volutpat, ac mollis elit tincidunt. Vestibulum cursus velit vitae felis aliquam ultricies. Donec vehicula dictum feugiat. Vestibulum volutpat sollicitudin sagittis.
+	      </p>
+
+	      <p>
+	        Proin vel hendrerit nulla. Vivamus vehicula nibh nec lorem blandit, quis aliquam ipsum suscipit. Nulla at vestibulum felis. Aenean ac nibh eget enim molestie pulvinar. Duis nulla justo, tristique id nulla nec, faucibus imperdiet arcu. In vel pretium dui,
+	        at lobortis sapien. Phasellus ullamcorper id enim eget dictum. Ut imperdiet rutrum est a rutrum. Curabitur eget dignissim tellus. Fusce tempus leo nisl, vitae auctor diam feugiat sit amet. Vestibulum accumsan justo eget odio imperdiet, consectetur
+	        efficitur ex dapibus.
+	      </p>
+
+	      <p>
+	        Aliquam consequat, diam eu ullamcorper porta, diam eros rhoncus turpis, in rutrum sem diam a risus. Duis lacinia velit sed ante feugiat venenatis. Aenean orci leo, dictum non finibus nec, dignissim quis eros. Nullam sit amet orci ac purus blandit commodo
+	        sit amet eget neque. Sed pellentesque dictum tortor. Ut dui erat, tempus in odio in, aliquet convallis mi. Morbi efficitur justo ante, quis ultricies turpis suscipit ac. Sed sit amet nisl rutrum, laoreet mauris id, ullamcorper orci. In facilisis nisi
+	        eget fringilla imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut ultricies dui. Pellentesque elit urna, imperdiet sed congue eget, hendrerit sed urna.
+	      </p>
+
+	      <p>
+	        Proin vel hendrerit nulla. Vivamus vehicula nibh nec lorem blandit, quis aliquam ipsum suscipit. Nulla at vestibulum felis. Aenean ac nibh eget enim molestie pulvinar. Duis nulla justo, tristique id nulla nec, faucibus imperdiet arcu. In vel pretium dui,
+	        at lobortis sapien. Phasellus ullamcorper id enim eget dictum. Ut imperdiet rutrum est a rutrum. Curabitur eget dignissim tellus. Fusce tempus leo nisl, vitae auctor diam feugiat sit amet. Vestibulum accumsan justo eget odio imperdiet, consectetur
+	        efficitur ex dapibus.
+	      </p>
+
+	      <p>
+	        Sedulsa pharetra odio a nibh pharetra rutrum. Suspendisse ut ullamcorper lectus. Donec ipsum mauris, congue et lobortis sit amet, ultricies ac tellus. Sed nisi risus, condimentum at varius quis, condimentum ac velit. In condimentum, magna sed ornare eleifend,
+	        dolor nulla mollis felis, quis feugiat elit turpis non ipsum. Etiam aliquam est imperdiet dolor rutrum, at varius leo sodales. Morbi quis iaculis metus.
+	      </p>
+
+	      <p>
+	        Maecenas auctor nec ligula ac luctus. Nam sit amet euismod mauris. Donec et diam sit amet eros efficitur tempor. Mauris non erat sit amet nunc interdum pulvinar. Sed luctus hendrerit justo eget pulvinar. Cras non arcu sed ligula faucibus pulvinar. Sed
+	        egestas risus nisl. Duis quis arcu tempus, cursus erat ac, gravida enim. Cras et condimentum ante. Nullam eleifend egestas velit, quis semper est imperdiet non. Donec quis purus varius, placerat mi et, dictum lorem. Sed quis finibus nisi, vitae molestie
+	        metus. Donec lobortis eros quis vestibulum vulputate opa.
+	      </p>
+	    </div>
+
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="src/jquery.treefilter.js"></script>
+
+<!-- <script src="jquery.min.js"></script> -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="jquery.mark.min.js"></script>
+
+<script>
+
+  //TOPIC TREE FUCTION
+	$(function() {
+		var tree = new treefilter($("#my-tree"), {
+			searcher : $("input#my-search"),
+			multiselect : false
+		});
+	});
+</script>
+
+<script type="text/javascript">
+
+  // _gaq.push(['_setAccount', 'UA-36251023-1']);
+  // _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  // _gaq.push(['_trackPageview']);
+
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+
+
+		// MY-SEARCH2 FUNCTION
+	// function(e) {
+	// 	if (e.metaKey || e.ctrlKey) {
+	// 		if ($(this).parent().hasClass("tf-open")) {
+	// 			$(this).parent().find("li.tf-child-true").removeClass("tf-open");
+	// 		} else {
+	// 			$(this).parent().find("li.tf-child-true").addClass("tf-open");
+	// 		}
+	// 	}
+	// });
+
+
+	//////////////FUNCTION TROCA EMBED SRC
+	// function teste(page) {
+	// 	var parent = $('#tela').parent();
+	// 	var newElement = "<embed src="+page+" id='tela'>";
+  //
+	// 	$('#tela').remove();
+	// 	parent.append(newElement);
+	// }
+
+
+	// function hide (elements) {
+	//   elements = elements.length ? elements : [elements];
+	//   for (var index = 0; index < elements.length; index++) {
+	//     elements[index].style.display = 'none';
+	//   }
+	// }
+  //
+	// function show (elements, specifiedDisplay) {
+	//   elements = elements.length ? elements : [elements];
+	//   for (var index = 0; index < elements.length; index++) {
+	//     elements[index].style.display = specifiedDisplay || 'block';
+	//   }
+	// }
+
+  // CONTENT WHERE TO Searche
+	// var $content(".content");
+
+	// function SetContent(cont){
+	// 	this = cont;
+	// };
+
+	// SHOW CONTENT FUNCTION
+	function teste(div) {
+		$('.content').css('display', 'none');
+		$(div).css('id', 'not');
+		$(div).prop('id', 'ok');
+		$(div).css('display', 'inline');
+		// $content = $(div);
+	}
+
+
+  // MY-SEARCH3 FUNCTION
+	$(function() {
+
+    // the input field
+    var $input = $("input#my-search3"),
+      // clear button
+      // $clearBtn = $("button[data-search='clear']"),
+      // prev button
+      $prevBtn = $("button[data-search='prev']"),
+      // next button
+      $nextBtn = $("button[data-search='next']"),
+      // the context where to search
+      $content = $(".content"),
+      // jQuery object to save <mark> elements
+      $results,
+      // the class that will be appended to the current
+      // focused element
+      currentClass = "current",
+      // top offset for the jump (the search bar)
+      offsetTop = 80,
+      // the current index of the focused element
+      currentIndex = 0;
+
+			// $("div").each(function(){
+			// 	if (this.style.display !== "none") {
+			// 		$content = $(this).prop('class');
+			// 	}
+			// });
+
+
+
+     /**
+     * Jumps to the element matching the currentIndex
+     */
+    // function jumpTo() {
+    //   if ($results.length) {
+    //     var position,
+    //       $current = $results.eq(currentIndex);
+    //     $results.removeClass(currentClass);
+    //     if ($current.length) {
+    //       $current.addClass(currentClass);
+    //       position = $current.offset().top - offsetTop;
+    //       window.scrollTo(0, position);
+    //     }
+    //   }
+    // }
+
+    /**
+     * Searches for the entered keyword in the
+     * specified context on input
+    */	$input.on("input", function() {
+      var searchVal = this.value, j;
+      $content.unmark({
+        done: function() {
+          $content.mark(searchVal, {
+            separateWordSearch: true,
+            done: function() {
+              $results = $content.find("mark");
+              currentIndex = 0;
+              // jumpTo();
+            }
+          });
+        }
+      });
+
+			for (j = 1; j <= 2; j++) {
+
+				if (searchVal) {
+
+					var i = $(".L"+j).text().toLowerCase().indexOf(searchVal);
+
+					if (i != -1) { //palavra encontrada
+						$("li#"+'L'+j).addClass("tf-search-result");
+						$("li.tf-search-result").parent().addClass("tf-search-result");
+					}
+					else {
+						$("li.tf-search-result").removeClass("tf-search-result");
+					}
+				}
+				else {
+					$(".tf-search-result").removeClass("tf-search-result");
+					// $("input#my-search").val("");
+					// memoria("out", status);
+				}
+			}
+
+    });
+
+    $nextBtn.add($prevBtn).on("click", function() {
+      if ($results.length) {
+        currentIndex += $(this).is($prevBtn) ? -1 : 1;
+        if (currentIndex < 0) {
+          currentIndex = $results.length - 1;
+        }
+        if (currentIndex > $results.length - 1) {
+          currentIndex = 0;
+        }
+        jumpTo();
+      }
+    });
+  });
+
+	//////////////////////////// MY-SEARCH2 FUNCTION
+
+	// $(function() {
+  //
+  //   // the input field
+  //   var $input = $("input#my-search3"),
+  //     // clear button
+  //     // $clearBtn = $("button[data-search='clear']"),
+  //     // prev button
+  //     $prevBtn = $("button[data-search='prev']"),
+  //     // next button
+  //     $nextBtn = $("button[data-search='next']"),
+  //     // the context where to search
+  //     $content = $(".content"),
+  //     // jQuery object to save <mark> elements
+  //     $results,
+  //     // the class that will be appended to the current
+  //     // focused element
+  //     currentClass = "current",
+  //     // top offset for the jump (the search bar)
+  //     offsetTop = 80,
+  //     // the current index of the focused element
+  //     currentIndex = 0;
+  //
+	// 		// $("div").each(function(){
+	// 		// 	if (this.style.display !== "none") {
+	// 		// 		$content = $(this).prop('class');
+	// 		// 	}
+	// 		// });
+  //
+  //   /**
+  //    * Searches for the entered keyword in the
+  //    * specified context on input
+  //   */	$input.on("input", function() {
+  //     var searchVal = this.value, j;
+  //
+	// 		for (j = 1; j <= 2; j++) {
+  //
+	// 			if (searchVal) {
+  //
+	// 				var i = $(".L"+j).text().toLowerCase().indexOf(searchVal);
+  //
+	// 				if (i != -1) { //palavra encontrada
+	// 					$("li#"+'L'+j).addClass("tf-search-result");
+	// 					$("li.tf-search-result").parent().addClass("tf-search-result");
+	// 				}
+	// 				else {
+	// 					$("li.tf-search-result").removeClass("tf-search-result");
+	// 				}
+	// 			}
+	// 			else {
+	// 				$(".tf-search-result").removeClass("tf-search-result");
+	// 				// $("input#my-search").val("");
+	// 				// memoria("out", status);
+	// 			}
+	// 		}
+  //
+  //   });
+  // });
+
+
+	// MY-SEARCH2 FUNCTION
+	// $(function() {
+  //
+  //   	// the input field
+  //   	var $input = $("input#my-search2"),
+  //     // the context where to search
+  //     // $content = $(".content"),
+  //     // jQuery object to save <mark> elements
+  //     $results,
+  //     // the class that will be appended to the current
+  //     // focused element
+  //     currentClass = "current",
+  //     // top offset for the jump (the search bar)
+  //     offsetTop = 80,
+  //     // the current index of the focused element
+  //     currentIndex = 5,
+	// 		// NUMERO DE CONTENTS
+  //     contNum = 2;
+  //
+  //
+  //   /**
+  //    * Searches for the entered keyword in the
+  //    * specified context on input
+  //   */
+	// 	// var status[];
+  //
+	// 	$input.on("input", function() {
+  //     var searchVal = this.value, j;
+  //
+	// 		// $("li.tf-child-true").removeClass("tf-open");
+	// 		// $("li.tf-open").removeClass("tf-open");
+  //
+	// 		for (j = 1; j <= contNum; j++) {
+  //
+	// 			if (searchVal) {
+  //
+	// 				var i = $(".L"+j).text().toLowerCase().indexOf(searchVal);
+  //
+	// 				if (i != -1) { //palavra encontrada
+	// 					$("li#"+'L'+j).addClass("tf-search-result");
+	// 					$("li.tf-search-result").parent().addClass("tf-search-result");
+	// 				}
+	// 				else {
+	// 					$("li.tf-search-result").removeClass("tf-search-result");
+	// 				}
+	// 			}
+	// 			else {
+	// 				$(".tf-search-result").removeClass("tf-search-result");
+	// 				// $("input#my-search").val("");
+	// 				// memoria("out", status);
+	// 			}
+	// 		}
+  //   });
+  //
+	// 	// var contain = function(word){
+	// 	// 	for (var k = 1; k <= contNum; k++){
+	// 	// 		var i = $(".L"+k).text().toLowerCase().indexOf(word);
+	// 	// 		if (i != 1) {
+	// 	// 			return k;
+	// 	// 		}
+	// 	// 	}
+	// 	// }
+  //
+	// 	// var memoria = function(action) {
+	// 	// 	if (action == "in") {
+	// 	// 		status = [];
+	// 	// 		$("li").each(function() {
+	// 	// 			status.push($(this).hasClass("tf-open"));
+	// 	// 		});
+	// 	// 	} else if (action == "out") {
+	// 	// 		$("li").each(function(i) {
+	// 	// 			if (status[i]) {
+	// 	// 				$(this).addClass("tf-open");
+	// 	// 			} else {
+	// 	// 				$(this).removeClass("tf-open");
+	// 	// 			}
+	// 	// 		});
+	// 	// 	}
+	// 	// }
+  // });
+
+</script>
+
+</html>

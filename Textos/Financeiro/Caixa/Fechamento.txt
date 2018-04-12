@@ -1,0 +1,16 @@
+Ao clicar em "Fechamento", será exibida a tela abaixo, onde o Operador responsável
+fará o Fechamento do Caixa, onde ele poderá visualizar, nos campos superiores, o Saldo Inicial do Caixa,
+a data e hora da Abertura do Caixa e a quantidade de Recibos. Também serão exibidos, à esquerda da tela,
+os valores de Caixa salvas no Sistema.
+A fim de realizar o Fechamento do Caixa, o Operador deverá clicar no botão Travar Caixa, à direita.
+Assim, os campos de "Caixa Operador" serão ativados e poderão ser preenchidos com os valores do caixa
+em questão.
+Feito isso, o Operador deverá realizar anotações necessárias no campo inferior e, por fim, clicar em Confirmo,
+no canto inferior à direita. Assim, após autorização do próprio Operador, inserindo suas credencias, o
+Fechamento do Caixa será concluído.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Na aba Histórico poderão ser visualizadas as operações de Caixa realizadas por cada Operador.
+No topo da tela há um campo 'Filtro', onde é possível realizar pesquisas em relação ao nome
+do Operador, à data e tipo da operação. 

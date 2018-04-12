@@ -1,0 +1,7 @@
+Ao clicar em 'Alterar Senha Usuário', a tela abaixo será exibida.
+Assim, para alterar a senha de acesso de um Usuário já cadastrado, basta inserir
+o nome do mesmo no campo 'Operador' e clicar em LOCALIZAR.
+Feito isso, os dados do Usuário em questão serão exibidos e será possível realizar
+a alteração da senha de acesso.
+Por fim, basta inserir a senha atual, a nova senha e a confirmação desta nova senha
+e clicar em ALTERAR. Assim, a senha de acesso de tal Usuário será atualizada. 

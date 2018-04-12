@@ -1,0 +1,21 @@
+Em 'Cadastro', será possível	realizar o Cadastro, Alteração e Exclusão de Usuários do Sistema, podendo
+também visualizar os Usuários já cadastrados, bem como suas permissões de acesso.
+
+
+Ao clicar em 'Cadastro', a tela abaixo será exibida, onde poderá ser visualizado o
+primeiro, em ordem alfabética, dos Usuários cadastrados. Assim, é possível navegar,
+através das setas do canto superior esquerdo, entre os Usuários cadastrado no sistema.
+Serão exibidos os dados de cada Usuário, bem como suas permissões de acesso, na janela
+inferior.
+Como pode ser percebido, os dados do Usuário exibido na tela estarão inativos para edição.
+Para editar os dados de um Usuário cadastrado, basta clicar em ALTERAR.
+Depois de editado, clique em GRAVAR para salvar as alterações realizadas.
+
+
+Para cadastrar um Usuário, basta clicar em "INCLUIR". Assim, basta inserir os dados do novo Usuário: Nome, Departamento,
+Nível de Acesso, Login e Senha de acesso ao Sistema (o Código é gerado sequencialmente).
+Feito isso, clique em GRAVAR para finalizar o cadastro do Usuário.
+Assim, as Permissões de Acesso serão geradas automaticamente de acordo com o Departamento e o Nível de Acesso inseridos.
+
+Também é possível criar um Usuário clicando em COPIAR. Assim, será possível Cadastrar um Usuário do mesmo Departamento
+e com o mesmo Nível de Acesso do Usuário exibido na tela anteriormente.

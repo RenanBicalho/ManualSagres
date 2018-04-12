@@ -1,0 +1,12 @@
+Ao clicar em 'Links Importantes', a tela abaixo será exibida, onde poderá ser visualizado o
+primeiro, em ordem alfabética da 'Descrição', dos Links cadastrados. Assim, é possível navegar,
+através da aba 'Todos', no canto superior esquerdo, entre os Links Importantes cadastrado no sistema.
+
+Como pode ser percebido, os dados do Link exibido na tela estarão inativos para edição.
+Para editar os dados de um Link cadastrado, basta clicar em ALTERAR.
+Depois de editado, clique em GRAVAR para salvar as alterações realizadas.
+
+
+Para cadastrar um Link, basta clicar em "INCLUIR". Assim, basta inserir os dados do novo Link: Descrição, o Link em questão,
+Observações e a Classificação do mesmo (o Código é gerado sequencialmente).
+Feito isso, clique em GRAVAR para finalizar o cadastro do Link.

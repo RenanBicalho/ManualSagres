@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head lang="pt-br">
+    <meta charset="utf-8">
+    <title>Test</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <script src="dropdown.js"></script> -->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <link rel="stylesheet" id="font-awesome-style-css" href="bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="simpletree.css" /> -->
+    <link rel="stylesheet" href="src/jquery.treefilter.css">
+
+  <style>
+    body{
+      padding: 80px 20px;
+    }
+
+    #cssmenu{
+      position: absolute;
+      z-index: 100;
+    }
+
+    #tela{
+      width: 100%;
+      height: 450px;
+      padding-left: 300px;
+      /* position: relative; */
+      /* z-index: -1; */
+    }
+
+    #myInput {
+      background-image: url('searchicon.png'); /* Add a search icon to input */
+      background-position: 10px 12px; /* Position the search icon */
+      background-repeat: no-repeat; /* Do not repeat the icon image */
+      width: 100%; /* Full-width */
+      font-size: 14px; /* Increase font-size */
+      padding: 12px 22px 12px 40px; /* Add some padding */
+      border: 1px solid #ddd; /* Add a grey border */
+      margin-bottom: 12px; /* Add some space below the input */
+    }
+
+  </style>
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <div id="cssmenu">
+                <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquisa.."> -->
+                <input type="search" id="my-search" placeholder="Pesquisa..">
+
+                <ul id="my-tree">
+                  <li class="has-sub" id="li"><a href="#" onclick="teste('lorem.html')"><span>Link1</span></a>
+                    <ul id="myUL3" hidden="true">
+                      <li class="even"><a id="son" href="#" onclick="teste('lorem2.html')"><span>menu1</span></a></li>
+                      <li class="odd"><a id="son" href="#" onclick="teste('lorem.html')"><span>menu2</span></a></li>
+
+                      <li class="has-sub"><a id="son" href="#" onclick="teste('lorem.html')"><span>menu3</span></a>
+                        <ul id="myUL3" hidden="true">
+                          <li class="even"><a id="son" href="#" onclick="teste('lorem2.html')"><span>menu3.1</span></a></li>
+                          <li class="odd"><a id="son" href="#" onclick="teste('lorem.html')"><span>menu3.2</span></a></li>
+                          <li class="even"><a id="son" href="#" onclick="teste('lorem2.html')"><span>menu3.3</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub" id="li"><a href="#" onclick="teste('lorem2.html')"><span>Link2</span></a>
+                    <ul id="myUL4" hidden="true">
+                      <li class="even"><a id="son" href="#" onclick="teste('lorem.html')"><span>link21</span></a>
+                        <ul id="myUL3" hidden="true">
+                          <li class="even"><a id="son" href="#" onclick="teste('lorem2.html')"><span>menu3.1</span></a></li>
+                          <li class="odd"><a id="son" href="#" onclick="teste('lorem.html')"><span>menu3.2</span></a></li>
+                          <li class="even"><a id="son" href="#" onclick="teste('lorem2.html')"><span>menu3.3</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="odd"><a href="#" id="son" onclick="teste('lorem2.html')"><span>link22</span></a></li>
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link23</span></a></li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub" id="li"><a href="#" onclick="teste('lorem.html')"><span>Link3</span></a>
+                    <ul id="myUL4" hidden="true">
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link31</span></a></li>
+                      <li class="odd"><a href="#" onclick="teste('lorem2.html')"><span>link32</span></a></li>
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link33</span></a></li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub" id="li"><a href="#" onclick="teste('lorem2.html')"><span>Link4</span></a>
+                    <ul id="myUL4" hidden="true">
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link41</span></a></li>
+                      <li class="odd"><a href="#" onclick="teste('lorem2.html')"><span>link42</span></a></li>
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link43</span></a></li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub" id="li"><a href="#" onclick="teste('lorem.html')"><span>Link5</span></a>
+                    <ul id="myUL4" hidden="true">
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link51</span></a></li>
+                      <li class="odd"><a href="#" onclick="teste('lorem2.html')"><span>link52</span></a></li>
+                      <li class="even"><a href="#" onclick="teste('lorem.html')"><span>link53</span></a></li>
+                    </ul>
+                  </li>
+              </ul>
+
+        </div>
+      </section>
+    </header>
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\ FRAME \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <section>
+      <div class="frameS">
+          <embed src="lorem.html" width=200 height=200 id="tela" />
+
+        <!-- <iframe src="lorem.html" id="frame" height="550px" width="1000px" style="float:right; padding=20px 80px;"> -->
+      </div>
+    </section>
+  </body>
+
+  <footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="src/jquery.treefilter.js">
+      $(function() {
+          var tree = new treefilter($("#my-tree"), {
+          // OPTIONS
+          searcher : $("input#my-search")
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+
+
+    //   $( document ).ready(function() {
+    //     $('#cssmenu ul ul li ul li:odd').addClass('odd');
+    //     $('#cssmenu ul ul li ul li:even').addClass('even');
+    //
+    //     ///////////// FUNCTION MENUS RAIZ
+    //     $('#cssmenu > ul > li > a').click(function() {
+    //       $('#cssmenu li').removeClass('active');
+    //       $(this).closest('li').addClass('active');
+    //       var checkElement = $(this).next();
+    //
+    //       if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+    //         $(this).closest('li').removeClass('active');
+    //         checkElement.slideUp('normal');
+    //       }
+    //
+    //       if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+    //           $(this).closest('li').addClass('active');
+    //           $('#cssmenu ul ul:visible').slideUp('normal');
+    //           checkElement.slideDown('normal');
+    //       }
+    //       if($(this).closest('li').find('ul').children().length == 0) {
+    //         return true;
+    //       }
+    //       else {
+    //         return false;
+    //       }
+    //     });
+    //
+    //     // ////////////////// FUNCTION SUBMENUS
+    //     $('#cssmenu > ul > li > ul > li > a').click(function() {
+    //       $('#cssmenu ul > li').removeClass('active');
+    //       $(this).closest('li').addClass('active');
+    //       var checkElement = $(this).next();
+    //
+    //       if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+    //         $(this).closest('li').removeClass('active');
+    //         checkElement.slideUp('normal');
+    //       }
+    //
+    //       if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+    //           $(this).closest('li').addClass('active');
+    //           checkElement.slideDown('normal');
+    //       }
+    //     });
+    //
+    // });
+
+    function teste(page) {
+      var parent = $('#tela').parent();
+      var newElement = "<embed src="+page+" id='tela'>";
+
+      $('#tela').remove();
+      parent.append(newElement);
+
+      // jQuery('#tela').attr('src', page+'.html');
+      // frame = document.getElementById("frame");
+      // frame.src=page;
+    }
+
+    ////////////// FUNCTION SEARCH TREE MENU
+
+    // function myFunction() {
+    //   // Declare variables
+    //   var input, filter, ul, li, a, i;
+    //   input = document.getElementById('myInput');
+    //   filter = input.value.toUpperCase();
+    //   ul1 = document.getElementById("myUL1");
+    //   li1 = ul1.getElementsByTagName('li');
+    //
+    //   // Loop through all list items, and hide those who don't match the search query
+    //   for (i = 0; i < li1.length; i++) {
+    //       a = li1[i].getElementsByTagName("a")[0];
+    //
+    //       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+    //           li1[i].style.display = "";
+    //       }
+    //       else {
+    //           li1[i].style.display = "none";
+    //           b = li1[i].getElementById("son");
+    //           b.style.display = "";
+    //       }
+    //   }
+
+      //
+      // for (i = 0; i < li2.length; i++) {
+      //     a = li2[i].getElementsByTagName("a")[0];
+      //     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      //         li2[i].style.display = "";
+      //     } else {
+      //         li2[i].style.display = "none";
+      //     }
+      // }
+      //
+      // for (i = 0; i < li3.length; i++) {
+      //     a = li3[i].getElementsByTagName("a")[0];
+      //     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      //         li3[i].style.display = "";
+      //     } else {
+      //         li3[i].style.display = "none";
+      //     }
+      // }
+      //
+      // for (i = 0; i < li4.length; i++) {
+      //     a = li4[i].getElementsByTagName("a")[0];
+      //     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      //         li4[i].style.display = "";
+      //     } else {
+      //         li4[i].style.display = "none";
+      //     }
+      // }
+    }
+
+
+    </script>
+  </footer>
+</html>

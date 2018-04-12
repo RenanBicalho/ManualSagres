@@ -1,0 +1,19 @@
+Ao clicar em 'Funcionários', a tela abaixo será exibida, onde poderá ser visualizado o
+primeiro, em ordem alfabética, dos Funcionários cadastrados. Assim, é possível navegar,
+através das setas do canto superior esquerdo, entre os Funcionários cadastrados no Sistema.
+Serão exibidos os dados pessoais de cada Funcionários, bem como seu Departamento, Cargo e Jornada de Trabalho.
+
+Como pode ser percebido, os dados do Usuário exibido na tela estarão inativos para edição.
+Para editar os dados de um Funcionário cadastrado, basta clicar em ALTERAR.
+Depois de editado, clique em GRAVAR para salvar as alterações realizadas.
+
+
+Para cadastrar um Funcionário, é necessário cadastrá-lo em Pessoa ou ter os dados pessoais salvos em Pessoa.
+Assim, basta clicar em "INCLUIR" e inserir o CPF de uma Pessoa cadastrada.
+Também é possível pesquisar uma pessoa cadastrada clicando em PESQUISAR.
+Assim, basta inserir os dados do novo Funcionário, sendo que o Código do mesmo é gerado sequencialmente.
+
+Feito isso, clique em GRAVAR para finalizar o cadastro do Funcionário.
+
+Também é possível excluir um Funcionário cadastrado clicando em EXCLUIR.
+Assim, o Funcionário em questão será excluído do Banco de Dados do Sistema.

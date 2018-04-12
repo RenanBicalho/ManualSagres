@@ -1,0 +1,26 @@
+mark {
+  background: yellow;
+}
+
+mark.current {
+  background: yellow;
+}
+
+#bt1{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  /* float: left; */
+}
+
+.content {
+  z-index: -1;
+  position: absolute;
+  box-sizing: content-box;
+  padding-top: 30px;
+  padding-right: 0px;
+  /* padding-left: 300px; */
+  margin-left: 350px;
+  width: 65%;
+  text-align: justify;
+}

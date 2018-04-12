@@ -1,0 +1,7 @@
+Ao clicar em 'Dados do Cartório', a tela abaixo será exibida, onde poderão ser visualizados os
+dados do Cartório cadastrado. Assim, é possível navegar,
+através das abas do canto superior esquerdo, entre os tipos de dados do mesmo cadastrado no sistema.
+
+Como pode ser percebido, os dados do Cartório exibido na tela estarão inativos para edição.
+Para editar os dados do Cartório cadastrado, basta clicar em ALTERAR.
+Depois de editado, clique em GRAVAR para salvar as alterações realizadas.
