@@ -5146,12 +5146,7 @@
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar o Pedido.
 
               <br><br>Uma vez cadastrado, a <a href="#texto3" style="cursor: pointer;">tela de Serviços</a>
-              será exibida, onde os Itens dos mesmos poderão ser incluidos no Pedido em questão. Assim, basta inserir, no campo de pesquisa no
-              topo da tabela, um termo referente à algum Serviço cadastrado no Sistema. Feito isso, basta selecionar o Serviço que desejar dentre os
-              resultantes da pesquisa, exibindo os Itens do mesmo. Por fim, resta selecionar um dentre os Itens listados para tal Serviço e clicar em
-              <img src="Prints Sagres/Balcao/incluir.png" alt="Incluir"> para inclui-lo no Pedido em questão.
-              <br>Se desejar incluir outro Item de Serviço, basta repetir os procedimentos descritos anteriormente.
-              <br>Caso desejar finalizar a inclusão de Itens de Serviço, basta fechar a janela em questão.
+              será exibida, onde os Itens dos mesmos poderão ser incluidos no Pedido em questão.
 
               <br><br>Feito isso, o Pedido pode ser protocolado, selecionando a Natureza do Protocolo, dentre as já cadastradas, no
               campo 'Criando novo Protocolo', após os dados do Atendimento. A data exibida será a do dia em que o Sistema estiver sendo executado,
@@ -5185,9 +5180,10 @@
               <br><br> O ícone <img src="Prints Sagres/Balcao/situacao.png" alt="Situação">
               indica a Situação do pagamento referente ao Pedido em questão:
               <ul>
-                <li>O Cifrão na cor <span style="color: red;">Vermelha</span> indica que o pagamento ainda não foi realizado;</li>
-                <li>O Cifrão na cor <span style="color:yellow;">Amarela</span> indica que apenas uma parte do pagamento foi realizada, ou há um reembolso a ser feito ao Cliente;</li>
-                <li>O Cifrão na cor <span style="color:green;">Verde</span> indica que o pagamento foi concluído.</li>
+                <li>O Cifrão na cor <span style="color: red;">Vermelha</span> indica que o Pagamento ainda não foi realizado;</li>
+                <li>O Cifrão na cor <span style="color:yellow;">Amarela</span> indica que apenas uma parte do Pagamento foi realizada,
+                  há um Reembolso a ser feito ao Cliente, ou um Crédito a ser utilizado por ele;</li>
+                <li>O Cifrão na cor <span style="color:green;">Verde</span> indica que o Pagamento foi concluído.</li>
               </ul>
 
               <br>Ao clicar em <img src="Prints Sagres/Balcao/anotar.png" alt="Anotar">
@@ -5240,6 +5236,19 @@
             <div id="texto3"></div>
             <br><br><br><br>
             <h2 id="tplink" onclick="testeFilho('.L121')" style="cursor: pointer;"> ▸ Serviços </h2>
+
+            <div id="texto">
+              <br>
+                <p>
+                  Para incluir um Serviço ao Pedido basta inserir, no campo de pesquisa no topo da tabela, um termo referente à algum Serviço cadastrado no Sistema.
+                  Feito isso, basta selecionar o Serviço que desejar dentre os resultantes da pesquisa, exibindo os Itens do mesmo. Por fim, resta selecionar um
+                  dentre os Itens listados para tal Serviço e clicar em <img src="Prints Sagres/Balcao/incluir.png" alt="Incluir"> para inclui-lo no Pedido em questão.
+                  <br>Se desejar incluir outro Item de Serviço, basta repetir os procedimentos descritos anteriormente.
+                  <br>Caso desejar finalizar a inclusão de Itens de Serviço, basta fechar a janela em questão.
+                </p>
+              <br>
+            </div>
+
             <figure>
               <img src="Prints Sagres/Balcao/serviços.png" alt="Serviços" style="padding-left: 60px;">
               <figcaption style="padding-left: 390px;">Tela Serviços</figcaption>
@@ -5307,7 +5316,7 @@
 
                 <br><br>Também é possível excluir um Título cadastrado clicando em
                 <img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
-                <br>Assim, o Título em questão será excluído do Pedido ao qual ele estava vinculado.
+                <br>Assim, o Título em questão será excluído do Pedido ao qual estava vinculado.
               </p>
             </div>
 
@@ -5323,6 +5332,39 @@
             <div id="texto7"></div>
             <br><br><br><br>
             <h2 id="tplink" onclick="testeFilho('.L121')" style="cursor: pointer;"> ▸ Exigências </h2>
+            <br>
+
+            <div id='texto'>
+              <p>
+                Ao clicar em 'Exigência', a tela abaixo será exibida, onde poderá ser cadastrada uma
+                Exigência vinculada ao Pedido em questão. Assim, é possível navegar entre elas, através
+                das setas do canto superior esquerdo.
+
+                <br><br>Como pode ser percebido, os dados das Exigências cadastradas estarão inativos para edição.
+                <br>Para editar os dados de um Exigência, basta clicar em
+                <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">.
+
+                <br>Depois de editado, clique em
+                <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
+                para salvar as alterações realizadas.
+
+                <br><br>Para cadastrar uma Exigência, basta clicar em
+                <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/incluir.png" alt="Incluir">.
+                <br>Assim, basta inserir os dados da nova Exigência, sendo que o Código da mesma é preenchido automaticamente.
+                Feito isso, clique em
+                <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
+                para gravar o cadastro da Exigência.
+
+                <br><br>Também é possível excluir uma Exigência cadastrada clicando em
+                <img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
+                <br>Assim, a Exigência em questão será excluída do Pedido ao qual estava vinculado.
+
+                <br><br>Cumprida tal Exigência, a mesma poderá ser finalizada, bastando clicar em
+                <img src="Prints Sagres/Balcao/finalizar.png" alt="Finalizar">.
+              </p>
+            </div>
+
+            <br>
             <figure>
               <img src="Prints Sagres/Balcao/Exigencias.png" alt="Exigências" style="padding-left: 60px;">
               <figcaption style="padding-left: 390px;">Tela Exigências</figcaption>
