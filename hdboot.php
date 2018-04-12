@@ -98,7 +98,7 @@
 		.ms1	{ padding: 25px 0px 0px 10px; z-index: 100; position: fixed;}
 		/* .ms2	{outline:none; z-index: 100; float: left; padding: 5px 180px 5px 50px; } */
 
-		.ms3	{ float: left; padding: 100px 0px 0px 9px; top: 0; display: none; }
+		.ms3	{ float: left; padding: 20px 0px 0px 9px; top: 0; display: none; }
 		/* .ms4	{float: left; padding: 5px 0px 5px 80px; z-index: 100; }
 		.ms5	{float: left; padding: 5px 0px 5px 2px; z-index: 100; } */
 
@@ -135,7 +135,7 @@
 		}
 
 		#home{
-			padding-top: 110px;
+			padding-top: 20px;
 			padding-left: 25px;
 			font-weight: 600;
 			font-size: 24px;
@@ -149,7 +149,7 @@
 			padding-top: 200px; */
 			position: fixed;
       margin-left: 137px;
-      margin-top: 170px;
+      margin-top: 70px;
 		}
 
     #logo:hover{
@@ -166,7 +166,7 @@
 
 		.content3 {
       z-index: 100;
-			padding-top: 120px;
+			padding-top: 20px;
 			padding-right: 0px;
 			padding-left: 70px;
 			/* margin-left: 0px; */
@@ -214,6 +214,15 @@
       color: dimgray;
     }
 
+    #datahora{
+			padding-top: 85px;
+			padding-left: 0px;
+			font-weight: 400;
+			font-size: 18px;
+			font-family: 'Arima Madurai', cursive;
+			/* position: fixed; */
+		}
+
   </style>
 </head>
 <body>
@@ -233,9 +242,18 @@
       </div>
 
       <div class="footer">
+
           © 2018
           <a href='http://www.sagres.com.br' target="_blank" id="link"> Sagres Informática e Comunicação LTDA.  </a>
           Todos os direitos reservados.
+
+      </div>
+
+      <div id="datahora">
+        <script type="text/javascript">
+          var d = new Date()
+          document.write(d.toLocaleString())
+        </script>
       </div>
 
       <div id='home' class='content1'>
@@ -321,7 +339,7 @@
           </div>
           <!-- <a href='#top' class='btn btn-default' id="btn" role='button'>Voltar ao topo</a> -->
 
-          <h2 id="tplink" onclick="testeFilho('.L105')" style="cursor: pointer;"> ▸ Trocar de Usuario </h2>
+          <h2 id="tplink" onclick="testeFilho('.L102')" style="cursor: pointer;"> ▸ Trocar de Usuario </h2>
           <div id='texto'>
             Realizar LogOff no Sistema para realizar um Login de outro Usuário.
           </div>
@@ -4892,7 +4910,7 @@
             </p>
           </div>
 
-          <h2 id="tplink" onclick="testeFilho('.L118')" style="cursor: pointer;"> ▸ Pesquisar </h2>
+          <h2 id="tplink" onclick="testeFilho('.L118')" style="cursor: pointer;"> ▸ Gerar Imóvel pelo Loteamento </h2>
           <div id='texto'>
             <p>
               Gerar Imóveis a partir de Loteamentos cadastrados no Sistema.
@@ -4902,7 +4920,7 @@
         </div>
 
         <div class='content2 L117' hidden=true>
-          <h2 id="AltTop" onclick="testeFilho('.L117')" style="cursor: pointer;"> Loteamento ▸ Cadastro </h2>
+          <h2 id="AltTop" onclick="testeFilho('.L116')" style="cursor: pointer;"> Loteamento ▸ Cadastro </h2>
 
           <div id='texto'>
             <p>
@@ -4943,7 +4961,7 @@
         </div>
 
         <div class='content2 L118' hidden=true>
-          <h2 id="AltTop" onclick="testeFilho('.L117')" style="cursor: pointer;"> Loteamento ▸ Gerar Imóvel pelo Loteamento </h2>
+          <h2 id="AltTop" onclick="testeFilho('.L116')" style="cursor: pointer;"> Loteamento ▸ Gerar Imóvel pelo Loteamento </h2>
 
           <div id='texto'>
             <p>
@@ -5004,7 +5022,7 @@
             </p>
           </div>
 
-          <h2 id="tplink" onclick="testeFilho('.L126')" style="cursor: pointer;"> ▸ Indisponibilidade Manual </h2>
+          <h2 id="tplink" onclick="testeFilho('.L127')" style="cursor: pointer;"> ▸ Indisponibilidade Manual </h2>
           <div id='texto'>
             <p>
               Exibe as Ordens de Indisponibilidade cadastradas, podendo incluir uma nova Ordem,
@@ -5456,7 +5474,7 @@
         <div class='content2 L123' hidden=true>
           <h2 id="AltTop" onclick="testeFilho('.L119')" style="cursor: pointer;"> Balcão de Atendimento ▸ G.E.D </h2>
 
-          <h2 onclick="testeFilho('.L127')" style="cursor: pointer;"> ▸ Documento </h2>
+          <h2 id="tplink" onclick="testeFilho('.L124')" style="cursor: pointer;"> ▸ Documento </h2>
           <div id='texto'>
             <p>
               Exibe os Documentos GED cadastrados, podendo incluir um novo,
@@ -5464,7 +5482,7 @@
             </p>
           </div>
 
-          <h2 onclick="testeFilho('.L128')" style="cursor: pointer;"> ▸ Lixeira </h2>
+          <h2 id="tplink" onclick="testeFilho('.L125')" style="cursor: pointer;"> ▸ Lixeira </h2>
           <div id='texto'>
             <p>
               Exibe os Documentos GED excluídos, podendo recuperá-los ou excluí-los
@@ -5472,7 +5490,7 @@
             </p>
           </div>
 
-          <h2 onclick="testeFilho('.L129')" style="cursor: pointer;"> ▸ Bloqueados </h2>
+          <h2 id="tplink" onclick="testeFilho('.L126')" style="cursor: pointer;"> ▸ Bloqueados </h2>
           <div id='texto'>
             <p>
 
@@ -5726,8 +5744,7 @@
           <div id='texto'>
             <p>
               Ao clicar em 'Importar Selo', a tela abaixo será exibida, onde poderão ser importados Selos já gerados em
-              <a onclick="testeFilho('.L141')" style="cursor: pointer;">Regerar XML Selo Importação</a>,
-              salvos em formato .PRC.
+              formato XML.
               <br><br>Assim, basta informar o Ramo Cartorial referente ao Selo que está sendo importado e clicar em
               <img src="Prints Sagres/Processos/Integracoes/CGJ/procurar.png" alt="Procurar Arquivo">
               para selecionar um arquivo na máquina em questão, referente à um Selo gerado.
@@ -5776,7 +5793,7 @@
 <!-- Receita Federal -->
         <div class='content2 L135' hidden=true>
           <h2 id="AltTop" onclick="testeFilho('.L129')" style="cursor: pointer;"> Integrações ▸ Receita Federal </h2>
-          <h2 id="tplink"> ▸ Gerar DOI </h2>
+          <h2 id="tplink"> Gerar DOI </h2>
           <div id='texto'>
             <p>
               Ao clicar em 'Gerar DOI', a tela abaixo será exibida, onde poderão ser gerados arquivos DOI referentes a Receita Federal.
