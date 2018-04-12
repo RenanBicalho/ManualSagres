@@ -5089,7 +5089,7 @@
               Assim, tal Ato será excluído do Protocolo ao qual ele estava vinculado.
 
               <br><br> <b>Observação.:</b> &nbsp; Se a inclusão de Atos/Registros for feita através da tela "Atos Registrados", caso seja possível, o
-              Ato em questão será registrado automaticamente e não gravado como Rascunho, como acontece na tela "Atos Rascunho".
+              Ato em questão será registrado automaticamente, não somente gravado como Rascunho, como acontece na tela "Atos Rascunho".
 
             </p>
           </div>
