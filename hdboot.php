@@ -258,7 +258,7 @@
 
       <div id='home' class='content1'>
               <span class="glyphicon glyphicon-home"></span>
-              &nbsp;&nbsp;Bem Vindo! Clique na Tela abaixo ou utilize o Menu lateral para começar
+              &nbsp;&nbsp;Bem Vindo! Clique na Tela abaixo ou utilize o Menu lateral para começar AAAA
       </div>
 
       <div id='logo' class='content1' onclick="testeFilho('.L0')" style="cursor: pointer;">
