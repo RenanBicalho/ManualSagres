@@ -225,6 +225,7 @@
 
   </style>
 </head>
+
 <body>
 
 <div class="container-fluid">
@@ -251,14 +252,33 @@
 
       <div id="datahora">
         <script type="text/javascript">
-          var d = new Date()
-          document.write(d.toLocaleString())
+          var d = new Date();
+          document.write(d.toLocaleString());
         </script>
+<!--
+        <script language="JavaScript">
+          function showtime(){
+            setTimeout("showtime();",1000);
+            callerdate.setTime(callerdate.getTime()+1000);
+            var hh = String(callerdate.getHours());
+            var mm = String(callerdate.getMinutes());
+            var ss = String(callerdate.getSeconds());
+            document.clock.face.value =
+            ((hh < 10) ? " " : "") + hh +
+            ((mm < 10) ? ":0" : ":") + mm +
+            ((ss < 10) ? ":0" : ":") + ss;
+          }
+          callerdate=new Date(php echo date("Y,m,d,H,i,s");?>);
+        </script>
+        <body onLoad="showtime()"> -->
+
+        <!-- <div id="relogio"></div> -->
+
       </div>
 
       <div id='home' class='content1'>
               <span class="glyphicon glyphicon-home"></span>
-              &nbsp;&nbsp;Bem Vindo! Clique na Tela abaixo ou utilize o Menu lateral para começar BBB
+              &nbsp;&nbsp;Bem Vindo! Clique na Tela abaixo ou utilize o Menu lateral para começar.
       </div>
 
       <div id='logo' class='content1' onclick="testeFilho('.L0')" style="cursor: pointer;">
