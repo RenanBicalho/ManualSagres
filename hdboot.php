@@ -67,19 +67,20 @@
     }
 
     /* Set black background color, white text and some padding */
-    .footer {
+    footer {
       background-color: #555;
       color: slategray;
-      padding: 4px 10px;
-      height: 4%;
+      padding: 8px 10px;
+      height: 40px;
       width: 100%;
-      margin-top: 671px;
+      bottom: 0px;
+      /*margin-top: 671px;*/
       /* background: darkgray; */
       background: #c1c1c1;
       position: fixed;
       left: 0px;
       z-index: 1000;
-      text-align: center;
+      /*text-align: center;*/
     }
 
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -242,13 +243,13 @@
   			</div>
       </div>
 
-      <div class="footer">
+      <footer class="fixed-bottom">
 
           © 2018
           <a href='http://www.sagres.com.br' target="_blank" id="link"> Sagres Informática e Comunicação LTDA.  </a>
           Todos os direitos reservados.
 
-      </div>
+      </footer>
 
       <div id="datahora">
         <script type="text/javascript">
