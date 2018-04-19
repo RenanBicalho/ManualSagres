@@ -67,19 +67,20 @@
     }
 
     /* Set black background color, white text and some padding */
-    .footer {
+    footer {
       background-color: #555;
       color: slategray;
-      padding: 4px 10px;
-      height: 4%;
+      padding: 8px 10px;
+      height: 40px;
       width: 100%;
-      margin-top: 671px;
+      bottom: 0;
+      /* margin-top: 671px; */
       /* background: darkgray; */
       background: #c1c1c1;
       position: fixed;
       left: 0px;
       z-index: 1000;
-      text-align: center;
+      /* text-align: center; */
     }
 
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -242,13 +243,13 @@
   			</div>
       </div>
 
-      <div class="footer">
+      <footer class="fixed-bottom">
 
           © 2018
           <a href='http://www.sagres.com.br' target="_blank" id="link"> Sagres Informática e Comunicação LTDA.  </a>
           Todos os direitos reservados.
 
-      </div>
+      </footer>
 
       <div id="datahora">
         <script type="text/javascript">
@@ -409,10 +410,10 @@
             </p>
           </div>
 
-          <h2 id="tplink" onclick="testeFilho('.L92')" style="cursor: pointer;"> ▸ Contrato </h2>
+          <h2 id="tplink" onclick="testeFilho('.L92')" style="cursor: pointer;"> ▸ Mensalista </h2>
           <div id='texto'>
             <p>
-              Exibe os 'Contratos' cadastrados no sistema, podendo cadastrar um novo,
+              Exibe os 'Mensalistas' cadastrados no sistema, podendo cadastrar um novo,
               alterar ou excluir os já cadastrados.
             </p>
           </div>
@@ -4136,38 +4137,38 @@
             <figcaption style="padding-left: 390px;">Tela Funcionarios</figcaption>
           </figure>
         </div>
-<!-- Contrato -->
+<!-- Mensalista -->
         <div class='content2 L92' hidden=true>
-          <h2 id="AltTop" onclick="testeFilho('.L2')" style="cursor: pointer;"> Cadastro ▸ Contrato </h2>
+          <h2 id="AltTop" onclick="testeFilho('.L2')" style="cursor: pointer;"> Cadastro ▸ Mensalista </h2>
 
           <div id='texto'>
             <p>
-              Ao clicar em 'Contrato', a tela abaixo será exibida, onde poderá ser visualizado o
-              primeiro, em ordem numérica, dos Contratos cadastrados. Assim, é possível navegar,
-              através das setas do canto superior esquerdo, entre os Contratos cadastrados no Sistema.
-              Serão exibidos os dados do cliente (Pessoa), de um contato de referência, e do Contrato em questão.
+              Ao clicar em 'Mensalista', a tela abaixo será exibida, onde poderá ser visualizado o
+              primeiro, em ordem numérica, dos Mensalistas cadastrados. Assim, é possível navegar,
+              através das setas do canto superior esquerdo, entre os Mensalista cadastrados no Sistema.
+              Serão exibidos os dados do cliente (Pessoa), de um contato de referência, e do Mensalista em questão.
 
               <br><br>Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
-              <br>Para editar os dados de um Contrato cadastrado, basta clicar em
+              <br>Para editar os dados de um Mensalista cadastrado, basta clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">.
 
               <br>Depois de editado, clique em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
               para salvar as alterações realizadas.
 
-              <br><br>Para cadastrar um Contrato, é necessário cadastrar o cliente em Pessoa ou ter os dados do mesmo salvos em Pessoa.
+              <br><br>Para cadastrar um Mensalista, é necessário cadastrar o cliente em Pessoa ou ter os dados do mesmo salvos em Pessoa.
               <br>Assim, basta clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/incluir.png" alt="Incluir">
               e inserir o CPF de uma cliente cadastrado.
               <br>Também é possível pesquisar uma pessoa cadastrada clicando em
               <img src="Prints Sagres/Ajustes/Cadastro/Pesquisar.png" alt="Pesquisar">.
-              <br>Assim, basta inserir os dados do novo Contrato, sendo que o Número do mesmo é gerado sequencialmente.
+              <br>Assim, basta inserir os dados do novo Mensalista, sendo que o Número do mesmo é gerado sequencialmente.
 
               <br>Feito isso, clique em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
-              para finalizar o cadastro do Contrato.
+              para finalizar o cadastro do Mensalista.
 
-              <br><br>Também é possível excluir um Contrato cadastrado clicando em
+              <br><br>Também é possível excluir um Mensalista cadastrado clicando em
               <img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
               <br>Assim, o Contrato em questão será excluído do Banco de Dados do Sistema.
             </p>
@@ -4175,7 +4176,7 @@
           <br><br>
           <figure>
             <img src="Prints Sagres/Ajustes/Cadastro/Contrato.png" alt="Contrato">
-            <figcaption style="padding-left: 390px;">Tela Contrato</figcaption>
+            <figcaption style="padding-left: 390px;">Tela Mensalista</figcaption>
           </figure>
         </div>
 <!-- Veículo -->

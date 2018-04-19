@@ -12,6 +12,10 @@
           					   dbname=$banco",
           					   $usuario,
           					   $senha);
+
+      $sql = $conn->prepare("SET NAMES utf8;");
+      $exec = $sql->execute();
+
       return $conn;
    }
 ?>
