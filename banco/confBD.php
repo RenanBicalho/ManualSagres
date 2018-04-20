@@ -5,7 +5,7 @@
    $porta = 3306;
    $banco = 'topicos';
    $usuario = "root";
-   $senha = "root";
+   $senha = "";
 
       $conn = new PDO("mysql:host=$servidor;
   	                   port=$porta;

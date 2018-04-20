@@ -30,10 +30,10 @@
     .sidenav {
       /* border: solid #a1a1a1; */
       border-radius: 40px 0 0 40px;
-      margin-top: 71px;
+      margin-top: 68px;
       /* background-color: #eeeeeeee; */
       background-color: #c1c1c1c1;
-      height:85.5vh;
+      height:86.5vh;
       width: 23%;
       overflow: auto;
       position: fixed;
@@ -6243,13 +6243,19 @@
               <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Endereçamento/filtro.png" alt="Filtro">
               e repetir as operações descritas acima.
 
-              <br><br>Caso seja necessário, é possível Efetuar Baixa de um Item. Basta selecionar um, dentre os Itens listados, que está na
-              situação 'Aguardando Baixa', e clicar em
+              <br><br>Caso a Forma de Pagamento do Item baixado seja Cheque, Depósito ou Boleto, é necessário Efetuar a Baixa do mesmo.
+              Basta selecionar um, dentre os Itens listados, que está na situação 'Aguardando Baixa', e clicar em
               <img src="Prints Sagres/Financeiro/Caixa/efetuar.png" alt="Efetuar Baixa">
-              à direita da lista de Caixas.
+              à direita da lista de Itens.
               Assim, basta obter a autorização do Operador responsável que a Baixa do Item será efetuada.
 
-              <br><br>Também à direita da lista de Caixas, é possível realizar outras operações.<br>
+              <br><br>Sendo necessário, é possível cancelar a baixa de um Item cuja Forma de Pagamento seja Cheque, Depósito ou Boleto.
+              Basta selecionar o item que deseja realizar o cancelamento e clicar em
+              <img src="Prints Sagres/Financeiro/Caixa/CancelarBaixa.png" alt="Cancelar Baixa">, à direita da lista de Itens. Assim, após autorização do responsável, a baixa de tal
+              item será cancelada, porém irá permanecer como 'Baixado' em <a onclick="testeFilho('.L142')" style="cursor: pointer;">Movimento de Caixa</a>.
+
+              <br><br>Também à direita da lista de Itens, é possível realizar outras operações.<br>
+
               <br>Ao selecionar um Item de Caixa e clicar em
               <img src="Prints Sagres/Financeiro/Caixa/editar.png" alt="Editar">
               uma janela se abrirá, onde será possível Editar os dados da Forma de Pagamento de tal Item.<br>
@@ -6260,12 +6266,12 @@
 
               <br>Ao selecionar um Caixa ainda Aberto e clicar em
               <img src="Prints Sagres/Financeiro/Caixa/trocar.png" alt="Trocar">
-              será possível trocar o responsável pelo Caixa.<br>
+              será possível trocar o responsável pelo Caixa, bastando selecionar o novo responsável pelo Caixa em questão, uma vez que esteja autorizado à realizar tal operação.<br>
 
-              <br>Ao clicar em
+              <!-- <br>Ao clicar em
               <img src="Prints Sagres/Financeiro/Caixa/excel.png" alt="Excel">
               será possível gerar uma Planilha Excel com os dados de todos Operadores, Caixas e Itens de Caixa
-              registrados no Sistema.
+              registrados no Sistema. -->
             </p>
           </div>
           <br><br>
