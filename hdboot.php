@@ -5235,54 +5235,80 @@
               <img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
               Assim, o Pedido em questão será excluído do Banco de Dados do Sistema.
 
-              <br><br>Feita a gravação do Pedido, estarão disponíveis, no menu lateral à direita da tela, botões onde diversas ações poderão ser realizadas.
+              <br><br>Feita a gravação do Pedido, estarão disponíveis, no menu lateral à direita da tela, botões onde diversas ações poderão ser realizadas:
 
-              <br><br> O ícone <img src="Prints Sagres/Balcao/situacao.png" alt="Situação">
-              indica a Situação do pagamento referente ao Pedido em questão:
               <ul>
-                <li>O Cifrão na cor <span style="color: red;">Vermelha</span> indica que o Pagamento ainda não foi realizado;</li>
-                <li>O Cifrão na cor <span style="color:yellow;">Amarela</span> indica que apenas uma parte do Pagamento foi realizada,
-                  há um Reembolso a ser feito ao Cliente, ou um Crédito a ser utilizado por ele;</li>
-                <li>O Cifrão na cor <span style="color:green;">Verde</span> indica que o Pagamento foi concluído.</li>
-              </ul>
-
-              <br>Ao clicar em <img src="Prints Sagres/Balcao/anotar.png" alt="Anotar">
-              será possível cadastrar anotações junto ao Pedido em questão.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/prot.png" alt="Protocolo">
-              a tela de <a onclick="testeFilho('.L120')" style="cursor: pointer;"> Cadastro de Protocolo </a> será exibida.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/transc.png" alt="Transcrição">
-              a tela de <a onclick="testeFilho('.L110')" style="cursor: pointer;"> Cadastro de Transcrição </a> será exibida.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/atos.png" alt="Atos">
-              a tela de Rascunho de Atos será exibida, descrita em <a onclick="testeFilho('.L120')" style="cursor: pointer;">Protocolo</a>.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/mat.png" alt="Matrícula">
-              a tela de <a onclick="testeFilho('.L106')" style="cursor: pointer;"> Cadastro de Matrícula </a> será exibida.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/cert.png" alt="Certidão">
-              a tela de <a href="#texto5" style="cursor: pointer;"> Cadastro de Certidão </a> será exibida, onde uma Certidão referente
-              ao Pedido poderá ser cadastrada no Sistema.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/tit.png" alt="Título">
-              a tela de <a href="#texto6" style="cursor: pointer;"> Cadastro de Título </a> será exibida, onde um Título referente
-              ao Pedido poderá ser cadastrado no Sistema.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/exig.png" alt="Exigência">
-              a tela de <a href="#texto7" style="cursor: pointer;"> Cadastro de Exigência </a> será exibida, onde uma Exigência referente
-              ao Pedido poderá ser cadastrada no Sistema.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/pagto.png" alt="Pagamento">
-              a tela de <a href="#texto8" style="cursor: pointer;"> Formas de Pagamento </a> será exibida, onde o Pagamento referente
-              aos Serviços do Pedido em questão poderá ser registrado no Sistema.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/ficha.png" alt="Ficha">
-              será possível Imprimir o Relatorio referente à Ficha Financeira do Pedido em questão.
-
-              <br><br>Ao clicar em <img src="Prints Sagres/Balcao/recibos.png" alt="Recibos">
-              será possível Imprimir o Relatorio referente aos Recibos de Certidões do Pedido em questão.
-            </p>
+                <li id="lista">
+                O ícone <img src="Prints Sagres/Balcao/situacao.png" alt="Situação">
+                indica a Situação do pagamento referente ao Pedido em questão:
+                  <ul>
+                    <li id="lista">O Cifrão na cor <span style="color: red;">Vermelha</span> indica que o Pagamento ainda não foi realizado;</li>
+                    <li id="lista">O Cifrão na cor <span style="color:yellow;">Amarela</span> indica que apenas uma parte do Pagamento foi realizada,
+                      há um Reembolso a ser feito ao Cliente, ou um Crédito a ser utilizado por ele;</li>
+                    <li id="lista">O Cifrão na cor <span style="color:green;">Verde</span> indica que o Pagamento foi concluído.</li>
+                  </ul>
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/anotar.png" alt="Anotar">
+                  será possível cadastrar anotações junto ao Pedido em questão.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/prot.png" alt="Protocolo">
+                  a tela de <a onclick="testeFilho('.L120')" style="cursor: pointer;"> Cadastro de Protocolo </a> será exibida.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/transc.png" alt="Transcrição">
+                  a tela de <a onclick="testeFilho('.L110')" style="cursor: pointer;"> Cadastro de Transcrição </a> será exibida.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/atos.png" alt="Atos">
+                  a tela de Rascunho de Atos será exibida, descrita em <a onclick="testeFilho('.L120')" style="cursor: pointer;">Protocolo</a>.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/mat.png" alt="Matrícula">
+                  a tela de <a onclick="testeFilho('.L106')" style="cursor: pointer;"> Cadastro de Matrícula </a> será exibida.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/cert.png" alt="Certidão">
+                  a tela de <a href="#texto5" style="cursor: pointer;"> Cadastro de Certidão </a> será exibida, onde uma Certidão referente
+                  ao Pedido poderá ser cadastrada no Sistema.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/tit.png" alt="Título">
+                  a tela de <a href="#texto6" style="cursor: pointer;"> Cadastro de Título </a> será exibida, onde um Título referente
+                  ao Pedido poderá ser cadastrado no Sistema.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/exig.png" alt="Exigência">
+                  a tela de <a href="#texto7" style="cursor: pointer;"> Cadastro de Exigência </a> será exibida, onde uma Exigência referente
+                  ao Pedido poderá ser cadastrada no Sistema.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/pagto.png" alt="Pagamento">
+                  a tela de <a href="#texto8" style="cursor: pointer;"> Formas de Pagamento </a> será exibida, onde o Pagamento referente
+                  aos Serviços do Pedido em questão poderá ser registrado no Sistema.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/ficha.png" alt="Ficha">
+                  será possível Imprimir o Relatorio referente à Ficha Financeira do Pedido em questão.
+                </li>
+                <br>
+                <li>
+                  Ao clicar em <img src="Prints Sagres/Balcao/recibos.png" alt="Recibos">
+                  será possível Imprimir o Relatorio referente aos Recibos de Certidões do Pedido em questão.
+                </li>
+              </p>
+            </ul>
           </div>
 
             <br><br><br>
@@ -6264,7 +6290,7 @@
               <br><br>Sendo necessário, é possível cancelar a baixa de um Item cuja Forma de Pagamento seja Cheque, Depósito ou Boleto.
               Basta selecionar o item que deseja realizar o cancelamento e clicar em
               <img src="Prints Sagres/Financeiro/Caixa/CancelarBaixa.png" alt="Cancelar Baixa">, à direita da lista de Itens. Assim, após autorização do responsável, a baixa de tal
-              item será cancelada, porém irá permanecer como 'Baixado' em <a onclick="testeFilho('.L142')" style="cursor: pointer;">Movimento de Caixa</a>.
+              item será cancelada, porém irá permanecer como 'Baixado' em <a onclick="testeFilho('.L146')" style="cursor: pointer;">Movimento de Caixa</a>.
 
               <br><br>Também à direita da lista de Itens, é possível realizar outras operações:<br>
 
