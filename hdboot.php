@@ -193,7 +193,7 @@
 
     .btn{
       margin-left: 20px;
-      margin-top: 610px;
+      margin-top: 570px;
       display: none; /* Hidden by default*/
       position: fixed; /* Fixed/sticky position */
       z-index: 100;
