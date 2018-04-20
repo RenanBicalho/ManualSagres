@@ -187,6 +187,8 @@
 		h2{	font-family: 'Encode Sans Expanded', cursive;	padding-top: 40px; padding-bottom: 5px; font-size: 20px; cursor: pointer; }
 		p {	font-family: 'Ubuntu', sans-serif; font-size: 16px;  text-align: justify;}
 
+		#lista {	font-family: 'Ubuntu', sans-serif; font-size: 14px;  text-align: justify;}
+
     h2:hover{text-decoration: underline;}
 
     .btn{
@@ -6254,19 +6256,25 @@
               <img src="Prints Sagres/Financeiro/Caixa/CancelarBaixa.png" alt="Cancelar Baixa">, à direita da lista de Itens. Assim, após autorização do responsável, a baixa de tal
               item será cancelada, porém irá permanecer como 'Baixado' em <a onclick="testeFilho('.L142')" style="cursor: pointer;">Movimento de Caixa</a>.
 
-              <br><br>Também à direita da lista de Itens, é possível realizar outras operações.<br>
+              <br><br>Também à direita da lista de Itens, é possível realizar outras operações:<br>
 
-              <br>Ao selecionar um Item de Caixa e clicar em
-              <img src="Prints Sagres/Financeiro/Caixa/editar.png" alt="Editar">
-              uma janela se abrirá, onde será possível Editar os dados da Forma de Pagamento de tal Item.<br>
-
-              <br>Ao selecionar um Caixa ainda Aberto e clicar em
-              <img src="Prints Sagres/Financeiro/Caixa/excluir.png" alt="Excluir">
-              será possível excluir tal Caixa, bastando confirmar os dados Operador responsável.<br>
-
-              <br>Ao selecionar um Caixa ainda Aberto e clicar em
-              <img src="Prints Sagres/Financeiro/Caixa/trocar.png" alt="Trocar">
-              será possível trocar o responsável pelo Caixa, bastando selecionar o novo responsável pelo Caixa em questão, uma vez que esteja autorizado à realizar tal operação.<br>
+              <ul>
+                <li id="lista">
+                  Ao selecionar um Item de Caixa e clicar em
+                  <img src="Prints Sagres/Financeiro/Caixa/editar.png" alt="Editar">
+                  uma janela se abrirá, onde será possível Editar os dados da Forma de Pagamento de tal Item.
+                </li>
+                <li id="lista">
+                  Ao selecionar um Caixa ainda Aberto e clicar em
+                  <img src="Prints Sagres/Financeiro/Caixa/excluir.png" alt="Excluir">
+                  será possível excluir tal Caixa, bastando confirmar os dados Operador responsável.
+                </li>
+                <li id="lista">
+                  Ao selecionar um Caixa ainda Aberto e clicar em
+                  <img src="Prints Sagres/Financeiro/Caixa/trocar.png" alt="Trocar">
+                  será possível trocar o responsável pelo Caixa, bastando selecionar o novo responsável pelo Caixa em questão, uma vez que esteja autorizado à realizar tal operação.
+                </li>
+              </ul>
 
               <!-- <br>Ao clicar em
               <img src="Prints Sagres/Financeiro/Caixa/excel.png" alt="Excel">
