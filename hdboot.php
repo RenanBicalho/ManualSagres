@@ -93,7 +93,7 @@
     }
 
     /* .titulo	{text-shadow: -1px 0 #ddd, 0 1px white, 1px 0 #ddd, 0 -1px #ddd; font-family: 'Righteous', cursive; font-weight:500; font-size:32px; float: left; z-index: 100; margin-top: 5px; margin-left: 250px; } */
-    .titulo	{font-family: 'Poppins', cursive; font-weight:100; font-size:30px; float: left; z-index: 100; margin-top: 7px; margin-left: 250px; }
+    .titulo	{font-family: 'Poppins', cursive; font-weight:100; font-size:30px; float: left; z-index: 100; margin-top: 7px; margin-left: 350px; }
 		/* .fred	{font-family: 'Dawning of a New Day', cursive; font-weight:10; font-size:33px; padding-top: 0px; padding-left: 380px; color: #bbb; margin: 0px;} */
 
 		.ms1	{ padding: 25px 0px 0px 10px; z-index: 100; position: fixed;}
@@ -136,7 +136,7 @@
 		}
 
 		#home{
-			padding-top: 20px;
+			padding-top: 10px;
 			padding-left: 25px;
 			font-weight: 600;
 			font-size: 24px;
@@ -224,7 +224,12 @@
 			font-size: 18px;
 			font-family: 'Arima Madurai', cursive;
 			/* position: fixed; */
+      bottom: 0px;
 		}
+
+    .content1{
+      padding-top: 0px;
+    }
 
   </style>
 </head>
@@ -241,7 +246,8 @@
   			</div>
 
   			<div class="titulo" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;">
-  					HelpDesk ▸ Cartorial - Sistema de Automação para Cartórios
+  					HelpDesk &nbsp;&nbsp;  CRIATOS
+             <!-- ▸ Sistema de Automação para Cartórios -->
   			</div>
       </div>
 
@@ -256,8 +262,12 @@
       <div id="datahora">
         <script type="text/javascript">
           var d = new Date();
-          document.write(d.toLocaleString());
+          var dataFormatada = ("0" + d.getDate()).substr(-2) + "/" + ("0" + (d.getMonth() + 1)).substr(-2) + "/" + d.getFullYear() + " - " + d.getHours() + ":" + d.getMinutes();
+          document.write(dataFormatada.toLocaleString());
         </script>
+        <div class="content1">
+          <p id="obs">Para uma melhor experiência com a aplicação, pressione <b>F11</b>.</p>
+        </div>
 <!--
         <script language="JavaScript">
           function showtime(){
