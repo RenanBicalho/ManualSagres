@@ -6200,11 +6200,16 @@
                selecionar o Item referente ao mesmo, na lista inferior, para realizar o Recebimento do mesmo.
                <br>Assim, basta clicar em <img src="Prints Sagres/Financeiro/Caixa/receber.png" alt="Receber"> e
                confirmar o valor na janela que será apresentada à direita da tela.
+               <br> <b>OBS.:</b> Caso a forma de Pagamento do Pedido à ser baixado seja Cheque, Depósito, ou Boleto, o mesmo ficará 'Aguardando Baixa'.
+               Assim será necessário realizar a baixa do Pedido em questão em <a onclick="testeFilho('.L147')" style="cursor: pointer;">Consulta de Caixas</a>.
 
                <br><br>Caso for necessário cancelar a Baixa de um Item, ou de todo o Pedido, basta, na aba 'Baixados',
                selecionar o Pedido e o Item, se houver mais de um, que desejar desfazer a Baixa e clicar em
                <img src="Prints Sagres/Financeiro/Caixa/estItem.png" alt="Estornar Item"> ou
                <img src="Prints Sagres/Financeiro/Caixa/estTudo.png" alt="Estornar Tudo">.
+               <br> <b>OBS.:</b> Caso a forma de Pagamento do Pedido à ter a baixa cancelada seja Cheque, Depósito, ou Boleto, será necessário realizar
+               o cancelamento da baixa em <a onclick="testeFilho('.L147')" style="cursor: pointer;">Consulta de Caixas</a>. Feito isso, a baixa poderá ser cancelada na aba 'Baixados' na
+               tela de Movimento de Caixa.
 
                <br><br>A mesma operação descrita acima poderá ser realizada na aba 'A Baixar'. Assim, o Pedido será retirado
                do Caixa e assim, o pagamento do mesmo poderá ser alterado na tela de
