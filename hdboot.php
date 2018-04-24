@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="favicon.ico"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Gugi" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -38,6 +38,20 @@
       overflow: auto;
       position: fixed;
       margin-left: 1042px;
+    }
+
+    .bloco {
+      /* border: solid #a1a1a1; */
+      border-radius: 40px 0 0 0px;
+      margin-top: 68px;
+      /* background-color: black; */
+      background-color: #c1c1c1c1;
+      height:4.1vh;
+      width: 23%;
+      /* overflow: auto; */
+      position: fixed;
+      margin-left: 1042px;
+      z-index: 100;
     }
 
     /* .sidenav:hover{
@@ -93,13 +107,13 @@
     }
 
     /* .titulo	{text-shadow: -1px 0 #ddd, 0 1px white, 1px 0 #ddd, 0 -1px #ddd; font-family: 'Righteous', cursive; font-weight:500; font-size:32px; float: left; z-index: 100; margin-top: 5px; margin-left: 250px; } */
-    .titulo	{font-family: 'Poppins', cursive; font-weight:100; font-size:30px; float: left; z-index: 100; margin-top: 7px; margin-left: 350px; }
+    .titulo	{font-family: 'Gugi', Regular; font-weight:400; font-size:40px; float: left; z-index: 100; margin-top: 5px; margin-left: 430px; }
 		/* .fred	{font-family: 'Dawning of a New Day', cursive; font-weight:10; font-size:33px; padding-top: 0px; padding-left: 380px; color: #bbb; margin: 0px;} */
 
 		.ms1	{ padding: 25px 0px 0px 10px; z-index: 100; position: fixed;}
 		/* .ms2	{outline:none; z-index: 100; float: left; padding: 5px 180px 5px 50px; } */
 
-		.ms3	{ float: left; padding: 20px 0px 0px 9px; top: 0; display: none; }
+		.ms3	{ float: left; padding: 120px 0px 0px 9px; top: 0; display: none; }
 		/* .ms4	{float: left; padding: 5px 0px 5px 80px; z-index: 100; }
 		.ms5	{float: left; padding: 5px 0px 5px 2px; z-index: 100; } */
 
@@ -112,7 +126,7 @@
 
     .header{
   		 padding: 7px 10px;
-  		 height: 10%;
+  		 height: 11%;
   		 width: 100%;
   		 /* background: darkgray; */
   		 background: #c1c1c1;
@@ -136,7 +150,7 @@
 		}
 
 		#home{
-			padding-top: 10px;
+			padding-top: 100px;
 			padding-left: 25px;
 			font-weight: 600;
 			font-size: 24px;
@@ -144,18 +158,24 @@
 			position: fixed;
 		}
 
+    #imagem{
+      width: 90%;
+      height: auto;
+    }
 		#logo{
-      margin-left: 1px;
+      /* width: 80%; */
+      /* height: auto; */
+      /* margin-left: 1px; */
 			/* padding-left: 100px;
 			padding-top: 200px; */
 			position: fixed;
-      margin-left: 137px;
-      margin-top: 70px;
+      margin-left: 170px;
+      margin-top: 150px;
 		}
-
+/*
     #logo:hover{
-      box-shadow: 5px 5px 5px 5px grey;
-    }
+      box-shadow: 3px 3px 3px 3px grey;
+    } */
 
 		mark {
 		  background: yellow;
@@ -167,7 +187,7 @@
 
 		.content3 {
       z-index: 100;
-			padding-top: 20px;
+			padding-top: 120px;
 			padding-right: 0px;
 			padding-left: 70px;
 			/* margin-left: 0px; */
@@ -218,13 +238,13 @@
     }
 
     #datahora{
-			padding-top: 85px;
-			padding-left: 0px;
-			font-weight: 400;
+			/* padding-top: 80px; */
+			padding-right: 50px;
+      float: right;
+			/* font-weight: 400;
 			font-size: 18px;
-			font-family: 'Arima Madurai', cursive;
+			font-family: 'Arima Madurai', cursive; */
 			/* position: fixed; */
-      bottom: 0px;
 		}
 
     .content1{
@@ -246,7 +266,7 @@
   			</div>
 
   			<div class="titulo" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;">
-  					HelpDesk &nbsp;&nbsp;  CRIATOS
+  					 CRIATOS &#xb7; MANUAL
              <!-- ▸ Sistema de Automação para Cartórios -->
   			</div>
       </div>
@@ -257,17 +277,25 @@
           <a href='http://www.sagres.com.br' target="_blank" id="link"> Sagres Informática e Comunicação LTDA.  </a>
           Todos os direitos reservados.
 
+          <div id="datahora">
+            <script type="text/javascript">
+              var d = new Date();
+              var dataFormatada = ("0" + d.getDate()).substr(-2) + "/" + ("0" + (d.getMonth() + 1)).substr(-2) + "/" + d.getFullYear() + " - " + ("0" + d.getHours()).substr(-2) + ":" + ("0" + d.getMinutes()).substr(-2);
+              document.write(dataFormatada.toLocaleString());
+            </script>
+          </div>
+
       </footer>
 
-      <div id="datahora">
-        <script type="text/javascript">
+      <!-- <div id="datahora"> -->
+        <!-- <script type="text/javascript">
           var d = new Date();
-          var dataFormatada = ("0" + d.getDate()).substr(-2) + "/" + ("0" + (d.getMonth() + 1)).substr(-2) + "/" + d.getFullYear() + " - " + d.getHours() + ":" + d.getMinutes();
+          var dataFormatada = ("0" + d.getDate()).substr(-2) + "/" + ("0" + (d.getMonth() + 1)).substr(-2) + "/" + d.getFullYear() + " - " + ("0" + d.getHours()).substr(-2) + ":" + ("0" + d.getMinutes()).substr(-2);
           document.write(dataFormatada.toLocaleString());
-        </script>
-        <div class="content1">
+        </script> -->
+        <!-- <div class="content1">
           <p id="obs">Para uma melhor experiência com a aplicação, pressione <b>F11</b>.</p>
-        </div>
+        </div> -->
 <!--
         <script language="JavaScript">
           function showtime(){
@@ -287,16 +315,16 @@
 
         <!-- <div id="relogio"></div> -->
 
-      </div>
+      <!-- </div> -->
 
       <div id='home' class='content1'>
               <span class="glyphicon glyphicon-home"></span>
-              &nbsp;&nbsp;Bem Vindo! Clique na Tela abaixo ou utilize o Menu lateral para começar.
+              &nbsp;&nbsp;Bem Vindo!
       </div>
 
       <div id='logo' class='content1' onclick="testeFilho('.L0')" style="cursor: pointer;">
           <!-- <img src='logo.png'></img> -->
-          <img src="Prints Sagres/TelaInicial.png" alt="Tela Inicial">
+          <img id="imagem" src="Prints Sagres/TelaInicial.png" alt="Tela Inicial" title="Clique na Tela abaixo ou utilize o Menu lateral para começar.">
       </div>
 
       <div class="ms3"><input type="search" id="my-search3" placeholder="Palavra-Chave.." title="Pesquisar Documentos por Palavras-Chave"></div>
@@ -6986,6 +7014,7 @@
           Todos os direitos reservados.
         </div>
     </footer> -->
+    <div class="bloco"></div>
 
     <div class="col-sm-3 sidenav">
 
