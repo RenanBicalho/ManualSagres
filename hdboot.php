@@ -34,25 +34,22 @@
       /* background-color: #eeeeeeee; */
       background-color: #c1c1c1c1;
       height:86.5vh;
-      width: 23%;
+      width: 23.5%;
       overflow: auto;
       position: fixed;
-      margin-left: 1042px;
+      margin-left: 1035px;
     }
 
-    .bloco {
-      /* border: solid #a1a1a1; */
+    /* .bloco {
       border-radius: 40px 0 0 0px;
       margin-top: 68px;
-      /* background-color: black; */
       background-color: #c1c1c1c1;
       height:4.1vh;
       width: 23%;
-      /* overflow: auto; */
       position: fixed;
-      margin-left: 1042px;
+      margin-left: 1046px;
       z-index: 100;
-    }
+    } */
 
     /* .sidenav:hover{
       box-shadow: -1px -1px 2px 5px rgba(0, 0, 0, 0.2);
@@ -110,7 +107,7 @@
     .titulo	{font-family: 'Gugi', Regular; font-weight:400; font-size:40px; float: left; z-index: 100; margin-top: 5px; margin-left: 430px; }
 		/* .fred	{font-family: 'Dawning of a New Day', cursive; font-weight:10; font-size:33px; padding-top: 0px; padding-left: 380px; color: #bbb; margin: 0px;} */
 
-		.ms1	{ padding: 25px 0px 0px 10px; z-index: 100; position: fixed;}
+		.ms1	{ padding: 8px 0px 0px 0px; z-index: 100; position: fixed;}
 		/* .ms2	{outline:none; z-index: 100; float: left; padding: 5px 180px 5px 50px; } */
 
 		.ms3	{ float: left; padding: 120px 0px 0px 9px; top: 0; display: none; }
@@ -121,7 +118,7 @@
 		/* #my-search2 { z-index: 100; padding: 0px 10px; height: 75%; width: 150%; } */
 		#my-search3 { font-size:15px; color: slategray; width: 120%; height: 35px; padding: 0px 10px; border-radius: 50px; background: #eeeeeeee; float: left;}
 
-		ul#my-tree	{ position: absolute; margin: 0px; left: 0; padding: 55px 20px; color: solid black; z-index: 0; height: auto; }
+		ul#my-tree	{ position: absolute; margin: 0px; left: 0; padding: 35px 25px; color: solid black; z-index: 0; height: auto; }
 		ul#my-tree	li { margin:25px 0px; font-size: 20px; font-family: 'Righteous', cursive; }
 
     .header{
@@ -217,8 +214,8 @@
       display: none; /* Hidden by default*/
       position: fixed; /* Fixed/sticky position */
       z-index: 100;
-      border-radius: 100000px;
-      border: solid #aaa;
+      border-radius: 50%;
+      border: 1.5px solid #aaa;
     }
 
     #tplink{
@@ -261,16 +258,19 @@
 
     <div class="col-sm-9">
       <div class="header">
+<!-- Logo Cartório Cabeçalho -->
         <div class="img">
   				<img onclick="window.location.reload()" id="img" src='logo.png'></img>
   			</div>
 
+<!-- Título Página -->
   			<div class="titulo" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;">
   					 CRIATOS &#xb7; MANUAL
              <!-- ▸ Sistema de Automação para Cartórios -->
   			</div>
       </div>
 
+<!-- Rodapé -->
       <footer class="fixed-bottom">
 
           © 2018
@@ -317,18 +317,22 @@
 
       <!-- </div> -->
 
+<!-- Bem Vindo -->
       <div id='home' class='content1'>
               <span class="glyphicon glyphicon-home"></span>
               &nbsp;&nbsp;Bem Vindo!
       </div>
 
+<!-- Imagem Inicial CRIATOS -->
       <div id='logo' class='content1' onclick="testeFilho('.L0')" style="cursor: pointer;">
           <!-- <img src='logo.png'></img> -->
           <img id="imagem" src="Prints Sagres/TelaInicial.png" alt="Tela Inicial" title="Clique na Tela abaixo ou utilize o Menu lateral para começar.">
       </div>
 
+<!-- Pesquisa Esquerda -->
       <div class="ms3"><input type="search" id="my-search3" placeholder="Palavra-Chave.." title="Pesquisar Documentos por Palavras-Chave"></div>
 
+<!-- Voltar ao Topo -->
       <a class='btn btn-default' id="btn" role='button' title="Voltar ao Topo" onclick="topFunction()"><span class="glyphicon glyphicon-chevron-up"></a>
 
       <div class="content3">
@@ -3835,9 +3839,8 @@
               primeiro, em ordem alfabética, dos Tipos de Certidão cadastrados no Sistema. Assim, é possível navegar,
               através das setas do canto superior esquerdo, entre eles.
               <br>Serão exibidos na tela o Código, Descrição, Indicação de Inteiro Teor, Aviso do Serviço Complementar,
-              Objeto da Busca e Observação do mesmo.
-              <br>Nas tabelas abaixo destes campos estarão apresentados dados padrão do Tipo em questão: Texto Padrão da Certidão,
-              Ato TJ e Serviços.
+              Objeto da Busca, Observações e a opção de Texto Mesclado.
+              <br>Nas tabelas abaixo destes campos estarão apresentados os dados do Tipo em questão: Texto Padrão da Certidão e Serviços correspondentes.
 
               <br><br>Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
               <br>Para editar os dados de um Tipo de Certidão cadastrado, basta clicar em
@@ -3854,7 +3857,6 @@
               <br><br>Para inserir ou editar um Texto Padrão do Tipo de Certidão, basta selecionar a aba correspondente. A lista dos registros
               cadastrados será exibida. Assim, basta dar um duplo-clique sobre um dos registros da lista, ou clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Serviços/plus.png" alt="Ícone Mais"> à direita do texto apresentado.
-
               <br>Dessa maneira, uma nova janela abrirá, onde o texto poderá ser inserido ou alterado.
 
               <br><br>Para inserir ou editar um Ato TJ do Tipo de Certidão, basta selecionar a aba correspondente. A tabela dos registros
@@ -5388,10 +5390,17 @@
             <br>
             <div id="texto">
               <p>
-                Para gerar uma Certidão Inteiro Teor, basta inserir, na janela à esquerda da tela, o Apontamento referente a um Imóvel já registrado no Sistema.
-                Dessa maneira, o texto e as imagens da Certidão serão gerados automaticamente, assim como o preço a ser cobrado para registrar a certidão, que será
-        			  exibido no rodapé da tela. No canto inferior esquerdo há o botão <img src="Prints Sagres/Balcao/pagamentos.png" alt="Pagamentos">, onde, após gravar
-        			  a Certidão, será possível registrar a cobrança do valor tabelado para tal operação.
+                Para gerar uma Certidão Inteiro Teor, basta selecionar o Serviço desejado e inserir, na janela à esquerda da tela, o Apontamento referente a um Imóvel ou Pessoa
+                já registrado no Sistema.
+
+                <br>Para gerar outro tipos de Certidão, basta selecionar o tipo que desejar no campo 'Outras Certidões', no centro da tela, e inserir o Apontamento correspondente.
+
+                <br> Assim, basta clicar em <img src="Prints Sagres\Ajustes\Cadastro\TabelasInternas\Serviços\plus.png" alt="Mais">
+                que o texto e as imagens da Certidão serão gerados automaticamente, assim como o preço a ser cobrado para registrar a certidão, que será
+        			  exibido no rodapé da tela.
+
+                <br>No canto inferior esquerdo há o botão <img src="Prints Sagres/Balcao/pagamentos.png" alt="Pagamentos">, onde, após gravar
+        			  a Certidão, será necessário registrar a cobrança do valor tabelado para tal serviço, afim de emitir a Certidão.
               </p>
             </div>
             <br>
@@ -7014,7 +7023,7 @@
           Todos os direitos reservados.
         </div>
     </footer> -->
-    <div class="bloco"></div>
+    <!-- <div class="bloco"></div> -->
 
     <div class="col-sm-3 sidenav">
 
