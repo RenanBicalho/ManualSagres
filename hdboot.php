@@ -5774,7 +5774,7 @@
           <h2 id="tplink" onclick="testeFilho('.L132')" style="cursor: pointer;"> ▸ CGJ </h2>
           <div id='texto'>
             <p>
-
+              Importação e Exportação de Selos em formato XML.
             </p>
           </div>
 
@@ -5856,7 +5856,7 @@
           <br><br>
           <figure>
             <img src="Prints Sagres/Processos/Integracoes/CGJ/ImportarSelo.png" alt="Importação Selo" style="padding-left: 40px;">
-            <figcaption style="padding-left: 340px;">Tela Importação Selo</figcaption>
+            <figcaption style="padding-left: 380px;">Tela Importação Selo</figcaption>
           </figure>
 
         </div>
