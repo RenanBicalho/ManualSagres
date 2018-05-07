@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="shortcut icon" href="favicon3.ico"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Gugi" rel="stylesheet">
@@ -29,11 +29,11 @@
     /* Set gray background color and 100% height */
     .sidenav {
       /* border: solid #a1a1a1; */
-      border-radius: 40px 0 0 40px;
-      margin-top: 68px;
+      border-radius: 40px 0px 0px 40px;
+      margin-top: 100px;
       /* background-color: #eeeeeeee; */
       background-color: #c1c1c1c1;
-      height:86.5vh;
+      height:80.5vh;
       width: 23.5%;
       overflow: auto;
       position: fixed;
@@ -57,7 +57,7 @@
 
     /* width */
     ::-webkit-scrollbar {
-        width: 8px;
+        width: 9px;
     }
 
     /* Track */
@@ -104,10 +104,10 @@
     }
 
     /* .titulo	{text-shadow: -1px 0 #ddd, 0 1px white, 1px 0 #ddd, 0 -1px #ddd; font-family: 'Righteous', cursive; font-weight:500; font-size:32px; float: left; z-index: 100; margin-top: 5px; margin-left: 250px; } */
-    .titulo	{font-family: 'Gugi', Regular; font-weight:400; font-size:40px; float: left; z-index: 100; margin-top: 5px; margin-left: 430px; }
+    .titulo	{font-family: 'Agency FB', Regular; font-weight:800; font-size:60px; float: left; z-index: 100; margin-top: 8px; margin-left: 545px; letter-spacing: 2px; }
 		/* .fred	{font-family: 'Dawning of a New Day', cursive; font-weight:10; font-size:33px; padding-top: 0px; padding-left: 380px; color: #bbb; margin: 0px;} */
 
-		.ms1	{ padding: 8px 0px 0px 0px; z-index: 100; position: fixed;}
+		.ms1	{ padding: 15px 0px 0px 0px; z-index: 100; position: fixed;}
 		/* .ms2	{outline:none; z-index: 100; float: left; padding: 5px 180px 5px 50px; } */
 
 		.ms3	{ float: left; padding: 120px 0px 0px 9px; top: 0; display: none; }
@@ -118,12 +118,12 @@
 		/* #my-search2 { z-index: 100; padding: 0px 10px; height: 75%; width: 150%; } */
 		#my-search3 { font-size:15px; color: slategray; width: 120%; height: 35px; padding: 0px 10px; border-radius: 50px; background: #eeeeeeee; float: left;}
 
-		ul#my-tree	{ position: absolute; margin: 0px; left: 0; padding: 35px 25px; color: solid black; z-index: 0; height: auto; }
-		ul#my-tree	li { margin:25px 0px; font-size: 20px; font-family: 'Righteous', cursive; }
+		ul#my-tree	{ position: absolute; margin: 0px; left: 0; padding: 40px 25px; color: solid black; z-index: 0; height: auto; }
+		ul#my-tree	li { margin:22px 0px; font-size: 20px; font-family: 'Righteous', cursive; }
 
     .header{
-  		 padding: 7px 10px;
-  		 height: 11%;
+  		 padding: 8px 10px;
+  		 height: 15%;
   		 width: 100%;
   		 /* background: darkgray; */
   		 background: #c1c1c1;
@@ -133,11 +133,25 @@
 		}
 
     #img{
-			width: 8%;
+			width: 22%;
 			height: auto;
-      margin-top: -19px;
+      margin-top: -15px;
 			padding-top: 14px;
-			margin-left: 50px;
+			margin-left: -10px;
+			padding-right: 0px;
+			float: left;
+			cursor: pointer;
+			vertical-align: middle;
+      position:fixed;
+      z-index: 10000;
+		}
+
+    #sagres{
+			width: 5%;
+			height: auto;
+      margin-top: -15px;
+			padding-top: 14px;
+			margin-left: 1220px;
 			padding-right: 0px;
 			float: left;
 			cursor: pointer;
@@ -147,8 +161,8 @@
 		}
 
 		#home{
-			padding-top: 100px;
-			padding-left: 25px;
+			padding-top: 140px;
+			padding-left: 145px;
 			font-weight: 600;
 			font-size: 24px;
 			font-family: 'Arima Madurai', cursive;
@@ -167,7 +181,7 @@
 			padding-top: 200px; */
 			position: fixed;
       margin-left: 170px;
-      margin-top: 150px;
+      margin-top: 180px;
 		}
 /*
     #logo:hover{
@@ -260,12 +274,14 @@
       <div class="header">
 <!-- Logo Cartório Cabeçalho -->
         <div class="img">
-  				<img onclick="window.location.reload()" id="img" src='logo.png'></img>
+  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp.png' title="Criatos"></img>
+  				<img onclick="window.location.reload()" id="sagres" src='logosagres.png' title="Sagres"></img>
   			</div>
 
 <!-- Título Página -->
   			<div class="titulo" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;">
-  					 CRIATOS &#xb7; MANUAL
+  					 <!-- CRIATOS &#xb7; MANUAL DO SISTEMA -->
+  					 MANUAL
              <!-- ▸ Sistema de Automação para Cartórios -->
   			</div>
       </div>
@@ -319,8 +335,8 @@
 
 <!-- Bem Vindo -->
       <div id='home' class='content1'>
-              <span class="glyphicon glyphicon-home"></span>
-              &nbsp;&nbsp;Bem Vindo!
+              <!-- <span class="glyphicon glyphicon-home"></span> -->
+              Bem Vindo!
       </div>
 
 <!-- Imagem Inicial CRIATOS -->
@@ -5178,7 +5194,7 @@
             <br>
 
             <figure>
-              <img src="Prints Sagres/Balcao/AtoRegistro.png" alt="Rascunho Atos" style="padding-left: 20px;" width="115%" height="auto">
+              <img src="Prints Sagres/Balcao/AtoRegistro2.png" alt="Rascunho Atos" style="padding-left: 20px;" width="115%" height="auto">
               <figcaption style="padding-left: 420px;">Rascunho Atos</figcaption>
             </figure>
         </div>
