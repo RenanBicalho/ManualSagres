@@ -275,7 +275,7 @@
 <!-- Logo Cartório Cabeçalho -->
         <div class="img">
   				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp.png' title="Criatos"></img>
-  				<img onclick="window.location.reload()" id="sagres" src='logosagres.png' title="Sagres"></img>
+  				<a href='http://www.sagres.com.br' target="_blank"> <img id="sagres" target="_blank" src='logosagres.png' title="Sagres"></img> </a>
   			</div>
 
 <!-- Título Página -->
@@ -5164,7 +5164,7 @@
             <br>
             <p>
               Para cadastrar um Rascunho de Ato/Registro, basta clicar em
-              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/incluir.png" alt="Incluir">.
+              <img src="Prints Sagres/Balcao/incluirAto.png" alt="Incluir Ato">.
               <br>Assim, os dados do novo Ato estarão disponíveis para edição, sendo que o Número e a Data são gerados automaticamente.
               <br>No campo 'Registro', ao selecionar o que desejar cadastrar, serão preenchidos o Tipo, a Classe de Registro e o Texto do mesmo.
               <br>Assim, basta incluir as Partes Envolvidas, se necessário, em tal Ato/Registro, através da janela a esquerda da tela.
@@ -5174,15 +5174,17 @@
               <br><br>Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
 
               <br><br>Feito isso, clique em
-              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
+              <img src="Prints Sagres/Balcao/gravar.png" alt="Gravar">
               para finalizar o cadastro do Rascunho de Ato.
-              Assim, o mesmo será exibido na janela no canto superior esquerdo da tela. Para registrá-lo, basta clicar em
-              <img src="Prints Sagres/Balcao/registrar.png" alt="Registrar">.
+              Assim, o mesmo será exibido na janela no canto superior esquerdo da tela. Para registrá-lo, basta selecioná-lo pelo checkbox correspondente
+              e clicar em <img src="Prints Sagres/Balcao/registrarSel.png" alt="Registrar Selecionados">.
+              <br>Caso exista mais um de Rascunho cadastrado, é possível registrar todos de uma só vez, bastando clicar em
+              <img src="Prints Sagres/Balcao/registrarTodos.png" alt="Registrar Todos">.
 
-              <br><br>Caso deseje alterar um Ato/Registro basta clicar em <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">.
+              <br><br>Caso deseje alterar um Ato/Registro basta clicar em <img src="Prints Sagres/Balcao/alterar.png" alt="Alterar">.
               Assim, os dados de tal Ato estarão habilitados para edição e o mesmo poderá ser novamente gravado no Sistema.
 
-              <br><br>Para excluir um Ato/Registro basta clicar em <img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
+              <br><br>Para excluir um Ato/Registro basta clicar em <img src="Prints Sagres/Balcao/Excluir.png" alt="Excluir">.
               Assim, tal Ato será excluído do Protocolo ao qual ele estava vinculado.
 
               <br><br> <b>Observação.:</b> &nbsp; Se a inclusão de Atos/Registros for feita através da tela "Atos Registrados", caso seja possível, o
