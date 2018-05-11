@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>CRIATOS - Manual</title>
+  <title>Criatos ▸ Manual</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="favicon3.ico"/>
+  <link rel="shortcut icon" href="logoCasa3.png"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Gugi" rel="stylesheet">
@@ -21,7 +21,7 @@
 
   <style>
 
-    body	{ background: url('bg_raissa.png'), #d1d1d1; border-radius: 8px; }
+    body	{ background: url('bg_raissa.png'), #d1d1d1d1; border-radius: 8px; }
 
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content { height: 750px; }
@@ -32,7 +32,7 @@
       border-radius: 40px 0px 0px 40px;
       margin-top: 100px;
       /* background-color: #eeeeeeee; */
-      background-color: #c1c1c1c1;
+      background-color: #d1d1d1;
       height:80.5vh;
       width: 23.5%;
       overflow: auto;
@@ -79,7 +79,7 @@
 
     /* Set black background color, white text and some padding */
     footer {
-      background-color: #555;
+      /* background-color: #555; */
       color: slategray;
       padding: 8px 10px;
       height: 40px;
@@ -87,7 +87,7 @@
       bottom: 0;
       /* margin-top: 671px; */
       /* background: darkgray; */
-      background: #c1c1c1;
+      background: #d1d1d1;
       position: fixed;
       left: 0px;
       z-index: 1000;
@@ -126,7 +126,7 @@
   		 height: 15%;
   		 width: 100%;
   		 /* background: darkgray; */
-  		 background: #c1c1c1;
+  		 background: #d1d1d1;
   		 position: fixed;
   		 left: 0px;
        z-index: 1000;
@@ -161,7 +161,7 @@
 		}
 
 		#home{
-			padding-top: 140px;
+			padding-top: 130px;
 			padding-left: 145px;
 			font-weight: 600;
 			font-size: 24px;
@@ -170,23 +170,23 @@
 		}
 
     #imagem{
-      width: 90%;
+      width: 100%;
       height: auto;
     }
 		#logo{
       /* width: 80%; */
       /* height: auto; */
-      /* margin-left: 1px; */
+      /* margin-right: 555px; */
 			/* padding-left: 100px;
 			padding-top: 200px; */
 			position: fixed;
-      margin-left: 170px;
-      margin-top: 180px;
+      margin-left: 220px;
+      margin-top: 170px;
 		}
-/*
+
     #logo:hover{
-      box-shadow: 3px 3px 3px 3px grey;
-    } */
+      box-shadow: 1px 1px 1px 1px grey;
+    }
 
 		mark {
 		  background: yellow;
@@ -274,7 +274,7 @@
       <div class="header">
 <!-- Logo Cartório Cabeçalho -->
         <div class="img">
-  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp.png' title="Criatos"></img>
+  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp4.png' title="Criatos"></img>
   				<a href='http://www.sagres.com.br' target="_blank"> <img id="sagres" target="_blank" src='logosagres.png' title="Sagres"></img> </a>
   			</div>
 
@@ -342,7 +342,7 @@
 <!-- Imagem Inicial CRIATOS -->
       <div id='logo' class='content1' onclick="testeFilho('.L0')" style="cursor: pointer;">
           <!-- <img src='logo.png'></img> -->
-          <img id="imagem" src="Prints Sagres/TelaInicial.png" alt="Tela Inicial" title="Clique na Tela abaixo ou utilize o Menu lateral para começar.">
+          <img id="imagem" src="Prints Sagres/TelaInicial.png" alt="Tela Inicial" title="Clique aqui ou utilize o menu lateral para começar">
       </div>
 
 <!-- Pesquisa Esquerda -->
@@ -5899,7 +5899,7 @@
 
           <br><br>
           <figure>
-            <img src="Prints Sagres/Processos/Integracoes/CGJ/ExportarSelo.png" alt="Exportação Selo" style="padding-left: 40px;">
+            <img src="Prints Sagres/Processos/Integracoes/CGJ/ExportarSelo.png" alt="Exportação Selo" style="padding-left: 100px;">
             <figcaption style="padding-left: 380px;">Tela Exportação Selo</figcaption>
           </figure>
 
