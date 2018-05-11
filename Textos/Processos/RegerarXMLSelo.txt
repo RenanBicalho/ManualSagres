@@ -1,0 +1,5 @@
+Ao clicar em 'Regerar XML Selo Importação', a tela abaixo será exibida, onde poderão ser gerados arquivos XML referentes aos Selos que serão criados pelo Cartório.
+
+Assim, basta inserir os dados referentes ao Pedido, Ato e ao Selo em questão. Por fim, será exibido, no campo 'Arquivo', a pasta onde o XML será gravado.
+Feito isso, clique em  Gerar
+Assim, o arquivo correspondente será gerado e gravado, de acordo com os dados inseridos, na pasta exibida anteriormente. 

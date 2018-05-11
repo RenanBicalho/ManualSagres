@@ -1,0 +1,7 @@
+Ao clicar em 'Importar Selo', a tela abaixo será exibida, onde poderão ser importados Selos já gerados em formato XML.
+
+Assim, basta informar o Ramo Cartorial referente ao Selo que está sendo importado e clicar em Procurar Arquivo para selecionar um arquivo na máquina em questão, referente à um Selo gerado.
+
+Feito isso, basta clicar em  Importar Arquivo para realizar a Importação do arquivo referente ao Selo em questão.
+
+Na aba 'Histórico' estarão apresentados os Selos já importados pelo Sistema, juntamente com os dados referentes às Importações em questão.

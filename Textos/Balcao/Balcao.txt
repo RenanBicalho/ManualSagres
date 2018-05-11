@@ -1,0 +1,15 @@
+Balcão de Atendimento
+▸ Protocolo
+Exibe os Protocolos cadastrados, podendo incluir um novo Protocolo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Pedido
+Consultar Pedidos cadastrados, podendo incluir um novo Pedido, bem como alterar, excluir, os já cadastrados no Sistema.
+
+▸ Operação Veículo
+Exibe as Operações com Veículo cadastradas, podendo incluir uma nova Operação, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ G.E.D
+Cadastrar/Editar Documentos GED, podendo visualizar os excluídos e bloqueados no Sistema.
+
+▸ Indisponibilidade Manual
+Exibe as Ordens de Indisponibilidade cadastradas, podendo incluir uma nova Ordem, bem como alterar ou excluir as já cadastradas no Sistema.

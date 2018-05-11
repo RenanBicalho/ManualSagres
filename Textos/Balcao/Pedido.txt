@@ -1,0 +1,186 @@
+Balcão de Atendimento ▸ Pedido
+Ao clicar em 'Pedido', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Pedidos cadastrados no Sistema, que serão exibidos, na ordem das inclusões mais recentes, na tabela localizada na parte inferior da tela.
+
+Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Pedido, como Número e Situação do mesmo, podendo selecionar Matrícula, Registro Auxiliar, Transcrição e Pessoa, dentre os já cadastrados no Sistema.
+
+Feito isso, clique em  Filtro
+
+Assim, os Pedidos referentes aos dados inseridos serão listados abaixo, a partir dos mais recentes, onde poderão ser visualizados os dados de cada um.
+Dando um duplo-clique sobre um dos Pedidos listados na tabela, ou ao selecionar um deles e clicar em Selecionar, será exibida a tela de Cadastro de Pedido, onde os dados do mesmo poderão ser alterados. Também será possível excluí-lo.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso seja necessário, é possível cadastrar um novo Pedido. Basta clicar em  Novo Pedido no canto superior direito. Assim, a janela de Cadastro de Pedido será exibida, onde o mesmo poderá ser cadastrado.
+
+
+
+
+Pedido
+Tela Pesquisa Pedido
+
+
+
+
+
+▸ Cadastro de Pedido
+
+Ao clicar em Novo Pedido, a tela abaixo será exibida, onde será possível cadastrar um Pedido de Balcão, uma vez que os campos estarão disponíveis para serem preenchidos.
+
+Assim, basta inserir os dados, já cadastrados no Sistema, do Apresentante. Devem ser inseridos também os Dados do Contato e do Atendimento.
+Feito isso, clique em  Gravar para cadastrar o Pedido.
+
+Uma vez cadastrado, a tela de Serviços será exibida, onde os Itens dos mesmos poderão ser incluidos no Pedido em questão.
+
+Feito isso, o Pedido pode ser protocolado, selecionando a Natureza do Protocolo, dentre as já cadastradas, no campo 'Criando novo Protocolo', após os dados do Atendimento. A data exibida será a do dia em que o Sistema estiver sendo executado, podendo ser alterada, caso seja necessário.
+Assim, basta clicar em  Protocolar para protocolar o Pedido em questão.
+Dessa maneira, a tela de Cadastro de Protocolo será exibida, onde serão apresentados os dados do Protocolo em questão, sendo possível incluir Rascunhos de Atos ao cadastro do mesmo.
+
+Registrado o Protocolo, poderão ser inseridos Itens ao mesmo, como: Serviços, Pagamentos e Apontamentos. Tais itens estarão exibidos, nas abas correspondentes, na parte inferior da tela em questão.
+Ações correspondentes à cada Item, como inserção e exclusão, poderão ser realizadas através dos Botões localizados à direita da aba de cada Item.
+Também será possível navegar entre as abas do Pedido na parte superior da tela, visualizando, inserindo e editando etapas do mesmo, como Protocolo e Exigências do mesmo.
+
+Para editar os dados de um Pedido cadastrado, basta clicar em  Alterar. Depois de editado,
+clique em  Gravar para salvar as alterações realizadas.
+
+Também é possível excluir um Pedido cadastrado clicando em  Excluir. Assim, o Pedido em questão será excluído do Banco de Dados do Sistema.
+
+Feita a gravação do Pedido, estarão disponíveis, no menu lateral à direita da tela, botões onde diversas ações poderão ser realizadas:
+
+O ícone Situação indica a Situação do pagamento referente ao Pedido em questão:
+O Cifrão na cor Vermelha indica que o Pagamento ainda não foi realizado;
+O Cifrão na cor Amarela indica que apenas uma parte do Pagamento foi realizada, há um Reembolso a ser feito ao Cliente, ou um Crédito a ser utilizado por ele;
+O Cifrão na cor Verde indica que o Pagamento foi concluído.
+
+Ao clicar em Anotar será possível cadastrar anotações junto ao Pedido em questão.
+
+Ao clicar em Protocolo a tela de Cadastro de Protocolo será exibida.
+
+Ao clicar em Transcrição a tela de Cadastro de Transcrição será exibida.
+
+Ao clicar em Atos a tela de Rascunho de Atos será exibida, descrita em Protocolo.
+
+Ao clicar em Matrícula a tela de Cadastro de Matrícula será exibida.
+
+Ao clicar em Certidão a tela de Cadastro de Certidão será exibida, onde uma Certidão referente ao Pedido poderá ser cadastrada no Sistema.
+
+Ao clicar em Título a tela de Cadastro de Título será exibida, onde um Título referente ao Pedido poderá ser cadastrado no Sistema.
+
+Ao clicar em Exigência a tela de Cadastro de Exigência será exibida, onde uma Exigência referente ao Pedido poderá ser cadastrada no Sistema.
+
+Ao clicar em Pagamento a tela de Formas de Pagamento será exibida, onde o Pagamento referente aos Serviços do Pedido em questão poderá ser registrado no Sistema.
+
+Ao clicar em Ficha será possível Imprimir o Relatorio referente à Ficha Financeira do Pedido em questão.
+
+Ao clicar em Recibos será possível Imprimir o Relatorio referente aos Recibos de Certidões do Pedido em questão.
+
+
+
+Cadastro Pedido
+Tela Cadastro Pedido
+
+
+
+
+
+
+
+
+▸ Serviços
+
+Para incluir um Serviço ao Pedido basta inserir, no campo de pesquisa no topo da tabela, um termo referente à algum Serviço cadastrado no Sistema. Feito isso, basta selecionar o Serviço que desejar dentre os resultantes da pesquisa, exibindo os Itens do mesmo. Por fim, resta selecionar um dentre os Itens listados para tal Serviço e clicar em Incluir para inclui-lo no Pedido em questão.
+Se desejar incluir outro Item de Serviço, basta repetir os procedimentos descritos anteriormente.
+Caso desejar finalizar a inclusão de Itens de Serviço, basta fechar a janela em questão.
+
+
+Serviços
+Tela Serviços
+
+
+
+
+
+
+
+
+
+
+▸ Certidão
+
+Para gerar uma Certidão Inteiro Teor, basta selecionar o Serviço desejado e inserir, na janela à esquerda da tela, o Apontamento referente a um Imóvel ou Pessoa já registrado no Sistema.
+Para gerar outro tipos de Certidão, basta selecionar o tipo que desejar no campo 'Outras Certidões', no centro da tela, e inserir o Apontamento correspondente.
+Assim, basta clicar em Mais que o texto e as imagens da Certidão serão gerados automaticamente, assim como o preço a ser cobrado para registrar a certidão, que será exibido no rodapé da tela.
+No canto inferior esquerdo há o botão Pagamentos, onde, após gravar a Certidão, será necessário registrar a cobrança do valor tabelado para tal serviço, afim de emitir a Certidão.
+
+
+Certidão
+Tela Certidão
+
+
+
+
+
+
+
+
+
+
+▸ Título
+Ao clicar em 'Título', a tela abaixo será exibida, onde poderá ser cadastrado um Título vinculado ao Pedido em questão. Assim, é possível navegar entre eles, através das setas do canto superior esquerdo.
+
+Como pode ser percebido, os dados dos Títulos cadastrados estarão inativos para edição.
+Para editar os dados de um Título, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Título, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Título, sendo que o Número e o Pedido do mesmo são preenchidos automaticamente. Feito isso, clique em  Gravar para finalizar o cadastro do Título.
+
+Também é possível excluir um Título cadastrado clicando em  Excluir.
+Assim, o Título em questão será excluído do Pedido ao qual estava vinculado.
+
+
+Título
+Tela Título
+
+
+
+
+
+
+
+
+
+
+▸ Exigências
+
+Ao clicar em 'Exigência', a tela abaixo será exibida, onde poderá ser cadastrada uma Exigência vinculada ao Pedido em questão. Assim, é possível navegar entre elas, através das setas do canto superior esquerdo.
+
+Como pode ser percebido, os dados das Exigências cadastradas estarão inativos para edição.
+Para editar os dados de um Exigência, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Exigência, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Exigência, sendo que o Código da mesma é preenchido automaticamente. Feito isso, clique em  Gravar para gravar o cadastro da Exigência.
+
+Também é possível excluir uma Exigência cadastrada clicando em  Excluir.
+Assim, a Exigência em questão será excluída do Pedido ao qual estava vinculado.
+
+Cumprida tal Exigência, a mesma poderá ser finalizada, bastando clicar em  Finalizar.
+
+
+Exigências
+Tela Exigências
+
+
+
+
+
+
+
+
+
+
+▸ Formas de Pagamento
+
+Ao realizar o Pagamento referente aos Serviços incluídos no Pedido, como Certidões e Atos, a tela abaixo será exibida, onde será apresentado o valor total a ser pago por um determinado Pedido no campo 'TOTAL PEDIDO'. Assim, basta selecionar a Forma de Pagamento, sendo estas já cadastradas no Sistema, o Convênio (se necessário) e o valor a ser pago pelo Cliente. É possível dar um duplo-clique no campo 'Valor' para preenchê-lo automaticamente com o valor total do pedido.
+Feito isso, clique em Ícone Mais para incluir o pagamento. Dessa maneira, o tela de Movimento de Caixa será exibida para que o valor seja registrado.
+Os demais botões à direita podem ser utilizados para Excluir, Editar e Registrar um Pagamento.

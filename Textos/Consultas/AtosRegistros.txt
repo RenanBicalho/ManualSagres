@@ -1,0 +1,14 @@
+Ao clicar em 'Atos/Registros', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Atos e Registros, realizados pelo Cartório, e já cadastrados no Sistema.
+Assim, os nomes ds mesmos serão exibidos, juntamente com os números de Protocolo, ao final da tela.
+
+Para realizar uma Consulta, selecione o que deseja encontrar, Ato ou Rascunho.
+Outros filtros também poderão ser adicionados à pesquisa, como Tipo e Classe de Registro.
+Sendo, necessário, é possível consultar os Atos e Registros referentes à Parte Envolvida, inserindo os dados da mesma, que deve ser uma Pessoa já cadastrada no Sistema.
+
+Feito isso, clique em  Filtrar, para exibir os resultados da consulta.
+
+Assim, os Atos e Registros, referentes aos filtros inseridos serão listados, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Para Imprimir, Gerar uma planilha Excel ou inserir filtros em relação aos Atos e Registros listados, basta clicar no ícone correspondente, logo acima dos resultados exibidos, sendo, respectivamente:  Botões.

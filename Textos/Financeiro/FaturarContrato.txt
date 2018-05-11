@@ -1,0 +1,14 @@
+Ao clicar em 'Faturar Contrato', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Contratos a serem faturados pelo Cartório, estando estes já cadastrados no Sistema.
+
+Para realizar uma consulta, basta inserir os filtros que julgar necessário, referentes ao Tipo de Contrato, Período a ser Faturado, e Mensalista, selecionando campos já cadastrados no Sistema.
+
+Feito isso, clique em  Filtrar
+
+Assim, os Contratos, referentes aos dados inseridos serão listados, onde poderão ser visualizados os dados de cada um, bem como os Itens que possuem, listados na janela da parte inferior da tela.
+
+Para Faturar um Contrato, basta selecionar o Tipo de Lançamento e um contrato, dentre os resultantes da consulta, e clicar em Faturar, logo acima da lista de Contratos exibida.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Como pode ser observado abaixo, existe uma aba denominada 'Histórico' que exibe os Contratos faturados por cada Operador, bem como os Itens de cada um.
+Para Cancelar um Faturamento, basta selecionar o Contrato que desejar e clicar em  Cancelar, no canto superior direto da tela.

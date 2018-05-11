@@ -1,0 +1,4 @@
+Ao clicar em 'Atualizar Atos Bloqueados', a tela abaixo será exibida, onde um Ato Bloqueado poderá ser autorizado.
+Serão exibidos os Atos Bloqueados pelo Cartório, onde os dados do mesmo poderão ser visualizados.
+
+Assim, basta selecionar os Atos que desejar autorizar e clicar em.  Autorizar para aplicar a autorização do Ato em questão.

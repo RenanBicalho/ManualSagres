@@ -1,0 +1,14 @@
+Ao clicar em 'Operação Veículo', a tela abaixo será exibida, onde será possível cadastrar uma Operação de Veículo, uma vez que os campos estarão disponíveis para serem preenchidos.
+
+Assim, basta selecionar o Tipo de Operação, dentre os já cadastrados no Sistema, e a Data da Operação. Deve ser inserido também a placa de um Veículo cadastrado, sendo que os demais dados do mesmo serão preenchidos automaticamente de acordo com a placa inserida.
+
+Por fim, selecione uma Pessoa já cadastrada e associe à ela um Papel de Parte Envolvida na Operação, clicando em  Ícone Mais para inseri-la na lista de Pessoas envolvidas na Operação.
+
+Feito isso, clique em  Gravar para cadastrar a Operação.
+
+Para visualizar as Operações cadastradas no Sistema, basta clicar em  Cancelar no menu superior.
+Assim, será exibido a primeira, em ordem do número das mesmas, das Operações cadastrados, sendo possível navegar entre elas, através das setas do canto superior esquerdo.
+Dessa maneira, os dados da Operação cadastrada podem ser alterados, bastando clicar em  Alterar no menu superior.
+Assim, a tela abaixo será exibida com os dados da Operação em questão. Basta realizar as alterações que desejar e clicar em  Gravar para finalizar.
+
+Também é possível excluir uma Operação cadastrada clicando em  Excluir. Assim, a Operação em questão será excluída do Banco de Dados do Sistema.

@@ -1,0 +1,14 @@
+Ao clicar em 'Cadastro', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Loteamentos cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre eles.
+Serão exibidos os dados de cada Loteamento, bem como o Imóvel de origem e dados complementares nas abas da janela inferior.
+
+Como pode ser percebido, os dados do Loteamento exibido na tela estarão inativos para edição.
+
+Para editar os dados de um Loteamento cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Loteamento, basta clicar em  Incluir. Assim, basta inserir os dados do novo Loteamento e do Imóvel de Origem do mesmo, sendo que o Código é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Loteamento.
+Assim, as tabelas dos dados complementares serão geradas automaticamente, sendo possível incluir itens em cada uma delas.
+
+Também é possível excluir um Loteamento cadastrado clicando em  Excluir.
+Assim, o Loteamento em questão será excluído do Banco de Dados do Sistema.

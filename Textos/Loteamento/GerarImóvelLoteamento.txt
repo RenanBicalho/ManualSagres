@@ -1,0 +1,9 @@
+Ao clicar em 'Gerar Imóvel pelo Loteamento', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Loteamentos cadastrados no Sistema, que serão exibidos em ordem dos números dos mesmos.
+
+Para realizar uma pesquisa, basta selecionar um, dentre os Loteamentos já cadastrados no Sistema.
+Assim, os Registros Auxiliares referentes aos dados inseridos serão listados abaixo, em ordem do número dos mesmos.
+É possível incluir, se necessário for, filtros referentes à Quadra ou Lote, selecionando as abas correspondentes.
+
+Feito isso, basta selecionar um dos Loteamentos listados e clicar em  Gerar Imóvel , no final da tela, para gerar um Imóvel a partir do Loteamento selecionado.
+
+Para realizar uma nova pesquisa e gerar outro Imóvel, basta repetir as operações descritas acima.

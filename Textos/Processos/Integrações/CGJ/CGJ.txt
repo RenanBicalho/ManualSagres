@@ -1,0 +1,5 @@
+▸ Importar Selo
+Importar Selo já gerado a partir de arquivos XML.
+
+▸ Exportar Selo
+Exportar Selos já gerados em arquivos XML.

@@ -1,0 +1,18 @@
+Ao clicar em 'Protocolos Vencidos/Vencer', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Protocolos Vencidos ou a Vencer, realizados pelo Cartório, e já cadastrados no Sistema.
+Serão exibidos, os Protocolos, juntamente com uma Descrição do mesmo, ao final da tela.
+Os Protocolos Vencidos serão ordenados de acordo com o número de dias existentes após o vencimento.
+Os Protocolos a Vencer serão ordenados de acordo com o número de dias restantes até o vencimento.
+
+Para realizar uma Consulta, selecione o Status do Protocolo que deseja encontrar, Vencido ou a Vencer.
+Inicialmente, serão pesquisados Protocolos com 60 dias até o Vencimento ou após o mesmo. Esse valor pode ser alterado, se necessário, no campo correspondente, após os campos de Status.
+
+Feito isso, clique em  Atualizar, para atualizar a consulta.
+
+Assim, os Protocolos, referentes aos filtros inseridos serão listados, ordenados pelos Números, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta repetir as operações descritas acima.
+
+Para Reprotocolar, Cancelar, Imprimir ou Gerar uma planilha Excel de um dos Protocolo listados, basta selecioná-lo e clicar no ícone correspondente, no canto superior esquerdo da tela, sendo, respectivamente: Botões.
+
+Para abrir o Pedido ou o próprio Protocolo, dentre os listados, basta selecioná-lo e clicar em Abrir, no canto inferir direito da tela, e clicar na opção correspondente.
+Assim, as telas de Pedido e Protocolo serão exibidas.

@@ -1,0 +1,12 @@
+Gerar DOI
+Ao clicar em 'Gerar DOI', a tela abaixo será exibida, onde poderão ser gerados arquivos DOI referentes a Receita Federal.
+
+Assim, basta informar os filtros que for necessário, como Data, Matricula e Situação, para encontrar o "ITEM" a partir do qual será gerado o arquivo DOI.
+No campo 'Diretório Padrão' está especificado onde será salvo o arquivo gerado, sendo um padrão que não pode ser modificado.
+Assim, clique em  Pesquisar para exibir os resultados da pesquisa em questão.
+
+Feito isso, basta clicar em  Gerar DOI para gerar o arquivo DOI em questão, sendo este salvo no diretório especificado anteriormente.
+
+Na aba 'Histórico' estarão apresentados os arquivos DOI já gerados pelo Sistema, juntamente com os dados referentes aos mesmos.
+Para cancelar um DOI, basta clicar em  Cancelar DOI
+Assim, o Item referente ao mesmo será apresentado em vermelho, indicando que o mesmo foi cancelado.

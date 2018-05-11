@@ -1,0 +1,12 @@
+Ao clicar em 'Cadastro', a tela abaixo será exibida, onde será possível realizar um Cadastro de Registro Auxiliar, uma vez que os campos estarão disponíveis para serem preenchidos.
+
+Assim, basta selecionar um título de Registro já cadastrado, sendo que o Texto Padrão do mesmo será preenchido automaticamente, e especificar os dados do Penhor, caso houver.
+Feito isso, clique em  Gravar para cadastrar o Registro.
+
+Para visualizar os Registros cadastrados no Sistema, basta clicar em  Cancelar no menu superior.
+Assim, será exibido o primeiro, em ordem do número dos mesmos, dos Registros cadastrados, sendo possível navegar, através das setas do canto superior esquerdo, entre eles.
+Dessa maneira, os dados do Registro cadastrado podem ser alterados, bastando clicar em  Alterar no menu superior.
+Assim, a tela abaixo será exibida com os dados do Registro em questão. Basta realizar as alterações que desejar e clicar em  Gravar para finalizar.
+
+Também é possível excluir um Registro cadastrado clicando em  Excluir.
+Assim, o Registro em questão será excluído do Banco de Dados do Sistema.

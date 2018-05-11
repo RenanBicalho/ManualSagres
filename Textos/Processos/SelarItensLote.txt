@@ -1,0 +1,9 @@
+Ao clicar em 'Selar Itens em Lote', a tela abaixo será exibida, onde poderão ser visualizados os Itens de Serviço em Lote realizados pelo Cartório, ordenados pelo número do Pedido de Balcão referente ao Item.
+
+Os Itens em questão podem ser filtrados pelo número do Pedido, inserindo, no topo da tela, um intervalo de valores para tal número.
+Feito isso, clique em  Filtro
+Assim, os Itens correspondentes serão exibidos, os dados de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Para Selar um Item, basta selecionar pelo menos um, dentre os listados, e clicar em  Selar para aplicar um Selo, um vez que exista Estoque para tal. 

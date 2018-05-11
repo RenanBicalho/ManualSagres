@@ -1,0 +1,30 @@
+Consultas
+▸ Tabela de Preço
+Realizar Consulta de Preços dos Serviços cadastrados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Estoque Selo
+Realizar Consulta de Estoque de Selos cadastrados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Protocolos Vencidos/Vencer
+Realizar Protocolos Vencidos ou a Vencer cadastrados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Atos/Registros
+Realizar Consulta de Atos/Registros cadastrados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Registro de LOGs do Sistema
+Realizar Consulta de LOGs do Sistema (Tarefas realizadas por cada Operador), podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Indisponibilidades
+Realizar Consulta de Indisponibilidades cadastradas no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Pedidos com Exigências Cumpridas
+Realizar Consulta de Pedidos Balcão com Exigências Cumpridas cadastrados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Selos Eletrônicos
+Realizar Consulta de Selos Eletrônicos utilizados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.
+
+▸ Dashboard
+Exibir painéis de indicadores das ações realizadas pelo Cartório em um determinado período.
+
+▸ Pesquisa a Base de Dados
+Realizar Consulta à Base de Dados do Sistema, podendo utilizar filtros de pesquisa, se for necessário.

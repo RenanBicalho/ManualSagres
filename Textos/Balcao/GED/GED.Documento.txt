@@ -1,0 +1,10 @@
+Ao clicar em 'Documento', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Documentos GED cadastrados no Sistema, que serão exibidos, na ordem das inclusões mais recentes, na tabela localizada na parte inferior da tela.
+
+Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Documento, como Identificador, Título e Responsável do mesmo, podendo incluir datas de Assinatura, Criação, Modificação, Vigência, Inclusão e Alteração do Documento.
+Feito isso, clique em  Filtro
+Assim, os Documentos referentes aos dados inseridos serão listados abaixo, em ordem do número dos mesmos, onde poderão ser visualizados os dados de cada um.
+Dando um duplo-clique sobre um dos Documentos listados na tabela, ou clicando em  Selecionar, será exibida a tela de cadastro do Documento, onde os dados do mesmo poderão ser alterados. Também será possível excluí-lo, movendo-o para Lixeira.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso seja necessário, é possível cadastrar um novo Documento. Basta clicar em  Novo Doc no canto superior direito. Assim, a janela de Cadastro de Documento será exibida, onde o mesmo poderá ser cadastrado.

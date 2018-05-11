@@ -1,0 +1,47 @@
+Ao clicar em 'Protocolo', a tela abaixo será exibida, onde será possível realizar um Protocolo de Atendimento, uma vez que os campos estarão disponíveis para serem preenchidos.
+
+Assim, basta inserir os dados, já cadastrados no Sistema, referentes ao novo Protocolo: Situação, Solicitante(Pessoa) e Natureza. Devem ser inseridos também: Unidade Federativa, Data, Vencimento e Anotações, caso necessário.
+Feito isso, clique em  Gravar para cadastrar o Protocolo.
+
+Para visualizar os Protocolos cadastrados no Sistema, basta navegar através das setas do canto superior esquerdo da tela.
+Assim, a aba 'Todos' poderá ser exibida, onde o primeiro, em ordem do número dos mesmos, dos Protocolos cadastrados, serão apresentados.
+
+Os dados do Protocolo cadastrado podem ser alterados, bastando clicar em  Alterar no menu superior.
+Assim, a tela abaixo será exibida com os dados do Protocolo em questão. Basta realizar as alterações que desejar e clicar em  Gravar para finalizar.
+
+Também é possível excluir um Protocolo cadastrado clicando em  Excluir.
+Assim, o Protocolo em questão será excluído do Banco de Dados do Sistema.
+
+Feito o Cadastro do Protocolo, uma janela na parte inferior da tela será exibida, onde Atos e Arquivos referentes ao Protocolo em questão poderão ser incluídos.
+Na aba 'Atos', basta clicar em Atos para exibir a tela de Rascunho de Atos.
+Para visualizar Atos Cadastrados, basta clicar em Atos Cadastrados para exibir a tela de Rascunho de Atos, com os já cadastrados listados no canto superior esquerdo.
+Na aba 'Arquivos', basta clicar nos ícones à direita da janela para inserir ou excluir um Arquivo referente ao Protocolo. Também é possível exibir anotações do Arquivo e abrir Documento GED relativo ao mesmo.
+
+
+
+Protocolo
+Tela Cadastro Protocolo
+
+
+
+
+
+▸ Registro de Atos
+
+Para cadastrar um Rascunho de Ato/Registro, basta clicar em  Incluir Ato.
+Assim, os dados do novo Ato estarão disponíveis para edição, sendo que o Número e a Data são gerados automaticamente.
+No campo 'Registro', ao selecionar o que desejar cadastrar, serão preenchidos o Tipo, a Classe de Registro e o Texto do mesmo.
+Assim, basta incluir as Partes Envolvidas, se necessário, em tal Ato/Registro, através da janela a esquerda da tela.
+
+Caso o Imóvel em questão tenha um Proprietário cadastrado, o mesmo será incluído como Parte Envolvida do Ato, exibindo uma tela de confirmação de tal operação. Para Incluir ou Excluir uma Parte Envolvida, basta clicar nos botões correspondentes à direta da janela em questão, sendo que cada Ato possui as devidas associações de Papéis de Partes Envolvidas.
+
+Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
+
+Feito isso, clique em  Gravar para finalizar o cadastro do Rascunho de Ato. Assim, o mesmo será exibido na janela no canto superior esquerdo da tela. Para registrá-lo, basta selecioná-lo pelo checkbox correspondente e clicar em Registrar Selecionados.
+Caso exista mais um de Rascunho cadastrado, é possível registrar todos de uma só vez, bastando clicar em Registrar Todos.
+
+Caso deseje alterar um Ato/Registro basta clicar em Alterar. Assim, os dados de tal Ato estarão habilitados para edição e o mesmo poderá ser novamente gravado no Sistema.
+
+Para excluir um Ato/Registro basta clicar em Excluir. Assim, tal Ato será excluído do Protocolo ao qual ele estava vinculado.
+
+Observação.:   Se a inclusão de Atos/Registros for feita através da tela "Atos Registrados", caso seja possível, o Ato em questão será registrado automaticamente, não somente gravado como Rascunho, como acontece na tela "Atos Rascunho".

@@ -1,0 +1,12 @@
+Ao clicar em 'Tabela Preço', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Preços de Serviços realizados pelo Cartório, já cadastrados no Sistema.
+Serão exibidos, em ordem alfabética, os Serviços e seus preços, juntamente com respectivos Taxas e Impostos.
+
+Inicialmente, serão exibidos todos os Serviços prestados pelo Cartório. Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Perído de Vigência, Serviço e Grupo de Serviço, sendo esses já cadastrados no Sistema.
+
+Feito isso, clique em  Filtrar
+
+Assim, os Serviços, referentes aos dados inseridos serão listados, em ordem alfabética, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso seja necessário, é possível imprimir a lista de Serviços exibida na tela. Basta clicar em  Imprimir, acima da lista de Serviços. Assim, a tela de impressão será exibida, onde o documento a ser impresso poderá ser visualizado e, posteriormente, a impressão poderá ser realizada.

@@ -1,0 +1,12 @@
+Ao clicar em 'Pedidos com Exigências Cumpridas', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Pedidos com Exigências Cumpridas realizados pelo Cartório e já cadastrados no Sistema.
+Serão exibidos, em ordem alfabética, os Pedidos e seus respectivos dados.
+
+Para realizar uma pesquisa, basta inserir as datas referentes ao Perído de cumprimento das Exigências dos Pedidos, , sendo essas já cadastrados no Sistema.
+
+Feito isso, clique em  Filtrar
+
+Assim, os Pedidos, referentes ao período inserido serão listados, em ordem dos números dos mesmos, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta repetir as operações descritas acima.
+
+Caso seja necessário, é possível exibir a tela de cadastro de Pedido. Basta dar um duplo-clique sobre o Pedido que desejar, ou selecioná-lo dentre os listados e clicar em  Selecionar, acima da tabela de Pedidos. Assim, a tela de realização de Pedidos será exibida, onde o mesmo poderá ser visualizado, alterado ou excluído, se for o caso.

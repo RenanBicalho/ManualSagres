@@ -1,0 +1,11 @@
+Matrícula ▸ Cadastro
+Ao clicar em 'Cadastro', a tela abaixo será exibida, onde será possível realizar um Cadastro de Matrícula de um Imóvel já cadastrado no Sistema, uma vez que os campos estarão disponíveis para serem preenchidos.
+
+Assim, basta inserir os dados da Matricula e do Imóvel em questão, em todas as abas apresentadas logo abaixo do número da mesma(preenchido automaticamente), e clicar em  Gravar para cadastrar a Matricula.
+
+Para visualizar as Matriculas cadastradas no Sistema, basta clicar em  Cancelar no menu superior.
+Assim, será exibido a primeira, em ordem do número das Matrículas cadastradas, sendo possível navegar, através das setas do canto superior esquerdo, entre elas.
+Dessa maneira, os dados da Matrícula cadastrada podem ser alterados, bastando clicar em  Alterar no menu superior.
+Assim, a tela abaixo será exibida com os dados da Matrícula em questão. Basta realizar as alterações que desejar e clicar em  Gravar para finalizar.
+
+Também é possível excluir uma Matrícula cadastrada clicando em  Excluir. Assim, a Matrícula em questão será excluída do Banco de Dados do Sistema.

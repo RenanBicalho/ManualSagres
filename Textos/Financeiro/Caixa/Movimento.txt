@@ -1,0 +1,43 @@
+Caixa ▸ Movimento
+Ao clicar em "Movimento", será exibida a tela abaixo, onde poderá ser visualizado o Movimento do Caixa, onde serão apresentados, nas abas superiores, os Pedidos de Balcão 'À Baixar' e 'Baixados', juntamente com os dados do Apresentante, os Itens e o Operador Responsável de cada Pedido.
+Também serão exibidos, ao final da tela, a data e hora da Abertura do Caixa, o Operador logado no Sistema, e o valor total a pagar do Pedido selecionado na lista acima.
+
+A fim de abrir ou fechar do Caixa, o Operador deverá clicar em  Abrir Caixa ou  Fechar
+Assim, as respectivas telas de Abertura e Fechamento de Caixa serão exibidas, onde tais operações poderão ser realizadas, caso ainda não tenham sido processadas.
+
+Ao clicar em  Reembolso a tela de Reembolso será exibida, onde tal operação pode ser realizada.
+
+Ao clicar em  Saída poderão ser realizadas operações de Retirada de Valores do Caixa, descritas aqui.
+
+A fim de dar Baixa em um Pedido, basta selecioná-lo na listagem de Pedidos e, se for necessário, selecionar o Item referente ao mesmo, na lista inferior, para realizar o Recebimento do mesmo.
+Assim, basta clicar em Receber e confirmar o valor na janela que será apresentada à direita da tela.
+OBS.: Caso a forma de Pagamento do Pedido à ser baixado seja Cheque, Depósito, ou Boleto, o mesmo ficará 'Aguardando Baixa'. Assim será necessário realizar a baixa do Pedido em questão em Consulta de Caixas.
+
+Caso for necessário cancelar a Baixa de um Item, ou de todo o Pedido, basta, na aba 'Baixados', selecionar o Pedido e o Item, se houver mais de um, que desejar desfazer a Baixa e clicar em  Estornar Item ou Estornar Tudo.
+OBS.: Caso a forma de Pagamento do Pedido à ter a baixa cancelada seja Cheque, Depósito, ou Boleto, será necessário realizar o cancelamento da baixa em Consulta de Caixas. Feito isso, a baixa poderá ser cancelada na aba 'Baixados' na tela de Movimento de Caixa.
+
+A mesma operação descrita acima poderá ser realizada na aba 'A Baixar'. Assim, o Pedido será retirado do Caixa e assim, o pagamento do mesmo poderá ser alterado na tela de Cadastro do Pedido.
+
+
+
+Movimento
+Tela Movimento de Caixa
+
+
+
+
+
+▸ Saída
+Ao clicar em  Saída, um menu com duas opções será exibido.
+
+A primeira delas, 'Transferência para Outro Caixa', permite a transferência de valores entre Caixas, apresentando a tela abaixo.
+Assim, basta selecionar o Caixa de destino, confirmar o mesmo, inserir o Valor a ser transferido e Observações, caso necessário.
+Feito isso, clique em 'Ok', ao final da tela, para finalizar a operação.
+
+Ao clicar na segunda opção, 'Retirada', uma janela à direita será exibida, onde um Valor pode ser retirado do Caixa.
+Assim, basta inserir, no campo 'Valor Retirada', o Valor que deseja retirar e fazer Observações, caso necessário, no campo 'Observação' logo abaixo.
+Feito isso, basta clicar em  Efetuar Baixa. Assim, o Valor inserido será retirado do Caixa em questão.
+Também é possível limpar os Valores inseridos, clicando em  Limpar.
+
+Para cancelar a Operação de Retirada, basta clicar em  Cancelar.
+Assim, a janela de Retirada será fechada, cancelando tal operação.

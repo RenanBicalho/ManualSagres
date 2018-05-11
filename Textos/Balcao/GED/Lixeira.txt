@@ -1,0 +1,7 @@
+Ao clicar em 'Lixeira', a tela abaixo será exibida, onde poderão ser visualizados os Documentos GED excluidos, que serão exibidos, na ordem das exclusões mais recentes, em uma tabela, juntamente com os dados correspondentes. Os dados do Arquivo referente aos Documentos listados serão apresentados no final da tela.
+
+Para recuperar um Documento excluído, basta selecioná-lo na tabela e clicar em  Recuperar
+Assim, o Documento em questão retornará aos cadastrados no Sistema.
+
+Para excluir definitivamente um Documento, basta selecioná-lo na tabela e clicar em  Excluir.
+Assim, o Documento em questão será excluído do Banco de Dados do Sistema.

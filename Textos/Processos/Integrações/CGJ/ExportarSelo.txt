@@ -1,0 +1,7 @@
+Ao clicar em 'Exportar Selo', a tela abaixo será exibida, onde poderão ser exportados Selos já importados anteriormente no Sistema.
+
+Assim, basta informar o Ramo Cartorial e a Data referentes ao Selo que está sendo exportado e clicar em Exportar XML para selecionar o diretório, na máquina em questão, onde o arquivo será salvo, nomeando o mesmo.
+
+Feito isso, será gerado um arquivo em XML referente ao Selo exportado.
+
+Na aba 'Histórico' estarão apresentados os Selos já exportados pelo Sistema, juntamente com os dados referentes às Exportações em questão.

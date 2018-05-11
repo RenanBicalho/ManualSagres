@@ -1,0 +1,10 @@
+Ao clicar em 'Estoque Selo', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Estoque de Selos de Atos TJ realizados pelo Cartório, já cadastrados no Sistema.
+Serão exibidos, pelo Número, os Atos e Estoques de Selo, juntamente com os Serviços vinculados ao Ato selecionado.
+
+Inicialmente, serão exibidos todos os Atos realizados pelo Cartório. Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Ato, Estoque e Serviços, sendo esses já cadastrados no Sistema.
+
+Feito isso, clique em  Filtro
+
+Assim, os Atos, referentes aos dados inseridos serão listados, ordenados pelos Números, onde poderão ser visualizados os Estoques e Serviços de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.

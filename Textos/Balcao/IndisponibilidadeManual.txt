@@ -1,0 +1,13 @@
+Ao clicar em 'Indisponibilidade Manual', a tela abaixo será exibida, onde poderá ser visualizado a primeira, em ordem alfabética, das Ordens de Indisponibilidade Manual cadastradas no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre elas.
+Serão exibidos os dados de cada Ordem, bem como as Partes Envolvidas e o Imóvel da Pessoa Indisponibilizada nas janelas localizadas ao final da tela.
+
+Como pode ser percebido, os dados da Ordem exibida na tela estão inativos para edição.
+
+Para editar os dados de uma Ordem cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Ordem, basta clicar em  Incluir. Assim, basta inserir os dados da nova Ordem, sendo que o Código é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Ordem.
+
+Também é possível excluir uma Ordem cadastrada clicando em  Excluir.
+Assim, a Ordem em questão será excluída do Banco de Dados do Sistema.

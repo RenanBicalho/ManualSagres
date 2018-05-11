@@ -1,0 +1,18 @@
+Ao clicar em 'Consulta', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Operações de Caixa realizadas no Sistema, onde serão exibidos, os Operadores, os Caixas que foram abertos e fechados pelo determinado Operador, e as operações realizadas por ele em cada Abertura de Caixa.
+
+Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Caixa, como Número, Situação e data do mesmo, podendo selecionar um Atendente, dentre os já cadastrados no Sistema, e a Forma de Pagamento utilizada.
+
+Feito isso, clique em  Filtro
+
+Assim, os Caixas, Operadores e operações, referentes aos dados inseridos serão listados, em ordem dos Códigos dos mesmos, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso a Forma de Pagamento do Item baixado seja Cheque, Depósito ou Boleto, é necessário Efetuar a Baixa do mesmo. Basta selecionar um, dentre os Itens listados, que está na situação 'Aguardando Baixa', e clicar em  Efetuar Baixa à direita da lista de Itens. Assim, basta obter a autorização do Operador responsável que a Baixa do Item será efetuada.
+
+Sendo necessário, é possível cancelar a baixa de um Item cuja Forma de Pagamento seja Cheque, Depósito ou Boleto. Basta selecionar o item que deseja realizar o cancelamento e clicar em  Cancelar Baixa, à direita da lista de Itens. Assim, após autorização do responsável, a baixa de tal item será cancelada, porém irá permanecer como 'Baixado' em Movimento de Caixa.
+
+Também à direita da lista de Itens, é possível realizar outras operações:
+Ao selecionar um Item de Caixa e clicar em  Editar uma janela se abrirá, onde será possível Editar os dados da Forma de Pagamento de tal Item.
+Ao selecionar um Caixa ainda Aberto e clicar em  Excluir será possível excluir tal Caixa, bastando confirmar os dados Operador responsável.
+Ao selecionar um Caixa ainda Aberto e clicar em  Trocar será possível trocar o responsável pelo Caixa, bastando selecionar o novo responsável pelo Caixa em questão, uma vez que esteja autorizado à realizar tal operação.

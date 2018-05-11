@@ -1,0 +1,7 @@
+Ao clicar em 'Eventos Cartoriais', a tela abaixo será exibida, onde poderão ser visualizados gráficos que ilustram os Eventos realizados pelo Cartório entre as datas selecionadas no campo 'Período', localizado no topo do painel.
+
+Para visualizar os Eventos dentro de um período de datas, basta inserir as datas no campo correspondente, ou alternar entre os dias da data em questão através das setas laterais aos campos.
+Feito isso, basta clicar em  Filtrar para aplicar o filtro inserido e exibir o painel de acordo com o mesmo.
+
+Para cada Evento ilustrado no painel é possível selecionar filtros em relação a aplicação do período inserido anteriormente. Assim, as datas podem ser aplicadas à Data de Inclusão, Vencimento ou Cancelamento, por exemplo.
+Após a inserção de tais filtros, basta clicar em  Filtrar para exibir os gráficos de acordo com os filtros inseridos para cada Evento.

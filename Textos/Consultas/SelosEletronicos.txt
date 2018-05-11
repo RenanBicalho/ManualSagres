@@ -1,0 +1,12 @@
+Ao clicar em 'Selos Eletrônicos', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Selos Eletrônicos emitidos pelo Cartório, já cadastrados no Sistema.
+Serão exibidos, pelo Número do Pedido, os Selos, juntamente com os dados dos mesmos, bem como o operador que o emitiu.
+
+Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Selo (Número, Período, Lote), Pedido e Operador.
+
+Feito isso, clique em  Filtro
+
+Assim, os Selos, referentes aos dados inseridos serão listados, ordenados pelos Números dos Pedidos, onde poderão ser visualizados os dados dos mesmos.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso seja necessário, é possível imprimir a lista de Selos exibida na tela, referente à pesquisa realizada. Basta clicar em 'Imprimir', acima da tabela de Selos. Assim, a tela de impressão será exibida, onde o documento a ser impresso poderá ser visualizado e, posteriormente, a impressão poderá ser realizada.

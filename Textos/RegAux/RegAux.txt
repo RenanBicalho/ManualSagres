@@ -1,0 +1,5 @@
+▸ Cadastro
+Exibe os Registros Auxiliares cadastrados, podendo incluir um novo Registro, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Pesquisar
+Realizar pesquisa de Registros Auxiliares cadastrados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.

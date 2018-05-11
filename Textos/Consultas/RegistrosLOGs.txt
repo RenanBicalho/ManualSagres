@@ -1,0 +1,11 @@
+Ao clicar em 'Registros de LOGs do Sistema', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de LOGs registrados no Sistema.
+Inicialmente, todos serão exibidos, juntamente com os dados do LOG, como número, versão do Sistema, IP da máquina utilizada e número da sessão. Também será possível visualizar os dados do Operador referente ao LOG, bem como as operações realizadas por ele durante o acesso ao Sistema.
+
+Para realizar uma Consulta, clique sobre o Nome de um dos dados dos LOGs, no topo da tabela, e insira o valor desse dado, referente ao LOG que deseja encontrar, na janela que abrirá.
+Feito isso, clique em 'Ok' ou pressione a tecla 'Enter' do teclado, para exibir o resultado da consulta.
+
+Assim, o primeiro LOGs, referente ao valor do campo inserido será selecionado, onde poderá ser visualizados os dados do mesmo, bem como os LOGs semenlhantes em relação ao valor do campo em questão.
+
+Para realizar uma nova pesquisa, basta repetir as operações descritas acima.
+
+Para Gerar uma planilha Excel ou inserir filtros em relação aos LOGs listados, basta clicar no ícone correspondente, no topo da tela, sendo, respectivamente:  Botões.

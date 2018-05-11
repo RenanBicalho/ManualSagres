@@ -1,0 +1,9 @@
+Ao clicar em 'Pesquisar', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Matrículas cadastradas no Sistema, que serão exibidas em ordem dos números das mesmas.
+
+Para realizar uma pesquisa, basta inserir os dados referentes à Matrícula, Imóvel ou Proprietário do mesmo, selecionando Endereços e Pessoas, dentre os já cadastrados no Sistema.
+Feito isso, clique em  Filtro
+Assim, as Matrículas referentes aos dados inseridos serão listados abaixo, em ordem do número das mesmas, onde poderão ser visualizados os dados de cada uma.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso seja necessário, é possível cadastrar uma nova Matrícula. Basta clicar em  Incluir no canto superior direito. Assim, a janela de Cadastro de Matrícula será exibida.

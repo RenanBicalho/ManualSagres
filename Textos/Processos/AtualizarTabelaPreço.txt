@@ -1,0 +1,5 @@
+Ao clicar em 'Atualizar Tabela de Preço', a tela abaixo será exibida, onde um aumento percentual poderá ser aplicado à Tabela de preços referentes aos Serviços prestados pelo Cartório, sendo estes já cadastrados no Sistema.
+Serão exibidas as últimas atualizações realizadas, onde os dados da mesma poderão ser visualizados, assim como o Operador responsável pelas mesmas.
+
+Assim, basta selecionar a data de Início de Vigência de tal Atualização e inserir o percentual a ser aplicado.
+Feito isso, clique em  Processar para aplicar a Atualização em questão.

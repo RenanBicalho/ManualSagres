@@ -1,0 +1,5 @@
+Ao clicar em "Reembolso", será exibida a tela abaixo, onde poderá ser visualizado o Pedido do Balcão que originou o Reembolso, onde serão apresentados o Número do mesmo e os dados do Apresentante, preenchidos automaticamente.
+
+A fim de registrar o Reembolso, o Operador deverá inserir o Motivo, o Tipo de Documento e o Tipo de Movimento Financeiro, ambos já cadastrados no Sistema. Também poderão ser feitas Observações ao final da tela, se for necessário.
+
+Feito isso, o valor do Reembolso, exibido após as observações, poderá ser registrado, bastando clicar em 'Reembolsar', no canto inferior direto da tela.

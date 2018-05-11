@@ -1,0 +1,14 @@
+▸ Caixa
+Realizar operações de Caixa de determinado Operador.
+
+▸ Lançamentos
+Exibe os Lançamentos Financeiros cadastrados, podendo incluir um novo Lançamento, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Reembolso
+Realizar o Cadastro de Reembolso relativo à um Pedido de Balcão cadastrado no Sistema.
+
+▸ Faturar Contrato
+Faturar Contratos já realizados pelo Cartório.
+
+▸ Cobrança Boleto
+▸ Atos Extra Judiciais

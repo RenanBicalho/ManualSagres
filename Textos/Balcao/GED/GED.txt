@@ -1,0 +1,7 @@
+▸ Documento
+Exibe os Documentos GED cadastrados, podendo incluir um novo, bem como alterar, excluir, ou pesquisar um dos já cadastrados no Sistema.
+
+▸ Lixeira
+Exibe os Documentos GED excluídos, podendo recuperá-los ou excluí-los definitivamente do Sistema.
+
+▸ Bloqueados

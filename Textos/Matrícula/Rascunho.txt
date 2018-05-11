@@ -1,0 +1,15 @@
+Matrícula ▸ Rascunho
+Ao clicar em 'Rascunho', a tela abaixo será exibida, onde será possível realizar um Rascunho de Matrícula de um Imóvel já cadastrado no Sistema, uma vez que os campos estarão disponíveis para serem preenchidos.
+
+Assim, basta inserir os dados da Matricula e do Imóvel em questão, em todas as abas apresentadas logo abaixo do número do Rascunho(preenchido automaticamente), e clicar em  Gravar para cadastrar o Rascunho.
+
+Feito o cadastro do Rascunho, novas abas serão exibidas na parte inferior da tela, onde poderão ser cadastrados e visualizados dados referentes ao Imóvel em questão, como Proprietários, Credores, Protocolos e Atos. Para realizar o cadastro de tais dados, basta utilizar os botões localizados à direita na janela ou abaixo dela e inserir os dados necessários para tal cadastro.
+
+Para efetivar um Rascunho, basta clicar em  Matricular, realizando, de fato, a Matrícula do Imóvel em questão.
+
+Para visualizar os Rascunhos cadastrados no Sistema, basta clicar em  Cancelar no menu superior.
+Assim, será exibido o primeiro, em ordem do número dos Rascunhos cadastrados, sendo possível navegar, através das setas do canto superior esquerdo, entre eles.
+Dessa maneira, os dados de um Rascunho cadastrado podem ser alterados, bastando clicar em  Alterar no menu superior.
+Assim, a tela abaixo será exibida com os dados do Rascunho em questão. Basta realizar as alterações que desejar e clicar em  Gravar para finalizar.
+
+Também é possível excluir um Rascunho cadastrado clicando em  Excluir. Assim, o Rascunho em questão será excluído do Banco de Dados do Sistema.

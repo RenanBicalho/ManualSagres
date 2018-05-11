@@ -1,0 +1,5 @@
+▸ Cadastro
+Exibe os Loteamentos cadastrados, podendo incluir um novo Loteamento, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Gerar Imóvel pelo Loteamento
+Gerar Imóveis a partir de Loteamentos cadastrados no Sistema.

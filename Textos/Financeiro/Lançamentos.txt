@@ -1,0 +1,16 @@
+Ao clicar em 'Lançamentos', a tela abaixo será exibida, onde poderá ser visualizado o primeira, em ordem do Número, dos Lançamentos Financeiros cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre eles.
+Serão exibidos os dados de cada Lançamento, bem como os do Favorecido, do Cheque e Histórico.
+Ao final da tela serão exibidos os dados da Baixa do Lançamento em questão, caso tenha sido realizada.
+
+Como pode ser percebido, os dados do Lançamento exibido na tela estão inativos para edição.
+
+Para editar os dados de um Lançamento, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Lançamento, basta clicar em  Incluir. Assim, basta inserir os dados do novo Lançamento, sendo que o Número é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Lançamento.
+
+Também é possível excluir um Lançamento cadastrado clicando em  Excluir.
+Assim, o Lançamento em questão será excluído do Banco de Dados do Sistema.
+
+Inicialmente serão exibidos os Lançamentos a Baixar. Para alternar entre eles e os Baixados, basta utilizar as setas  Setas à direita do menu superior da tela.

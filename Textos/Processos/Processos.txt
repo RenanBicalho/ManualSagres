@@ -1,0 +1,16 @@
+Processos
+▸ Integrações
+▸ Atualizar Tabela de Preço
+Aplicar um aumento percentual na tabela de preços dos Serviços prestados pelo Cartório.
+
+▸ Atualizar Atos Bloqueados
+Exibir e Autorizar Atos Bloqueados pelo Cartório.
+
+▸ Matrícula em Lote
+Pesquisar e Matricular Rascunhos de Imóveis já cadastrados no Sistema.
+
+▸ Selar Itens em Lote
+Aplicar Selos à Itens de Serviços em Lote ofertados pelo Cartório.
+
+▸ Regerar XML Selo Importação
+Gerar arquivos XML referentes ao Selos a serem emitidos pelo Cartório.

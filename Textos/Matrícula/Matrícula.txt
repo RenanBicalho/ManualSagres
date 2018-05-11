@@ -1,0 +1,9 @@
+Matrícula
+▸ Rascunho
+Exibe os Rascunhos de Matrículas de Imóveis cadastrados, podendo incluir um novo Rascunho, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Cadastro
+Exibe as Matrículas de Imóveis cadastradas, podendo incluir uma nova Matrícula, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Pesquisar
+Realizar pesquisa de Imóveis Matriculados no Sistema, podendo utilizar filtros de pesquisa, se for necessário.

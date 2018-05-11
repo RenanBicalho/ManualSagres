@@ -1,0 +1,9 @@
+Ao clicar em 'Pesquisar', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Registros Auxiliares cadastrados no Sistema, que serão exibidos em ordem dos números dos mesmos.
+
+Para realizar uma pesquisa, basta inserir os dados referentes ao Registro, como número e protocolo do mesmo, selecionando Títulos de Registro e Penhor, dentre os já cadastrados no Sistema.
+Feito isso, clique em  Filtro
+Assim, os Registros Auxiliares referentes aos dados inseridos serão listados abaixo, em ordem do número dos mesmos, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.
+
+Caso seja necessário, é possível cadastrar um novo Registro. Basta clicar em  Incluir no canto superior direito. Assim, a janela de Cadastro de Registro Auxiliar será exibida.

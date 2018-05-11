@@ -1,0 +1,11 @@
+Ao clicar em 'Indisponibilidades', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Ordens de Indisponibilidade realizados pelo Cartório e já cadastrados no Sistema.
+Assim, será exibida a primeira Ordem, de acordo com o número da mesma, sendo possível navegar, através das setas do canto superior esquerdo, entre as Ordens cadastradas. Há também a possibilidade de visualizá-las em uma lista, localizada na aba 'Lista'.
+Serão exibidos as Ordens e seus respectivos dados, também referentes ao Solicitante e ao Operador.
+
+Para realizar uma pesquisa, basta inserir os filtros necessários, podendo se referirem, dentre outros, ao Protocolo ou ao tipo da mesma.
+
+Feito isso, clique em  Filtrar
+
+Assim, as Ordens, referentes ao filtros inseridos serão listados, onde poderão ser visualizados os dados de cada um.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.

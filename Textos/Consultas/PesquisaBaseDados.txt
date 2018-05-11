@@ -1,0 +1,13 @@
+Ao clicar em 'Pesquisa a Base de Dados', a tela abaixo será exibida, onde poderão ser realizadas consultas a Base de Dados do Sistema, sendo estas já cadastradas.
+Serão exibidos, de acordo com o Código, as Consultas, juntamente com os dados das mesmas, bem como o operador que a incluiu.
+
+Para realizar uma pesquisa, basta selecionar, no topo da tela, o Grupo ao qual a Consulta pertence.
+
+Feito isso, clique em  Filtrar, no menu superior.
+
+Assim, as Consultas, referentes ao Grupo inserido serão listadas, onde poderão ser visualizados os dados dos mesmos.
+
+Para realizar uma nova pesquisa, basta clicar em  Limpar Filtro. e repetir as operações descritas acima.
+
+Caso seja necessário, é possível realizar uma Consulta, dentre as listadas.
+Para isso, basta selecionar qual deseja executar e clicar em  Executar. Assim, os resultados da consulta em questão serão exibidos na aba 'Resultado', onde poderão ser visualizados os dados correspondentes à tal consulta.

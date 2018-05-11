@@ -1,0 +1,5 @@
+▸ Eventos Cartoriais
+Exibir um painel com gráficos relativos aos Eventos realizados pelo Cartório em um determinado período.
+
+▸ Financeiro
+Exibir um painel com gráficos relativos às operações financeiras realizadas pelo Cartório em um determinado período.
