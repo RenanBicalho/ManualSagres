@@ -1,0 +1,12 @@
+Ao clicar em 'Prioridades (Atendimento)', a tela abaixo será exibida, onde poderá ser visualizado a primeira, em ordem alfabética, das Prioridades de Atendimento cadastradas. Assim, é possível navegar, através das setas do canto superior esquerdo, entre as Prioridades cadastradas no Sistema. Serão exibidos o Código, a Tabela correspondente ao Serviço, a Descrição e Observações.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Prioridade de Atendimento cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Prioridade de Atendimento, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Prioridade, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Prioridade.
+
+Também é possível excluir uma Prioridade de Atendimento cadastrada clicando em  Excluir.
+Assim, a Prioridade em questão será excluída do Banco de Dados do Sistema.

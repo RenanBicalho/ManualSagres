@@ -1,0 +1,12 @@
+Ao clicar em 'Níveis de Acesso', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Níveis de Acesso cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Níveis de Acesso cadastrados no Sistema. Serão exibidos os Nome do mesmo, Observações e as permissões do mesmo nas "Check Boxes" na parte inferior da tela.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Nível de Acesso cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Nível de Acesso, basta clicar em  Incluir
+Assim, basta inserir os dados do novo Nível de Acesso, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Nível de Acesso.
+
+Também é possível excluir um Nível de Acesso cadastrado clicando em  Excluir.
+Assim, o Nível de Acesso em questão será excluído do Banco de Dados do Sistema.

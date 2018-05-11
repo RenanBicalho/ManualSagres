@@ -1,0 +1,24 @@
+Tabelas Internas ▸ Financeiro
+▸ Banco
+Exibe os Bancos cadastrados, podendo incluir um novo Banco, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Contas Bancárias
+Exibe as Contas Bancárias cadastradas, podendo incluir uma nova Conta, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Convênios Banco / Adm Cartão
+Exibe os Convênios de Banco/Administrador de Cartão cadastrados, podendo incluir um novo Convênio, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Formas de Pagto
+Exibe as Formas de Pagamento cadastradas, podendo incluir uma nova Forma, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Tipos de Lançamento
+Exibe os Tipos de Lançamento cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipos de Movimentos Financeiros
+Exibe os Tipos de Movimentos Financeiros cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipos de Contratos
+Exibe os Tipos de Contratos cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipos de Doc Financeiro
+Exibe os Tipos de Documento Financeiro cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.

@@ -1,0 +1,4 @@
+▸ Cadastro
+Cadastrar ou alterar Dados a serem utilizados no Sistema.
+▸ Trocar de Usuario
+Realizar LogOff no Sistema para realizar um Login de outro Usuário.

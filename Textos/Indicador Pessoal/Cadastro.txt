@@ -1,0 +1,16 @@
+Ao clicar em 'Cadastro', a tela abaixo será exibida, onde será possível inserir dados de uma nova Pessoa a ser cadastrada no sistema, uma vez que os dados exibidos na tela estarão ativos para edição.
+
+Assim, basta inserir os dados de uma nova Pessoa, como CPF/CNPJ (uma vez selecionado o CheckBox), Nome, Email, Tipo de Pessoa (Física/Jurídica), Endereço, Telefone, Documento.
+
+Ao cadastrar o Endereço da Pessoa, basta inserir o CEP e clicar em  CEP ou pressionar a tecla 'TAB'. Assim, os dados do Endereço serão preenchidos automaticamente. Este mesmo botão pode ser pressionado sem realizar inserção de CEP, apresentando uma tela onde poderá ser realizada uma pesquisa para encontrar o CEP referente ao Endereço da Pessoa em questão.
+
+Feito isso, clique em  Gravar para finalizar o cadastro da Pessoa.
+
+Os dados obrigatórios para inserção de uma nova Pessoa são: Nome, Tipo, Gênero e Data de Nascimento (Pessoa Física) ou Classificação e Data de Abertura (Pessoa Jurídica).
+
+Feito o Cadastro, a tela será atualizada, exibindo novas abas que apresentarão operações realizadas com a Pessoa em questão, como Atos/Registros, Protocolos e Pedidos Balcão. Também será possível inserir dados adicionais da Pessoa, como Emails e Relacionamentos.
+
+Para Consultar ou Alterar os dados de uma Pessoa cadastrada, basta clicar em  Pesquisar no menu superior.
+Uma janela será exibida e a pesquisa por uma Pessoa poderá ser realizada.
+Assim, ao dar um duplo-clique em uma dos resultados da pesquisa, a tela abaixo será exibida com os dados da Pessoa em questão. Basta realizar as alterações que desejar e clicar em  Gravar para finalizar.
+Feito isso, será possível Excluir ou Alterar novamente a Pessoa em questão, clicando em  Excluir ou Excluir.

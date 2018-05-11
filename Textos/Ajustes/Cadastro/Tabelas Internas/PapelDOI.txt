@@ -1,0 +1,12 @@
+Ao clicar em 'Papel DOI', a tela abaixo será exibida, onde poderá ser visualizado a primeiro, em ordem do Tipo de Registro, das relações entre Papéis de Partes Envolvidas e Tipos de Registro DOI cadastradas no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre elas. Serão exibidos na tela o Código, o Papel e o Tipo de Registro do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma relação cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma relação, basta clicar em  Incluir
+Assim, basta selecionar o Papel e o Tipo de Registro da nova relação, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro de tal relação.
+
+Também é possível excluir uma relação cadastrada clicando em  Excluir.
+Assim, a relação em questão será excluída do Banco de Dados do Sistema.

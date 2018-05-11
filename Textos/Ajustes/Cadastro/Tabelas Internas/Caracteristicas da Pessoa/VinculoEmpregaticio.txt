@@ -1,0 +1,12 @@
+Ao clicar em 'Vínculo Empregatício', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Vínculos Empregatícios cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Vínculos cadastrados no Sistema. Serão exibidos o Código, Descrição, e Observações do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Vínculo cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Vínculo, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Vínculo, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Vínculo.
+
+Também é possível excluir um Vínculos cadastrado clicando em  Excluir.
+Assim, o Vínculo em questão será excluído do Banco de Dados do Sistema.

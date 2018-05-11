@@ -1,0 +1,14 @@
+▸ Classes de Registros
+Exibe as Classes de Registro cadastrados, podendo incluir uma nova Classe, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Registros de Classe
+Exibe os Registros de Classe cadastrados, podendo incluir um novo Registro, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Averbação Indisponibilidade
+Exibe as Averbações de Indisponibilidades cadastradas, podendo incluir uma nova Averbação, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Modelo Exigências
+Exibe os Modelos de Exigências cadastrados, podendo incluir um novo Modelo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Papéis Partes Envolvidas
+Exibe os Papéis de Partes Envolvidas cadastradas, podendo incluir um novo Papel, bem como alterar ou excluir os já cadastrados no Sistema.

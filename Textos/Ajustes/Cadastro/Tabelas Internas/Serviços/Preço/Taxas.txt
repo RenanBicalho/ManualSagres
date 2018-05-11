@@ -1,0 +1,12 @@
+Ao clicar em 'Taxas', a tela abaixo será exibida, onde poderá ser visualizado a primeira, em ordem alfabética, das Taxas cadastradas no Sistema. Assim, é possível navegar entre elas, através das setas do canto superior esquerdo. Serão exibidos o Código, a Descrição, o Tipo da mesma, o Nome abreviado, as Vigências e Observações.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Taxa cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Taxa, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Taxa, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Taxa.
+
+Também é possível excluir uma Taxa cadastrada clicando em  Excluir.
+Assim, a Taxa em questão será excluída do Banco de Dados do Sistema.

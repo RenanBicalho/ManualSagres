@@ -1,0 +1,6 @@
+Ao clicar em 'Logradouros', a tela abaixo será exibida, onde poderão ser realizadas pesquisas de Logradouros cadastrados no Sistema, que serão exibidos em ordem alfabética.
+
+Para realizar uma pesquisa, basta selecionar, dentre os já cadastrados, Município, Bairro, Unidade Federativa e Logradouro.
+Assim, os Logradouros referentes aos dados inseridos serão listados abaixo, em ordem alfabética, onde poderá ser visualizado, além dos dados inseridos anteriormente, o CEP do mesmo.
+
+Para realizar uma nova pesquisa, basta clicar em  Filtro e repetir as operações descritas acima.

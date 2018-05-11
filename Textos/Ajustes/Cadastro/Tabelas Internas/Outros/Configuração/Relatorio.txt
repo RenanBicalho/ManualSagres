@@ -1,0 +1,16 @@
+Ao clicar em 'Relatórios', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética, dos Relatórios cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Relatórios cadastrados no Sistema.
+Serão exibidos o Código, Título, Datas de Vigência, e Observação do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Relatório cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Relatório, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Relatório, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Relatório.
+
+Também é possível excluir um Relatório cadastrado clicando em  Excluir.
+Assim, o Relatório em questão será excluído do Banco de Dados do Sistema.
+
+Para cada Relatório, será exibida, ao final da tela, uma lista dos Modelos do mesmo, na ordem de inserção.
+Clicando em  Cadastro, no canto inferior direto, a tela de Cadastro de Modelos será exibida, onde os mesmos poderão ser visualizados, cadastrados, excluidos, editados ou impressos, realizando os mesmos procedimentos descritos anteriormente, referentes aos Relatórios.

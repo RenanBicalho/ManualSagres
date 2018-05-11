@@ -1,0 +1,12 @@
+Ao clicar em 'Cor Veículo', a tela abaixo será exibida, onde poderá ser visualizada a primeira, em ordem alfabética, das Cores de Veículo cadastradas no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre elas. Serão exibidos na tela o Código, e a Descrição da mesma.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Cor de Veículo cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Cor de Veículo, basta clicar em  Incluir
+Assim, basta inserir os dados da nova Cor, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Cor de Veículo.
+
+Também é possível excluir uma Cor de Veículo cadastrada clicando em  Excluir.
+Assim, a Cor em questão será excluída do Banco de Dados do Sistema.

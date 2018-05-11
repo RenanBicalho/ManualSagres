@@ -1,0 +1,12 @@
+Ao clicar em 'Impostos', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Impostos cadastrados no Sistema. Assim, é possível navegar entre eles, através das setas do canto superior esquerdo. Serão exibidos o Código, a Descrição, o Tipo do mesmo, o Nome abreviado, as Vigências e Observações.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Imposto cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Imposto, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Imposto, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Imposto.
+
+Também é possível excluir um Imposto cadastrado clicando em  Excluir.
+Assim, o Imposto em questão será excluído do Banco de Dados do Sistema.

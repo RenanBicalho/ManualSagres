@@ -1,0 +1,5 @@
+▸ Cadastro
+Exibe as 'Pessoas' cadastradas no sistema, podendo cadastrar uma nova Pessoa, alterar ou excluir as já cadastradas.
+
+▸ Pesquisar
+Realizar pesquisa de Pessoas cadastradas no Sistema, podendo utilizar filtros de pesquisa, se for necessário.

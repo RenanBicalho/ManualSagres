@@ -1,0 +1,14 @@
+Cartório ▸ Livros de Registro
+Ao clicar em 'Livros de Registro', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Livros de Registro cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Livros cadastrados no Sistema.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Livro cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Livro de Registro, basta clicar em  Incluir
+Assim, basta inserir os dados do novo Livro, sendo que o Código do mesmo é gerado sequencialmente.
+O Ramo Cartorial, deve estar cadastrado, bastando selecionar um já cadastrado ou criar um novo, clicando no botão à direita do campo do Ramo.
+Feito isso, clique em  Gravar para finalizar o cadastro do Livro.
+
+Também é possível excluir um Livro cadastrado clicando em  Excluir.
+Assim, o Livro de Registro em questão será excluído do Banco de Dados do Sistema.

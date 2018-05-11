@@ -1,0 +1,12 @@
+Ao clicar em 'Tipo Veículo', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Tipos de Veículo cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre eles. Serão exibidos na tela o Código e a Descrição do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Tipo de Veículo cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Tipo de Veículo, basta clicar em  Incluir
+Assim, basta inserir a Descrição do novo Tipo, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Tipo de Veículo.
+
+Também é possível excluir um Tipo de Veículo cadastrado clicando em  Excluir.
+Assim, o Tipo em questão será excluído do Banco de Dados do Sistema.

@@ -1,0 +1,5 @@
+Ao clicar em 'Averbação Indisponibilidade', a tela abaixo será exibida, onde poderão ser declaradas indisponibilidades de Registros, Serviços ou Itens de Serviços, em relação ao Proprietário e ao Credor do Imóvel.
+
+Assim, é possível selecionar, dentre os Registros, Classes de Registro, Serviços ou Itens de Serviço cadastrados, qual será declarado como Indisponível.
+
+Feito isso, clique em  Confirma para finalizar o registro da Indisponibilidade.

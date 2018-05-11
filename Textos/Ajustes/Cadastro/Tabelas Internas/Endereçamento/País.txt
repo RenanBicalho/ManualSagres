@@ -1,0 +1,12 @@
+Ao clicar em 'País', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Países cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre eles. Serão exibidos na tela o Código e a Descrição do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um País cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um País, basta clicar em  Incluir
+Assim, basta inserir a Descrição do novo País, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do País.
+
+Também é possível excluir um País cadastrado clicando em  Excluir.
+Assim, o País em questão será excluído do Banco de Dados do Sistema.

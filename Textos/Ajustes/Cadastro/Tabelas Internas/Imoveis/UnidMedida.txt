@@ -1,0 +1,15 @@
+Ao clicar em 'Unidade de Medida', a tela abaixo será exibida, onde poderão ser visualizados, em ordem numérica do Código, as Unidades de Medida cadastradas no Sistema.
+Assim, é possível navegar, através das setas do canto superior esquerdo, entre as Unidades cadastradas no Sistema.
+Serão exibidos o Código, Descrição, Sigla e Unidade de Medida Anterior na Escala.
+Por fim, são apresentadas as áreas onde a Unidade em questão poderá ser aplicada.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Unidade de Medida cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Unidade de Medida, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Unidade, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Unidade de Medida.
+
+Também é possível excluir uma Unidade de Medida clicando em  Excluir.
+Assim, a Unidade em questão será excluída do Banco de Dados do Sistema.

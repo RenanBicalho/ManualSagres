@@ -1,0 +1,3 @@
+Outros ▸ Configurações
+▸ Relatórios
+Exibe os Relatórios e os Compenentes dos mesmos, que poderão ser emitidos pelo Sistema. Permite cadastrar novos Relatórios, bem como alterar ou excluir os já cadastrados no Sistema.

@@ -1,0 +1,33 @@
+Cadastro ▸ Tabelas Internas
+▸ Cartório
+Exibe dados relativos ao Cartório, como Departamentos e Feriados, a serem utilizados no cadastro de um Cartório. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Características da Pessoa
+Exibe dados relativos a uma Pessoa, como Nacionalidade e Estado Civil. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Serviços
+Exibe dados relativos aos Serviços realizados pelo Cartório. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Ato/Registro
+Exibe dados relativos aos Registros realizados pelo Cartório. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Financeiro
+Exibe dados relativos ao Financeiro do Cartório, como Contas Bancárias. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Imóveis
+Exibe dados relativos aos Imóveis cadastrados pelo Cartório. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Endereçamento
+Exibe dados relativos ao Endereçamentos utlizados pelo Sistema, como Países e Cidades. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ DETRAN
+Exibe dados relativos aos Veiculos que poder ser cadastrados pelo Sistema. Permite realizar novos cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.
+
+▸ GED
+Exibe dados relativos à Geração Eletrônica de Documentos (GED). Permite realizar novos cadastros de tabelas e dados das mesmas, assim como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Papel DOI
+Exibe dados relativos aos Papéis de Partes Envolvidas e o Tipo de Registro correspondente. Permite realizar novas relações de Papéis com o Tipo de Registro, assim como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Outros
+Exibe dados relativos aos Tipos de Arquivo, Certidão, Retorno de Contrato, Penhor e Relatórios. Permite realizar cadastros de tais dados, assim como alterar ou excluir os já cadastrados no Sistema.

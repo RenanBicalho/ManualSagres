@@ -1,0 +1,9 @@
+Ao clicar em 'Consulta Rápida', a tela abaixo será exibida, onde poderá ser visualizada a primeira, em ordem do Código, das Consultas cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre elas.
+Serão exibidos os dados de cada Consulta, bem como o Código SQL da mesma e os parâmetros necessários, na janela inferior.
+
+Como pode ser percebido, os dados da Consulta exibida na tela estarão inativos para edição.
+
+Para editar os dados de uma Consulta cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Consulta, basta clicar em  Incluir. Assim, basta inserir os dados da nova Consulta, o SQL da mesma e os parâmetros. Feito isso, clique em  Gravar para finalizar o cadastro da Consulta.

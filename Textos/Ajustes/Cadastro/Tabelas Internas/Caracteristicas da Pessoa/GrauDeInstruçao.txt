@@ -1,0 +1,12 @@
+Ao clicar em 'Grau de Instrução', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem numérica do Código, dos Graus de Instrução cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Graus de Instrução cadastrados no Sistema. Serão exibidos o Código e a Descrição do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Grau de Instrução cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Grau de Instrução, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Grau de Instrução, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Grau de Instrução.
+
+Também é possível excluir um Grau de Instrução cadastrado clicando em  Excluir.
+Assim, o Grau de Instrução em questão será excluído do Banco de Dados do Sistema.

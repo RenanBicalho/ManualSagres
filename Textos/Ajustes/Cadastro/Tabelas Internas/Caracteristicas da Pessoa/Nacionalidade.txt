@@ -1,0 +1,12 @@
+Ao clicar em 'Nacionalidade', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem numérica do Código, das Nacionalidades cadastradas. Assim, é possível navegar, através das setas do canto superior esquerdo, entre as Nacionalidades cadastradas no Sistema. Serão exibidos a Nacionalidade e o País do mesmo, que deve estar cadastrado.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Nacionalidade cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Nacionalidade, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Nacionalidade, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Nacionalidade.
+
+Também é possível excluir uma Nacionalidade cadastrada clicando em  Excluir.
+Assim, a Nacionalidade em questão será excluída do Banco de Dados do Sistema.

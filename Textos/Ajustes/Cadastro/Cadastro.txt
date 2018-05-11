@@ -1,0 +1,28 @@
+▸ Tabelas Internas
+Consistem em tabelas auxiliares do Sistema, contendo dados de apoio aos cadastros de do Sistema, como Pessoa e Funcionário, tendo como finalidade facilitar e agilizar tais operações.
+
+▸ Dados do Cartório
+Exibe os dados do Cartório cadastrado, podendo realizar um novo cadastro de Cartório, alterar ou excluir o já cadastrado no Sistema.
+
+▸ Links Importantes
+Exibe os 'Links' cadastrados no sistema, podendo realizar cadastrar um novo 'Link', alterar ou excluir os já cadastrados.
+
+▸ Pessoa
+Exibe as 'Pessoas' cadastradas no sistema, podendo cadastrar uma nova Pessoa, alterar ou excluir as já cadastradas.
+
+▸ Funcionários
+Exibe os 'Funcionários' cadastrados no sistema, podendo cadastrar um novo, alterar ou excluir os já cadastrados.
+
+▸ Mensalista
+Exibe os 'Mensalistas' cadastrados no sistema, podendo cadastrar um novo, alterar ou excluir os já cadastrados.
+
+▸ Veículo
+Exibe os 'Veículos' cadastrados no sistema, podendo cadastrar um novo, alterar ou excluir os já cadastrados.
+
+▸ Permissões de Acesso
+Exibe as 'Permissões de Acesso' cadastradas no sistema, podendo cadastrar uma nova, alterar ou excluir as já cadastradas.
+
+▸ Usuários
+Exibe os Usuários cadastradas no sistema, podendo cadastrar um novo, alterar ou excluir os já cadastrados. Também permite a alteração da senha de acesso e das preferências dos mesmos.
+
+▸ Consulta Rápida

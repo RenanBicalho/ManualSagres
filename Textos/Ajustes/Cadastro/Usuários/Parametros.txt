@@ -1,0 +1,5 @@
+Ao clicar em 'Parâmetros', a tela abaixo será exibida, onde poderão ser visualizadas as preferências do Cartório
+em relação ao Usuário em questão.
+Assim, será possível definir, através dos grupos e os itens do mesmo, nas tabelas superior e inferior, r
+espectivamente, quais ações o Sistema poderá realizar, 
+em cada parte da execução do mesmo, para o Usuário logado neste momento.

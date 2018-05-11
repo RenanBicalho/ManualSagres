@@ -1,0 +1,21 @@
+Ao clicar em 'Tipos de Certidão', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Tipos de Certidão cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre eles.
+Serão exibidos na tela o Código, Descrição, Indicação de Inteiro Teor, Aviso do Serviço Complementar, Objeto da Busca, Observações e a opção de Texto Mesclado.
+Nas tabelas abaixo destes campos estarão apresentados os dados do Tipo em questão: Texto Padrão da Certidão e Serviços correspondentes.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Tipo de Certidão cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Tipo de Certidão, basta clicar em  Incluir
+Assim, basta inserir os dados do novo Tipo, sendo que o Código do mesmo é gerado sequencialmente.
+
+Para inserir ou editar um Texto Padrão do Tipo de Certidão, basta selecionar a aba correspondente. A lista dos registros cadastrados será exibida. Assim, basta dar um duplo-clique sobre um dos registros da lista, ou clicar em  Ícone Mais à direita do texto apresentado.
+Dessa maneira, uma nova janela abrirá, onde o texto poderá ser inserido ou alterado.
+
+Para inserir ou editar um Ato TJ do Tipo de Certidão, basta selecionar a aba correspondente. A tabela dos registros cadastrados será exibida.
+Para inserir um Item da tabela em questão, basta preencher os dados do mesmo nos campos logo acima da tabela e clicar em  Ícone Mais, à direita da lista de registros.
+Para excluir um Item da tabela em questão, basta selecionar tal registro e clicar em  Ícone Delete, à direita da lista de registros.
+Feito isso, clique em  Gravar para finalizar o cadastro do Tipo de Certidão.
+
+Também é possível excluir um Tipo de Certidão cadastrado clicando em  Excluir.
+Assim, o Tipo em questão será excluído do Banco de Dados do Sistema.

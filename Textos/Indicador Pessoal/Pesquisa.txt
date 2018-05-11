@@ -1,0 +1,9 @@
+Ao clicar em 'Pesquisar', a tela abaixo será exibida, onde será possível realizar a pesquisa de uma Pessoa cadastrada no sistema, podendo ser utilizados filtros.
+
+Para pesquisar uma Pessoa, basta selecionar uma 'Opção de Busca', na parte superior da tela, e selecionar o filtro que deseja utilizar, em 'Pesquisa por', Nome ou CPF.
+Assim, basta inserir uma expressão, no campo 'Expressão', que as Pessoas correspondentes e seus dados serão exibidos automaticamente, caso o campo 'Auto' esteja selecionado.
+Caso contrário, basta clicar em  Lupa, no canto superior direito.
+
+Feito isso, é possível, com um clique-duplo, acessar e editar as informações da Pessoa em questão.
+
+Caso seja necessário, é possível cadastrar uma nova Pessoa. Basta clicar em  Mais no canto superior direito. Assim, a janela de Cadastro de Pessoa será exibida.

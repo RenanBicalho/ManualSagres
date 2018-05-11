@@ -1,0 +1,12 @@
+Ao clicar em 'Provedor de Email', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Provedores de Email cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Provedores cadastrados no Sistema. Serão exibidos o Código e a Descrição do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Provedor de Email cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Provedor de Email, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Provedor, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Provedor de Email.
+
+Também é possível excluir um Provedor de Email cadastrado clicando em  Excluir.
+Assim, o Provedor em questão será excluído do Banco de Dados do Sistema.

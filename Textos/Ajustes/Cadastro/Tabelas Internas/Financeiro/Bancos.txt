@@ -1,0 +1,13 @@
+Ao clicar em 'Bancos', a tela abaixo será exibida, onde poderão ser visualizados os Bancos cadastrados no Sistema, sendo possível navegar, através das setas do canto superior esquerdo, entre os Bancos cadastrados no Sistema.
+Serão exibidos o Código, Nome, Sigla, Competência e o site correspondente.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Banco cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Banco, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Banco, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Banco.
+
+Também é possível excluir um Banco cadastrado clicando em  Excluir.
+Assim, o Banco em questão será excluído do Banco de Dados do Sistema.

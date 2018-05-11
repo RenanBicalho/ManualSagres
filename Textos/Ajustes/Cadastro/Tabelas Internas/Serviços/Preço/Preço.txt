@@ -1,0 +1,17 @@
+▸ Tipos de Taxas
+Exibe os Tipos de Taxas cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Taxas
+Exibe as Taxas cadastradas, podendo incluir uma nova Taxa, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Tipos de Impostos
+Exibe os Tipos de Impostos cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Impostos
+Exibe os Impostos cadastrados, podendo incluir um novo Imposto, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipos de Descontos
+Exibe os Tipos de Descontos cadastrados, podendo incluir um novo Desconto, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Descontos
+Exibe os Descontos cadastrados, podendo incluir um novo Desconto, bem como alterar ou excluir os já cadastrados no Sistema.

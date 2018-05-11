@@ -1,0 +1,13 @@
+Cartório ▸ Departamentos da Empresa
+Ao clicar em 'Departamentos da Empresa', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Departamentos cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Departamentos cadastrados no Sistema.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Departamento cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Departamento, basta clicar em  Incluir
+Assim, basta inserir os dados do novo Departamento, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Departamento.
+
+Também é possível excluir um Departamento cadastrado clicando em  Excluir.
+Assim, o Departamento em questão será excluído do Banco de Dados do Sistema.

@@ -1,0 +1,14 @@
+Ao clicar em 'Tipo de Imóvel', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética, dos Tipos de Imóveis cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Tipos cadastrados no Sistema. Serão exibidos o Código, Descrição, Código de Receita Federal, Abreviação, Unidade de Medida, Gênero, Registro de Classe e os Atributos de Características do Tipo de Imóvel, na tabela posicionada no lado inferior da tela.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Tipo de Imóvel cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Tipo de Imóvel, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Tipo, sendo que o Código do mesmo é gerado sequencialmente.
+
+Para inserir um Atributo de Característica, basta inseri-lo nos campos 'Atributo', 'Tipo Campo' e 'Valores Possíveis', situados acima da própria tabela de Atributos, e clicar em  Ícone Mais , à direta da tabela.
+Feito isso, clique em  Gravar para finalizar o cadastro do Tipo de Imóvel.
+
+Também é possível excluir um Tipo de Imóvel cadastrado clicando em  Excluir.
+Assim, o Tipo em questão será excluído do Banco de Dados do Sistema.

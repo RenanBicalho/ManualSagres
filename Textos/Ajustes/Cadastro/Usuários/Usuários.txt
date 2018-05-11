@@ -1,0 +1,8 @@
+▸ Cadastro
+Realizar o Cadastro, Alteração e Exclusão de Usuários do Sistema, podendo também visualizar os Usuários já cadastrados, bem como suas permissões de acesso.
+
+▸ Alterar Senha Usuário
+Alterar Senha de Acesso de Usuários já cadastrados no Sistema.
+
+▸ Parâmetros Usuário
+Alterar as preferências do Cartório para Usuários já cadastrados no Sistema.

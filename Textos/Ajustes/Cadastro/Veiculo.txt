@@ -1,0 +1,12 @@
+Ao clicar em 'Veículo', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem numérica do Código, dos Veículos cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Veículos cadastrados no Sistema. Serão exibidos os dados do Veículo e do proprietário do mesmo (Pessoa).
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Veículo cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Veículo, basta clicar em  Incluir
+Assim, basta inserir os dados do novo Veículo, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Veículo.
+
+Também é possível excluir um Veículo cadastrado clicando em  Excluir.
+Assim, o Veículo em questão será excluído do Banco de Dados do Sistema.

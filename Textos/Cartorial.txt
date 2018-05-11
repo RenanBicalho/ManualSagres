@@ -1,0 +1,20 @@
+Sistema Cartorial
+▸ Ajustes
+Ajustes do Sistema.
+▸ Indicador Pessoal
+Cadastro e Pesquisa de Pessoas.
+▸ Matrícula
+Cadastro e Pesquisa de Matrículas de Imóveis.
+▸ Transcrição
+Cadastro e Pesquisa de Transcrições de Imóveis.
+▸ Registro Auxiliar
+Cadastro e Pesquisa de Registros Auxiliares.
+▸ Loteamento
+Cadastro e Pesquisa de Loteamento de Imóveis.
+▸ Balcão de Atendimento
+Operações de Balcão de Atendimento, como Pedidos e Protocolos.
+▸ Processos
+▸ Financeiro
+Operações do Setor Financeiro, como Abertura de Caixa e Lançamentos.
+▸ Consultas
+Consultas de dados cadastrados no Sistema.

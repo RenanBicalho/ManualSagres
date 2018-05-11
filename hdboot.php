@@ -4146,7 +4146,7 @@
 
             <br><br>
             <figure>
-              <img src="Prints Sagres/Ajustes/Cadastro/Pessoa.png" alt="Pessoa" width="110%" height="auto">
+              <img src="Prints Sagres/Indicador/Cadastro2.png" alt="Pessoa" width="110%" height="auto">
               <figcaption style="padding-left: 340px;">Tela Pessoa</figcaption>
             </figure>
           </div>
@@ -4619,7 +4619,7 @@
 
             <br><br>
             <figure>
-              <img src="Prints Sagres/Ajustes/Cadastro/Pessoa.png" alt="Pessoa" width="110%" height="auto">
+              <img src="Prints Sagres/Indicador/Cadastro2.png" alt="Pessoa" width="110%" height="auto">
               <figcaption style="padding-left: 340px;">Tela Indicador Pessoal</figcaption>
             </figure>
           </div>

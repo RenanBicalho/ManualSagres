@@ -1,0 +1,27 @@
+Tabelas Internas ▸ Serviços
+▸ Faixa de Valores
+Exibe as Faixas de Valores cadastradas, podendo incluir uma nova Faixa, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Grupos de Serviços
+Exibe os Grupos de Serviços cadastrados, podendo incluir um novo Grupo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tabelas
+Exibe as Tabelas de Atos Extra Judiciais cadastradas, podendo incluir uma nova Tabela, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Serviços
+Exibe as Serviços cadastrados, podendo incluir um novo Serviço, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Pacotes de Serviço
+Exibe os Pacotes de Serviço cadastrados, podendo incluir um novo Pacote, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Preço
+Exibe os dados relativos aos preços das cobranças realizadas pelo Cartório. Permite inserir, alterar ou excluir os já inseridos no Sistema.
+
+▸ Origem Registro
+Exibe as Origens de Registro cadastradas, podendo incluir uma nova Origem, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Prioridades (Atendimento)
+Exibe as Prioridades de Atendimento cadastradas, podendo incluir uma nova Prioridade, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Natureza Protocolo
+Exibe as Naturezas de Protocolo cadastradas, podendo incluir uma nova Natureza, bem como alterar ou excluir as já cadastradas no Sistema.

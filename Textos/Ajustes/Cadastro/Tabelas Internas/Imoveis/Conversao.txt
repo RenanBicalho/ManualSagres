@@ -1,0 +1,14 @@
+Ao clicar em 'Conversão Unidade de Medida', a tela abaixo será exibida, onde poderão ser visualizados as Conversões de Unidades de Medida cadastradas no Sistema.
+Assim, é possível navegar, através das setas do canto superior esquerdo, entre as Conversões cadastradas no Sistema.
+Serão exibidos o Código, Unidades de Medida de Origem e de Destino, e a Equivalência entre elas.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Conversão de Unidade de Medida cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Conversão, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Conversão, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Conversão.
+
+Também é possível excluir uma Conversão de Unidade de Medida clicando em  Excluir.
+Assim, a Conversão em questão será excluída do Banco de Dados do Sistema.

@@ -1,0 +1,12 @@
+Tabelas Internas ▸ Cartório
+▸ Departamentos da Empresa
+Exibe os Departamentos cadastrados, podendo cadastrar um novo Departamento do Cartório, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Feriados
+Exibe os Feriados cadastrados, podendo cadastrar um novo Feriado, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Livros de Registro
+Exibe os dados dos Livros de Registro cadastrados, podendo cadastrar um novo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Ramos Cartoriais
+Exibe os Ramos Cartoriais cadastrados, podendo cadastrar um novo Ramo, bem como alterar ou excluir os já cadastrados no Sistema..

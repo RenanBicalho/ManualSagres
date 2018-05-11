@@ -1,0 +1,28 @@
+Ao clicar em 'Mensalista', a tela abaixo será exibida, onde poderá ser visualizado o
+primeiro, em ordem numérica, dos Mensalistas cadastrados. Assim, é possível navegar,
+através das setas do canto superior esquerdo, entre os Mensalista cadastrados no Sistema.
+Serão exibidos os dados do cliente (Pessoa), de um contato de referência, e do Mensalista em questão.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+<br>Para editar os dados de um Mensalista cadastrado, basta clicar em
+<img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">.
+
+<br>Depois de editado, clique em
+<img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
+para salvar as alterações realizadas.
+
+<br><br>Para cadastrar um Mensalista, é necessário cadastrar o cliente em Pessoa ou ter os dados do mesmo salvos em Pessoa.
+<br>Assim, basta clicar em
+<img src="Prints Sagres/Ajustes/Cadastro/Usuarios/incluir.png" alt="Incluir">
+e inserir o CPF de uma cliente cadastrado.
+<br>Também é possível pesquisar uma pessoa cadastrada clicando em
+<img src="Prints Sagres/Ajustes/Cadastro/Pesquisar.png" alt="Pesquisar">.
+<br>Assim, basta inserir os dados do novo Mensalista, sendo que o Número do mesmo é gerado sequencialmente.
+
+<br>Feito isso, clique em
+<img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
+para finalizar o cadastro do Mensalista.
+
+<br><br>Também é possível excluir um Mensalista cadastrado clicando em
+<img src="Prints Sagres/Ajustes/Cadastro/Excluir.png" alt="Excluir">.
+<br>Assim, o Contrato em questão será excluído do Banco de Dados do Sistema.

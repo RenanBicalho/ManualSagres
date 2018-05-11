@@ -1,0 +1,7 @@
+Ao clicar em 'Obrigatoriedade Campos Cadastro', a tela abaixo será exibida, onde poderão ser visualizados, em ordem alfabética, os Campos das Tabelas cadastradas no Sistema.
+É possível pesquisar uma Tabela, através do campo na parte superior da tela, pela Descrição da mesma.
+
+Assim, serão exibidos na parte de baixo da tela, os dados dos Campos da Tabela resultante da pesquisa, incluindo a Obrigatoriedade dos mesmos.
+
+Para editar um Campo cadastrado na Tabela, basta clicar sobre o dado que deseja alterar e inserir a nova informação.
+Também é possível incluir ou excluir a Obrigatoriedade de tal Campo, selecionando, ou não, a "Check Box" correspondente.

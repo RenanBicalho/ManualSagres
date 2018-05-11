@@ -1,0 +1,12 @@
+Ao clicar em 'Estado Civil', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem numérica do Código, dos Estados Civis cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Estados Civis cadastrados no Sistema. Serão exibidos o Estado Civil e Código do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Estado Civil cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Estado Civil, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Estado Civil, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Estado Civil.
+
+Também é possível excluir um Estado Civil cadastrado clicando em  Excluir.
+Assim, o Estado Civil em questão será excluído do Banco de Dados do Sistema.

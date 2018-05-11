@@ -1,0 +1,13 @@
+Ao clicar em 'Tipos de Doc Financeiro', a tela abaixo será exibida, onde poderão ser visualizados, em ordem numérica do Código, os Tipos de Documento Financeiro cadastrados no Sistema, sendo possível navegar, através das setas do canto superior esquerdo, entre eles.
+Serão exibidos o Código, Descrição, Abreviação, e a Finalidade do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Tipo de Documento Financeiro cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Tipo de Documento Financeiro, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Tipo, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Banco.
+
+Também é possível excluir um Tipo de Documento Financeiro cadastrado clicando em  Excluir.
+Assim, o Tipo em questão será excluído do Banco de Dados do Sistema.

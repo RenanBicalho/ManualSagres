@@ -1,0 +1,14 @@
+Ao clicar em 'Contas Bancárias', a tela abaixo será exibida, onde poderão ser visualizados, em ordem numérica do Código, os Bancos cadastrados no Sistema.
+Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Bancos cadastrados no Sistema.
+Serão exibidos o Código, os Dados da Conta, utilizando um Banco já cadastrado, e os dados do Contato também cadastrado, correspondente à Conta Bancária em questão.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Conta Bancária cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Conta Bancária, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Conta, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Conta.
+
+Também é possível excluir uma Conta cadastrada clicando em  Excluir.
+Assim, a Conta Bancária em questão será excluída do Banco de Dados do Sistema.

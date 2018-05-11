@@ -1,0 +1,7 @@
+Ao clicar em 'Menus de Acesso', a tela abaixo será exibida, onde poderão ser visualizados os Níveis de Acesso cadastrados, em ordem alfabética, à esquerda.
+Para cada Nível é exibida a árvore de menus e as permissões de cada item do menu ilustradas pelas "Check Boxes" à esquerda.
+
+Assim, é possível alterar as permissões de determinado Nível de Acesso clicando nas "Check Boxes" correspondentes.
+
+Para editar os dados de um Nível de Acesso cadastrado, basta clicar em  Editar.
+Dessa maneira, o Usuário será direcionado para tela de Níveis de Acesso.

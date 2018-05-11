@@ -1,0 +1,15 @@
+Ao clicar em 'Registros de Classe', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Registros de Classe cadastrados no Sistema. Assim, é possível navegar entre eles, através da lista de Registros à esquerda da tela, podendo ser feita uma pesquisa de Registros no campo logo acima da lista.
+Serão exibidos o Código, a Descrição e a Classe do mesmo.
+No canto inferior direito poderá ser visualizada uma janela com informações padrão da Classe em questão.
+Serão exibidos: Texto Padrão, Itens de Serviço, Requisitos e Partes Envolvidas.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Registro de Classe cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Registro de Classe, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Registro, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Registro.
+
+Também é possível excluir um Registro de Classe cadastrado clicando em  Excluir.
+Assim, o Registro em questão será excluído do Banco de Dados do Sistema.

@@ -1,0 +1,17 @@
+▸ Tipo Combustível
+Exibe os Tipos de Combustível cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipo Veículo
+Exibe os Tipos de Veículo cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Marca Veículo
+Exibe as Marcas de Veículo cadastrados, podendo incluir uma nova Marca, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Cor Veículo
+Exibe as Cores de Veículo cadastradas, podendo incluir uma nova Cor, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Tipo Operação Veículo
+Exibe os Tipos de Operação de Veículo cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Modelos de Veículos
+Exibe os Modelos de Veículo cadastrados, podendo incluir um novo Modelo, bem como alterar ou excluir os já cadastrados no Sistema.

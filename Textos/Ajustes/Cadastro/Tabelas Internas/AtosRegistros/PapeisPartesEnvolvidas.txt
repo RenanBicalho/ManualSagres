@@ -1,0 +1,13 @@
+Ao clicar em 'Papéis Partes Envolvidas', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Papéis de Partes Envolvidas nos Registros cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Papéis cadastradas no Sistema.
+Serão exibidos o Código, a Descrição, a Função, e o tipo de Pessoa correspondente.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Papel de Parte Envolvida cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Papel de Parte Envolvida, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Papel, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Papel.
+
+Também é possível excluir um Papel cadastrado clicando em  Excluir.
+Assim, o Papel em questão será excluído do Banco de Dados do Sistema.

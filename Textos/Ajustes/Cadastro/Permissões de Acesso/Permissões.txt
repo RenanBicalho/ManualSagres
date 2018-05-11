@@ -1,0 +1,6 @@
+▸ Níveis de Acesso
+Realizar o Cadastro, Alteração e Exclusão de 'Níveis de Acesso' do Sistema, podendo também visualizar os já cadastrados.
+
+▸ Menus de Acesso
+Exibe os 'Níveis de Acesso' e suas correspondentes permissões de acesso ao Sistema,
+permitindo a alteração no cadastro dos mesmos, bem como em suas permissões, exibidas no menu à direita.

@@ -1,0 +1,12 @@
+Ao clicar em 'Natureza Protocolo', a tela abaixo será exibida, onde poderá ser visualizado a primeira, em ordem numérica do Código, das Naturezas de Protocolo cadastradas. Assim, é possível navegar, através das setas do canto superior esquerdo, entre as Naturezas cadastradas no Sistema. Serão exibidos o Código, a Descrição, Observações e as respectivas prioridades.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Natureza de Protocolo cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Natureza de Protocolo, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Natureza, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Natureza.
+
+Também é possível excluir uma Natureza de Protocolo cadastrada clicando em  Excluir.
+Assim, a Natureza em questão será excluída do Banco de Dados do Sistema.

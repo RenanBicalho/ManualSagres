@@ -1,0 +1,12 @@
+Ao clicar em 'Cidades', a tela abaixo será exibida, onde poderá ser visualizada a primeira, em ordem alfabética, das Cidades cadastradas no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre elas. Serão exibidos na tela o Código, a Descrição e a Unidade Federativa da mesma.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Cidade cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Cidade, basta clicar em  Incluir
+Assim, basta inserir os dados da nova Cidade, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Cidade.
+
+Também é possível excluir uma Cidade cadastrada clicando em  Excluir.
+Assim, a Cidade em questão será excluída do Banco de Dados do Sistema.

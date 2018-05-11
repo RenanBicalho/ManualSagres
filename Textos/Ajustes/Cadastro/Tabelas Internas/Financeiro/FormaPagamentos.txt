@@ -1,0 +1,15 @@
+Ao clicar em 'Formas de Pagto', a tela abaixo será exibida, onde poderão ser visualizados, em ordem alfabética, as Formas de Pagamento cadastradas no Sistema.
+Assim, é possível navegar, através das setas do canto superior esquerdo, entre as Formas cadastradas no Sistema.
+Serão exibidos o Código, Descrição e dados correspondentes ao pagamento: Parcelas, Prazo de Vencimento de parcelas e Valores mínimo e máximo para recebimento.
+Por fim, são apresentadas as datas de Vigência da Forma de Pagamento em questão.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Forma de Pagamento cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Forma de Pagamento, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Forma, sendo que o Código da mesma é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro da Forma de Pagamento.
+
+Também é possível excluir uma Forma de Pagamento clicando em  Excluir.
+Assim, a Forma em questão será excluída do Banco de Dados do Sistema.

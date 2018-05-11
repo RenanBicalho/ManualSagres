@@ -1,0 +1,26 @@
+▸ Formato de Arquivos
+Exibe os Formatos de Arquivos, podendo incluir um novo Formato, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Grupo Query Pronta
+Exibe os Grupos - Query Pronta cadastrados, podendo incluir um novo Grupo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Motivos Diversos
+Exibe os Motivos Diversos cadastrados, podendo incluir um novo Motivo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Obrigatoriedade Campos Cadastro
+Exibe os Campos das Tabelas cadastradas, podendo incluir ou excluir as Obrigatoriedades dos mesmos, nas Tabelas já cadastradas no Sistema.
+
+▸ Apresentação Campos Certidão
+Exibe os Campos das Certidões cadastradas, podendo incluir ou excluir as Obrigatoriedades dos mesmos, nas Certidões já cadastradas no Sistema.
+
+▸ Tipos de Certidão
+Exibe os Tipos de Certidão cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipos de Retorno de Contato
+Exibe os Tipos de Retorno de Contato cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipo de Penhor
+Exibe os Tipos de Penhor cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Configurações
+Exibe os Relatórios cadastrados, podendo incluir um novo Relatórios, bem como alterar ou excluir os já cadastrados no Sistema.

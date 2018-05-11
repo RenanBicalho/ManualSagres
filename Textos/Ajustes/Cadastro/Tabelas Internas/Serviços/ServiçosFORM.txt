@@ -1,0 +1,16 @@
+Ao clicar em 'Serviços', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética, dos Serviços cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os cadastrados no Sistema. Serão exibidos o Código, Descrição, Observações, Data de Vigência, Ramo Cartorial, Grupo do Serviço e os Itens do mesmo na tabela abaixo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Serviço cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Serviço, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Serviço, sendo que o Código do mesmo é gerado sequencialmente.
+
+Para inserir um Item de Serviço na tabela do mesmo, basta selecioná-lo no campo 'Inserir Itens da Tabela', acima da própria tabela.
+Para cadastrar um novo Item, basta clicar em  Itens Serviço, no canto inferior esquerdo após a janela dos Itens do Serviço.
+Assim, uma janela será exibida, podendo visualizar e cadastrar tais Itens.
+Feito isso, clique em  Gravar para finalizar o cadastro do Serviço.
+
+Também é possível excluir um Serviço cadastrado clicando em  Excluir.
+Assim, o Serviço em questão será excluído do Banco de Dados do Sistema.

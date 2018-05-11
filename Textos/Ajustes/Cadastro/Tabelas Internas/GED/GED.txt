@@ -1,0 +1,5 @@
+▸ Tabelas GED
+Exibe as Tabelas de GED cadastradas, podendo incluir uma nova Tabela, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Dados Tabelas GED
+Exibe os Dados de Tabelas GED cadastradas, podendo incluir novos Dados, bem como alterar ou excluir os já cadastrados no Sistema.

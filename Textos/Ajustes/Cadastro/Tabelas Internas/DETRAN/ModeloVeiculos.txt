@@ -1,0 +1,12 @@
+Ao clicar em 'Modelos de Veículos', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem alfabética, dos Modelos de Veículo cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre eles. Serão exibidos na tela o Código, a Descrição, a Marca, já cadastrada, e o País de Origem do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Modelo de Veículo cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Modelo de Veículo, basta clicar em  Incluir
+Assim, basta inserir os dados do novo Modelo, sendo que o campo 'País de Origem' é preenchido automaticamente de acordo com a Marca selecionada e Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Modelo de Veículo.
+
+Também é possível excluir um Modelo de Veículo cadastrado clicando em  Excluir.
+Assim, o Modelo em questão será excluído do Banco de Dados do Sistema.

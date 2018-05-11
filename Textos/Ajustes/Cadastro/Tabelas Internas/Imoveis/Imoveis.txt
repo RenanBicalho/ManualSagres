@@ -1,0 +1,8 @@
+▸ Unidade de Medida
+Exibe as Unidades de Medida cadastradas, podendo incluir uma nova Medida, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Conversão Unidade de Medida
+Exibe as Conversões de Unidades de Medida cadastradas, podendo incluir uma nova Conversão, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Tipo de Imóvel
+Exibe os Tipos de Imóvel cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.

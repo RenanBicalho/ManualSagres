@@ -1,0 +1,13 @@
+Ao clicar em 'Dados Tabelas GED', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética do nome da Tabela, dos Dados de Tabela GED cadastrados no Sistema. Assim, é possível navegar, através das setas do canto superior esquerdo, entre elos. Serão exibidos na tela o Código, a Tabela, Descrição e Observação do mesmo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar um Dado de uma Tabela GED cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Dado em uma Tabela GED, basta clicar em  Incluir
+Assim, basta inserir o novo Dados na Tabela selecionada, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Dado.
+Assim, tal Dado será exibido na lista localizada na parte inferior da tela, juntamente com os já Dados cadastrados anteriormente na Tabela em questão, caso existirem.
+
+Também é possível excluir um Dado de Tabela cadastrado clicando em  Excluir.
+Assim, o Dado em questão será excluído do Banco de Dados do Sistema.

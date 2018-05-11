@@ -1,0 +1,14 @@
+Ao clicar em 'Modelo Exigências', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética, dos Modelos Exigências de Protocolo cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Modelos cadastrados no Sistema. Serão exibidos o Código, Descrição, Ramo Cartorial, Definições de Situação, Observações e os Itens da Exigência na tabela posicionada no lado inferior da tela.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de uma Exigência cadastrada, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar uma Exigência, basta clicar em  Incluir.
+Assim, basta inserir os dados da nova Exigência, sendo que o Código da mesma é gerado sequencialmente.
+
+Para inserir um Item da Exigência, basta inseri-la no campo 'Descrição do Item da Exigência', acima da própria tabela, e clicar em  Ícone Mais , à direta da tabela.
+Feito isso, clique em  Gravar para finalizar o cadastro da Exigência.
+
+Também é possível excluir uma Exigência cadastrada clicando em  Excluir.
+Assim, a Exigência em questão será excluída do Banco de Dados do Sistema.

@@ -1,0 +1,39 @@
+Tabelas Internas ▸ Características da Pessoa
+▸ Tipos de Documentos
+Exibe os Tipos de Documentos cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipos de Telefone
+Exibe os Tipos de Telefone cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Provedor de Email
+Exibe os Provedores de Email cadastrados, podendo incluir um novo Provedor, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Grau de Instrução
+Exibe os Graus de Instrução cadastrados, podendo incluir um novo Grau, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Grau de Relacionamento
+Exibe os Graus de Relacionamento cadastrados, podendo incluir um novo Grau, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Nacionalidade
+Exibe as Nacionalidades cadastradas, podendo incluir uma nova Nacionalidade, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Estado Civil
+Exibe os Estados Civis cadastrados, podendo incluir um novo Estado, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Regime Matrimônio
+Exibe os Regimes Matrimoniais cadastrados, podendo incluir um novo Regime, bem como alterar ou excluir os já cadastrados no Sistema..
+
+▸ Ocupação
+Exibe as Ocupações cadastradas, podendo incluir uma nova Ocupação, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Classificação Pessoa Jurídica
+Exibe as Classificações de Pessoa Jurídica cadastrados, podendo incluir uma nova Classificação, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Vínculo Empregatício
+Exibe os Vínculos Empregatícios cadastrados, podendo incluir um novo Vínculo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Jornada de Trabalho
+Exibe as Jornadas de Trabalho cadastradas, podendo incluir ua nova Jornada, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Cargo Funcional
+Exibe os Cargos Funcionais cadastrados, podendo incluir um novo Cargo, bem como alterar ou excluir os já cadastrados no Sistema.

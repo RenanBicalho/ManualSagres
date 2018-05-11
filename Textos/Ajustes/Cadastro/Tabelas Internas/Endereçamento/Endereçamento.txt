@@ -1,0 +1,21 @@
+Tabelas Internas ▸ Endereçamento
+▸ País
+Exibe os Países cadastrados, podendo incluir um novo País, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Cidades
+Exibe as Cidades cadastradas, podendo incluir uma nova Cidade, bem como alterar ou excluir as já cadastradas no Sistema.
+
+▸ Bairros
+Exibe os Bairros cadastrados, podendo incluir um novo Bairro, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Logradouros
+Permite pesquisar os Logradouros cadastrados no Sistema, podendo incluir filtros, caso for necessário.
+
+▸ Tipo Região
+Exibe os Tipos de Regiões cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipo Endereço
+Exibe os Tipos de Endereço cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.
+
+▸ Tipo Logradouro
+Exibe os Tipos de Logradouro cadastrados, podendo incluir um novo Tipo, bem como alterar ou excluir os já cadastrados no Sistema.

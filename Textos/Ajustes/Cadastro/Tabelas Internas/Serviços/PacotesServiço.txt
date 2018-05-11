@@ -1,0 +1,14 @@
+Ao clicar em 'Pacotes de Serviços', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética, dos Pacotes de Serviços cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os cadastrados no Sistema. Serão exibidos o Código, Descrição, Observações e os Itens do mesmo, posicionados no lado inferior da tela.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Pacote cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Pacote, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Pacote, sendo que o Código do mesmo é gerado sequencialmente.
+
+Para inserir um Item no Pacote, basta selecioná-lo no campo 'Serviço', acima da própria tabela, inserir a quantidade do mesmo no campo e clicar em  Ícone Mais , à direta da tabela.
+Feito isso, clique em  Gravar para finalizar o cadastro do Pacote.
+
+Também é possível excluir um Pacote cadastrado clicando em  Excluir.
+Assim, o Pacote em questão será excluído do Banco de Dados do Sistema.

@@ -1,0 +1,13 @@
+Cartório ▸ Ramos Cartoriais
+Ao clicar em 'Ramos Cartoriais', a tela abaixo será exibida, onde poderá ser visualizado o primeiro, em ordem numérica do Código, dos Ramos Cartoriais cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Ramos cadastrados no Sistema. Serão exibidas uma Descrição e Observação do mesmo na tela.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Ramo cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Ramo Cartorial, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Ramo, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Ramo Cartorial.
+
+Também é possível excluir um Ramo Cartorial cadastrado clicando em  Excluir.
+Assim, o Ramo em questão será excluído do Banco de Dados do Sistema.

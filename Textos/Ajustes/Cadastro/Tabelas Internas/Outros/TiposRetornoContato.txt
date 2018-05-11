@@ -1,0 +1,12 @@
+Ao clicar em 'Tipo de Retorno de Contato', a tela abaixo será exibida, onde poderá ser visualizada o primeiro, em ordem alfabética, dos Tipos de Retorno de Contato cadastrados. Assim, é possível navegar, através das setas do canto superior esquerdo, entre os Tipos cadastrados no Sistema. Serão exibidos o Código, Descrição, Informação Vinculada e Observação do Tipo.
+
+Como pode ser percebido, os dados exibidos na tela estarão inativos para edição.
+Para editar os dados de um Tipo de Retorno de Contato cadastrado, basta clicar em  Alterar.
+Depois de editado, clique em  Gravar para salvar as alterações realizadas.
+
+Para cadastrar um Tipo de Retorno de Contato, basta clicar em  Incluir.
+Assim, basta inserir os dados do novo Tipo, sendo que o Código do mesmo é gerado sequencialmente.
+Feito isso, clique em  Gravar para finalizar o cadastro do Tipo Retorno de Contato.
+
+Também é possível excluir um Tipo de Retorno de Contato cadastrado clicando em  Excluir.
+Assim, o Tipo em questão será excluído do Banco de Dados do Sistema.
