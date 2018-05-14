@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="logoCasa3.png"/>
+  <link rel="shortcut icon" href="logoCasa5.png"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Gugi" rel="stylesheet">
@@ -274,7 +274,7 @@
       <div class="header">
 <!-- Logo Cartório Cabeçalho -->
         <div class="img">
-  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp4.png' title="Criatos"></img>
+  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp5.png' title="Criatos"></img>
   				<a href='http://www.sagres.com.br' target="_blank"> <img id="sagres" target="_blank" src='logosagres.png' title="Sagres"></img> </a>
   			</div>
 
