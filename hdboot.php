@@ -4669,8 +4669,7 @@
           <h2 id="tplink" onclick="testeFilho('.L108')" style="cursor: pointer;"> ▸ Cadastro </h2>
           <div id='texto'>
             <p>
-              Exibe as Matrículas de Imóveis cadastradas, podendo incluir uma nova Matrícula,
-              bem como alterar ou excluir as já cadastradas no Sistema.
+              Permite cadastrar Matrículas, bem como alterar ou excluir as já cadastradas no Sistema.
             </p>
           </div>
 
@@ -4678,7 +4677,7 @@
           <div id='texto'>
             <p>
               Realizar pesquisa de Imóveis Matriculados no Sistema, podendo utilizar filtros de pesquisa, se
-              for necessário.
+              for necessário. 
             </p>
           </div>
 
@@ -4707,11 +4706,12 @@
               <img src="Prints Sagres/Matricula/cancelar.png" alt="Cancelar">
               no menu superior.
               <br>Assim, será exibido o primeiro, em ordem do número dos Rascunhos cadastrados, sendo possível navegar,
-              através das setas do canto superior esquerdo, entre eles.
-              <br>Dessa maneira, os dados de um Rascunho cadastrado podem ser alterados, bastando clicar em
+              através das setas do canto superior esquerdo, entre eles. Também será possível visualizá-los na aba 'Todos'.
+
+              <br><br>Os dados de um Rascunho cadastrado podem ser alterados, bastando clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">
               no menu superior.
-              <br>Assim, a tela abaixo será exibida com os dados do Rascunho em questão. Basta realizar as
+              Assim, a tela abaixo será exibida com os dados do Rascunho em questão. Basta realizar as
               alterações que desejar e clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
               para finalizar.
@@ -4734,21 +4734,24 @@
 
           <div id='texto'>
             <p>
-              Ao clicar em 'Cadastro', a tela abaixo será exibida, onde será possível realizar um Cadastro de Matrícula de um Imóvel já
-              cadastrado no Sistema, uma vez que os campos estarão disponíveis para serem preenchidos.
-              <br><br>Assim, basta inserir os dados da Matricula e do Imóvel em questão, em todas as abas apresentadas
-              logo abaixo do número da mesma(preenchido automaticamente), e clicar em
-              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar a Matricula.
+              Ao clicar em 'Cadastro', a tela abaixo será exibida, onde será possível realizar um Cadastro de Matrícula de um Imóvel no Sistema,
+              sendo que os campos já estarão habilitados para edição.
 
-              <br><br>Para visualizar as Matriculas cadastradas no Sistema, basta clicar em
-              <img src="Prints Sagres/Matricula/cancelar.png" alt="Cancelar">
-              no menu superior.
-              <br>Assim, será exibido a primeira, em ordem do número das Matrículas cadastradas, sendo possível navegar,
-              através das setas do canto superior esquerdo, entre elas.
-              <br>Dessa maneira, os dados da Matrícula cadastrada podem ser alterados, bastando clicar em
+              <br><br>Os dados obrigatórios para gravar uma Matrícula são: Gênero e Tipo.
+
+              <br><br>Assim, basta inserir os dados que julgar necessário, na aba 'Dados do Imóvel, e clicar em
+              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar a Matricula. Feito isso, será exibida uma
+              janela onde poderão ser cadastrados e consultados dados em relação à Matrícula em questão, como Proprietários e Atos.
+
+              <br><br>Para cancelar o cadastro de uma Matricula, que esteja em andamento, basta clicar em
+              <img src="Prints Sagres/Matricula/cancelar.png" alt="Cancelar">, no menu superior.
+              Dessa maneira, os campos de cadastro da Matrícula em questão serão apagados e desabilitados para edição.
+              Clicando em <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/incluir.png" alt="Incluir"> será possível recomeçar o cadastro.
+
+              <br><br> Caso necessite alterar os dados de uma Matrícula já cadastrada no Sistema, basta clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">
               no menu superior.
-              <br>Assim, a tela abaixo será exibida com os dados da Matrícula em questão. Basta realizar as
+              Assim, a tela abaixo será exibida com os dados da Matrícula em questão. Basta realizar as
               alterações que desejar e clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
               para finalizar.
@@ -4771,23 +4774,23 @@
           <div id='texto'>
             <p>
               Ao clicar em 'Pesquisar', a tela abaixo será exibida, onde poderão ser realizadas
-              pesquisas de Matrículas cadastradas no Sistema, que serão exibidas em ordem dos números das mesmas.
+              pesquisas de Imóveis cadastrados no Sistema, que serão exibidos em ordem dos números de Matrícula dos mesmos.
 
-              <br><br>Para realizar uma pesquisa, basta inserir os dados referentes à Matrícula, Imóvel ou Proprietário do mesmo,
+              <br><br>Para realizar uma pesquisa, basta inserir os dados referentes ao Imóvel ou Proprietário do mesmo,
               selecionando Endereços e Pessoas, dentre os já cadastrados no Sistema.
               <br>Feito isso, clique em
               <img src="Prints Sagres/Matricula/filtrar.png" alt="Filtro">
-              <br>Assim, as Matrículas referentes aos dados inseridos serão listados abaixo, em ordem do número das mesmas, onde poderão ser visualizados
-              os dados de cada uma.
+              <br>Assim, os Imóveis referentes aos dados inseridos serão listados abaixo, em ordem da matrícula dos mesmos, onde poderão ser visualizados
+              os dados de cada um.
 
               <br><br>Para realizar uma nova pesquisa, basta clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Endereçamento/filtro.png" alt="Filtro">
               e repetir as operações descritas acima.
 
-              <br><br>Caso seja necessário, é possível cadastrar uma nova Matrícula. Basta clicar em
+              <br><br>Caso seja necessário, é possível cadastrar um novo Imóvel. Basta clicar em
               <img src="Prints Sagres/Matricula/incluir.png" alt="Incluir">
               no canto superior direito.
-              Assim, a janela de <a onclick="testeFilho('.L111')" style="cursor: pointer;">Cadastro de Matrícula</a> será exibida.
+              Assim, a janela de <a onclick="testeFilho('.L108')" style="cursor: pointer;">Cadastro de Matrícula</a> será exibida.
             </p>
           </div>
           <br><br>
