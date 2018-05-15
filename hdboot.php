@@ -4597,10 +4597,9 @@
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
               para finalizar o cadastro da Pessoa.
 
-              <br><br>Os dados obrigatórios para inserção de uma nova Pessoa são: Nome, Tipo, Gênero e Data de Nascimento (Pessoa Física) ou
-              Classificação e Data de Abertura (Pessoa Jurídica).
+              <br><br>Os dados obrigatórios para inserção de uma nova Pessoa são: Nome, Tipo e Sexo(Pessoa Física).
 
-              <br><br>Feito o Cadastro, a tela será atualizada, exibindo novas abas que apresentarão operações realizadas com a Pessoa em questão,
+              <br><br>Feito o Cadastro, a tela será atualizada, exibindo novas abas que apresentarão operações relacionadas à Pessoa em questão,
               como Atos/Registros, Protocolos e Pedidos Balcão. Também será possível inserir dados adicionais da Pessoa, como Emails e Relacionamentos.
 
               <br><br>Para Consultar ou Alterar os dados de uma Pessoa cadastrada, basta clicar em
