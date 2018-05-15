@@ -4995,7 +4995,7 @@
           <h2 id="tplink" onclick="testeFilho('.L118')" style="cursor: pointer;"> ▸ Gerar Imóvel pelo Loteamento </h2>
           <div id='texto'>
             <p>
-              Gerar Imóveis a partir de Loteamentos cadastrados no Sistema.
+              Gerar Imóveis a partir de Loteamentos cadastrados no Sistema, filtrando por Quadras ou Lotes.
             </p>
           </div>
 
@@ -5146,9 +5146,9 @@
               <br><br>Feito o Cadastro do Protocolo, uma janela na parte inferior da tela será exibida, onde Atos e Arquivos referentes ao Protocolo
               em questão poderão ser incluídos.
               <br>Na aba 'Atos', basta clicar em <img src="Prints Sagres/Balcao/atosrascunho.png" alt="Atos"> para
-              exibir a tela de <a href="#texto2" style="cursor: pointer;">Rascunho de Atos</a>.
-              <br>Para visualizar Atos Cadastrados, basta clicar em <img src="Prints Sagres/Balcao/atoscad.png" alt="Atos Cadastrados"> para
-              exibir a tela de <a href="#texto2" style="cursor: pointer;">Rascunho de Atos</a>, com os já cadastrados listados no canto superior esquerdo.
+              exibir a tela de <a href="#texto2" style="cursor: pointer;">Registro de Atos</a>, onde serão exibidos os Rascunhos de Atos cadastrados.
+              <br>Para visualizar Atos registrados, basta clicar em <img src="Prints Sagres/Balcao/atoscad.png" alt="Atos Cadastrados"> onde a
+              mesma tela será exibida, porém com os já registrados listados no canto superior esquerdo.
               <br>Na aba 'Arquivos', basta clicar nos ícones à direita da janela para inserir ou excluir um Arquivo referente ao Protocolo. Também
               é possível exibir anotações do Arquivo e abrir Documento GED relativo ao mesmo.
             </p>
@@ -5171,9 +5171,13 @@
               <br>Assim, os dados do novo Ato estarão disponíveis para edição, sendo que o Número e a Data são gerados automaticamente.
               <br>No campo 'Registro', ao selecionar o que desejar cadastrar, serão preenchidos o Tipo, a Classe de Registro e o Texto do mesmo.
               <br>Assim, basta incluir as Partes Envolvidas, se necessário, em tal Ato/Registro, através da janela a esquerda da tela.
-              <br><br>Caso o Imóvel em questão tenha um Proprietário cadastrado, o mesmo será incluído como Parte Envolvida do Ato, exibindo uma tela
-              de confirmação de tal operação. Para Incluir ou Excluir uma Parte Envolvida, basta clicar nos botões correspondentes à direta da janela
-              em questão, sendo que cada Ato possui as devidas associações de Papéis de Partes Envolvidas.
+              <br>Caso o Imóvel em questão tenha um Proprietário cadastrado, o mesmo poderá ser capturado como Parte Envolvida do Ato, clicando
+              em <img src="Prints Sagres/Balcao/capturar.png" alt="Capturar">, sendo exibida uma tela
+              de confirmação de tal operação.
+              <br> Para Incluir ou Excluir uma Parte Envolvida, basta clicar
+              <img src="Prints Sagres/Balcao/mais.png" alt="Incluir">
+              ou  <img src="Prints Sagres/Financeiro/Caixa/excluir.png" alt="Excluir">, à direta da janela
+              em questão, sendo que cada Ato possui suas devidas associações de Papéis de Partes Envolvidas.
               <br><br>Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
 
               <br><br>Feito isso, clique em
