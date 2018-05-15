@@ -5052,7 +5052,7 @@
 
               <br><br>Para realizar uma pesquisa, basta selecionar um, dentre os Loteamentos já cadastrados no Sistema.
               <br>Assim, os Registros Auxiliares referentes aos dados inseridos serão listados abaixo, em ordem do número dos mesmos.
-              <br>É possível incluir, se necessário for, filtros referentes à Quadra ou Lote, selecionando as abas correspondentes.
+              <br>É possível incluir, se necessário for, filtros referentes ao Lote, selecionando a aba correspondente.
 
               <br><br>Feito isso, basta selecionar um dos Loteamentos listados e clicar em
               <img src="Prints Sagres/Loteamento/proc.png" alt="Gerar Imóvel">
