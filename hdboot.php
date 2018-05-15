@@ -4677,7 +4677,7 @@
           <div id='texto'>
             <p>
               Realizar pesquisa de Imóveis Matriculados no Sistema, podendo utilizar filtros de pesquisa, se
-              for necessário. 
+              for necessário.
             </p>
           </div>
 
@@ -4688,30 +4688,29 @@
 
           <div id='texto'>
             <p>
-              Ao clicar em 'Rascunho', a tela abaixo será exibida, onde será possível realizar um Rascunho de Matrícula de um Imóvel já
-              cadastrado no Sistema, uma vez que os campos estarão disponíveis para serem preenchidos.
-              <br><br>Assim, basta inserir os dados da Matricula e do Imóvel em questão, em todas as abas apresentadas
-              logo abaixo do número do Rascunho(preenchido automaticamente), e clicar em
-              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar o Rascunho.
+              Ao clicar em 'Rascunho', a tela abaixo será exibida, onde será possível visualizar o último dos Rascunhos previamente cadastrados
+              no Sistema.
+              <br>Para visualizar os Rascunhos cadastrados no Sistema, basta navegar entre eles,
+              através das setas do canto superior esquerdo. Também é possível visualizá-los na aba 'Todos',
+              logo abaixo das setas de navegação sitadas anteriormente.
+
+              <br><br>Para inserir um novo Rascunho, basta clicar em <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/incluir.png" alt="Incluir">
+              e preencher os dados do Imóvel, exceto número do Rascunho, que será gerado automaticamente pelo Sistema.
+              <br>Feito isso, clique em <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para gravar o Rascunho em questão.
+
+              <br><br>Os dados obrigatórios para gravar um Rascunho são: Gênero e Tipo, localizados na aba 'Dados do Imóvel'.
 
               <br><br>Feito o cadastro do Rascunho, novas abas serão exibidas na parte inferior da tela, onde poderão ser cadastrados e visualizados dados
               referentes ao Imóvel em questão, como Proprietários, Credores, Protocolos e Atos. Para realizar o cadastro de tais dados, basta utilizar os
               botões localizados à direita na janela ou abaixo dela e inserir os dados necessários para tal cadastro.
 
-              <br><br>Para efetivar um Rascunho, basta clicar em
-              <img src="Prints Sagres/Matricula/matricular.png" alt="Matricular">,
+              <br><br>Para efetivar um Rascunho, basta clicar em <img src="Prints Sagres/Matricula/matricular.png" alt="Matricular">,
               realizando, de fato, a Matrícula do Imóvel em questão.
-
-              <br><br>Para visualizar os Rascunhos cadastrados no Sistema, basta clicar em
-              <img src="Prints Sagres/Matricula/cancelar.png" alt="Cancelar">
-              no menu superior.
-              <br>Assim, será exibido o primeiro, em ordem do número dos Rascunhos cadastrados, sendo possível navegar,
-              através das setas do canto superior esquerdo, entre eles. Também será possível visualizá-los na aba 'Todos'.
 
               <br><br>Os dados de um Rascunho cadastrado podem ser alterados, bastando clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/alterar.png" alt="Alterar">
               no menu superior.
-              Assim, a tela abaixo será exibida com os dados do Rascunho em questão. Basta realizar as
+              Assim, a tela abaixo será exibida com os dados do Rascunho em questão habilitados para edição. Basta realizar as
               alterações que desejar e clicar em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar">
               para finalizar.
@@ -4737,11 +4736,13 @@
               Ao clicar em 'Cadastro', a tela abaixo será exibida, onde será possível realizar um Cadastro de Matrícula de um Imóvel no Sistema,
               sendo que os campos já estarão habilitados para edição.
 
-              <br><br>Os dados obrigatórios para gravar uma Matrícula são: Gênero e Tipo.
+              <br><br>Os dados obrigatórios para gravar um Rascunho são: Gênero e Tipo, localizados na aba 'Dados do Imóvel'.
 
               <br><br>Assim, basta inserir os dados que julgar necessário, na aba 'Dados do Imóvel, e clicar em
-              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar a Matricula. Feito isso, será exibida uma
-              janela onde poderão ser cadastrados e consultados dados em relação à Matrícula em questão, como Proprietários e Atos.
+              <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar a Matricula. Feito isso, novas abas serão exibidas
+              na parte inferior da tela, onde poderão ser cadastrados e visualizados dados referentes ao Imóvel em questão, como Proprietários, Credores,
+              Protocolos e Atos. Para realizar o cadastro de tais dados, basta utilizar os botões localizados à direita na janela ou abaixo dela e inserir
+              os dados requeridos para tal cadastro.
 
               <br><br>Para cancelar o cadastro de uma Matricula, que esteja em andamento, basta clicar em
               <img src="Prints Sagres/Matricula/cancelar.png" alt="Cancelar">, no menu superior.
