@@ -274,7 +274,7 @@
       <div class="header">
 <!-- Logo Cartório Cabeçalho -->
         <div class="img">
-  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp5.png' title="Criatos"></img>
+  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp6.png' title="Criatos"></img>
   				<a href='http://www.sagres.com.br' target="_blank"> <img id="sagres" target="_blank" src='logosagres.png' title="Sagres"></img> </a>
   			</div>
 
@@ -5178,7 +5178,7 @@
               <img src="Prints Sagres/Balcao/mais.png" alt="Incluir">
               ou  <img src="Prints Sagres/Financeiro/Caixa/excluir.png" alt="Excluir">, à direta da janela
               em questão, sendo que cada Ato possui suas devidas associações de Papéis de Partes Envolvidas.
-              <br><br>Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
+              <br>Ao incluir uma Parte Envolvida, o texto do Ato será atualizado com os Papéis em questão.
 
               <br><br>Feito isso, clique em
               <img src="Prints Sagres/Balcao/gravar.png" alt="Gravar">
@@ -5189,7 +5189,7 @@
               <img src="Prints Sagres/Balcao/registrarTodos.png" alt="Registrar Todos">.
 
               <br><br>Caso deseje alterar um Ato/Registro basta clicar em <img src="Prints Sagres/Balcao/alterar.png" alt="Alterar">.
-              Assim, os dados de tal Ato estarão habilitados para edição e o mesmo poderá ser novamente gravado no Sistema.
+              Assim, os dados de tal Ato serão habilitados para edição e o mesmo poderá ser novamente gravado no Sistema.
 
               <br><br>Para excluir um Ato/Registro basta clicar em <img src="Prints Sagres/Balcao/Excluir.png" alt="Excluir">.
               Assim, tal Ato será excluído do Protocolo ao qual ele estava vinculado.
