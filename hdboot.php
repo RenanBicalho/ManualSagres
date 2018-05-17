@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="logoCasa5.png"/>
+  <link rel="shortcut icon" href="logoCasa6.png"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Gugi" rel="stylesheet">
@@ -214,6 +214,7 @@
     #texto6{padding-left: 35px; text-align: justify;}
     #texto7{padding-left: 35px; text-align: justify;}
     #texto8{padding-left: 35px; text-align: justify;}
+    #texto20{padding-left: 35px; text-align: justify;}
 
 		h2{	font-family: 'Encode Sans Expanded', cursive;	padding-top: 40px; padding-bottom: 5px; font-size: 20px; cursor: pointer; }
 		p {	font-family: 'Ubuntu', sans-serif; font-size: 16px;  text-align: justify;}
@@ -5120,6 +5121,45 @@
 
           <div id='texto'>
             <p>
+              Ao clicar em 'Protocolo', a tela abaixo será exibida, onde poderão ser realizadas
+              pesquisas de Protocolos cadastrados no Sistema, que serão exibidos, na ordem das inclusões mais recentes,
+              na tabela localizada na parte inferior da tela.
+
+              <br><br>Para realizar uma pesquisa, basta inserir os filtros que julgar necessário, referentes ao Protocolo, como Número, Situação e Pedido,
+              dentre os já cadastrados no Sistema.
+              <br><br>Feito isso, clique em
+              <img src="Prints Sagres/Matricula/filtrar.png" alt="Filtro">
+              <br><br>Assim, os Protocolos referentes aos dados inseridos serão listados abaixo, a partir dos mais recentes,
+              onde poderão ser visualizados os dados de cada um.
+              <br>Dando um duplo-clique sobre um dos Protocolos listados na tabela, ou ao selecionar um deles e clicar em
+              <img src="Prints Sagres/Balcao/selec.png" alt="Selecionar">, será exibida a tela de
+              <a href="#texto15" style="cursor: pointer;">Cadastro de Protocolo</a>,
+              onde os dados do mesmo poderão ser alterados. Também será possível excluí-lo.
+
+              <br><br>Para realizar uma nova pesquisa, basta clicar em
+              <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Endereçamento/filtro.png" alt="Filtro">
+              e repetir as operações descritas acima.
+
+              <br><br>Caso seja necessário, é possível cadastrar um novo Protocolo, sendo que este não terá um Pedido como referência.
+              Basta clicar em <img src="Prints Sagres/Balcao/incluirProt.png" alt="Novo Protocolo">
+              no canto superior direito.
+              Assim, a janela de <a href="#texto15" style="cursor: pointer;">Cadastro de Protocolo</a>
+              será exibida, onde o mesmo poderá ser cadastrado.
+            </p>
+          </div>
+          <br><br><br>
+          <figure>
+            <img src="Prints Sagres/Balcao/LocProt.png" alt="Pedido" width="110%" height="auto">
+            <figcaption style="padding-left: 350px;">Tela Pesquisa Protocolo</figcaption>
+          </figure>
+
+          <br>
+          <div id="texto15"></div>
+          <br><br><br><br>
+          <h2 id="tplink" onclick="testeFilho('.L121')" style="cursor: pointer;"> ▸ Cadastro de Protocolo </h2>
+          <div id='texto'>
+            <br>
+            <p>
               Ao clicar em 'Protocolo', a tela abaixo será exibida, onde será possível realizar um Protocolo de Atendimento,
               uma vez que os campos estarão disponíveis para serem preenchidos.
               <br><br>Assim, basta inserir os dados, já cadastrados no Sistema, referentes ao novo Protocolo: Situação, Solicitante(Pessoa) e Natureza.
@@ -5260,8 +5300,8 @@
               <br>Feito isso, clique em
               <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/gravar.png" alt="Gravar"> para cadastrar o Pedido.
 
-              <br><br>Uma vez cadastrado, a <a href="#texto3" style="cursor: pointer;">tela de Serviços</a>
-              será exibida, onde os Itens dos mesmos poderão ser incluidos no Pedido em questão.
+              <!-- <br><br>Uma vez cadastrado, a <a href="#texto3" style="cursor: pointer;">tela de Serviços</a>
+              será exibida, onde os Itens dos mesmos poderão ser incluidos no Pedido em questão. -->
 
               <br><br>Feito isso, o Pedido pode ser protocolado, selecionando a Natureza do Protocolo, dentre as já cadastradas, no
               campo 'Criando novo Protocolo', após os dados do Atendimento. A data exibida será a do dia em que o Sistema estiver sendo executado,
@@ -5418,7 +5458,8 @@
                 Para gerar uma Certidão Inteiro Teor, basta selecionar o Serviço desejado e inserir, na janela à esquerda da tela, o Apontamento referente a um Imóvel ou Pessoa
                 já registrado no Sistema.
 
-                <br>Para gerar outro tipos de Certidão, basta selecionar o tipo que desejar no campo 'Outras Certidões', no centro da tela, e inserir o Apontamento correspondente.
+                <br>Para gerar outro tipos de Certidão, basta selecionar o tipo que desejar no campo 'Outras Certidões', no centro da tela, e inserir o Apontamento correspondente
+                ao Tipo do mesmo, selecionado no campo imediatamente abaixo.
 
                 <br> Assim, basta clicar em <img src="Prints Sagres\Ajustes\Cadastro\TabelasInternas\Serviços\plus.png" alt="Mais">
                 que o texto e as imagens da Certidão serão gerados automaticamente, assim como o preço a ser cobrado para registrar a certidão, que será
@@ -5426,6 +5467,9 @@
 
                 <br>No canto inferior esquerdo há o botão <img src="Prints Sagres/Balcao/pagamentos.png" alt="Pagamentos">, onde, após gravar
         			  a Certidão, será necessário registrar a cobrança do valor tabelado para tal serviço, afim de emitir a Certidão.
+
+                <br><br><b>OBS.:</b> Os Apontamentos utilizados nas Certidões serão registrados na aba de mesmo nome, localizada na parte inferior da
+                tela de 'Cadastro de Pedido'
               </p>
             </div>
             <br>
@@ -5533,7 +5577,7 @@
                 Assim, basta selecionar a Forma de Pagamento, sendo estas já cadastradas no Sistema, o Convênio (se necessário) e o valor a ser
                 pago pelo Cliente. É possível dar um duplo-clique no campo 'Valor' para preenchê-lo automaticamente com o valor total do pedido.
                 <br>Feito isso, clique em <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Serviços/plus.png" alt="Ícone Mais"> para incluir
-                o pagamento. Dessa maneira, o tela de <a onclick="testeFilho('.L140')" style="cursor: pointer;">  Movimento de Caixa </a> será exibida
+                o pagamento. Dessa maneira, o tela de <a onclick="testeFilho('.L146')" style="cursor: pointer;">  Movimento de Caixa </a> será exibida
                 para que o valor seja registrado.
                 <br>Os demais botões à direita podem ser utilizados para Excluir, Editar e Registrar um Pagamento.
               </p>
@@ -6255,26 +6299,25 @@
 
                <br><br>Ao clicar em
                <img src="Prints Sagres/Financeiro/Caixa/saida.png" alt="Saída"> poderão ser realizadas
-               operações de Retirada de Valores do Caixa, descritas
-               <a href="#texto3" style="cursor: pointer;">aqui</a>.
+               operações de Retirada de Valores do Caixa, descritas <a href="#texto20" style="cursor: pointer;">aqui</a>.
 
                <br><br>A fim de dar Baixa em um Pedido, basta selecioná-lo na listagem de Pedidos e, se for necessário,
                selecionar o Item referente ao mesmo, na lista inferior, para realizar o Recebimento do mesmo.
                <br>Assim, basta clicar em <img src="Prints Sagres/Financeiro/Caixa/receber.png" alt="Receber"> e
                confirmar o valor na janela que será apresentada à direita da tela.
-               <br> <b>OBS.:</b> Caso a forma de Pagamento do Pedido à ser baixado seja Cheque, Depósito, ou Boleto, o mesmo ficará 'Aguardando Baixa'.
-               Assim será necessário realizar a baixa do Pedido em questão em <a onclick="testeFilho('.L147')" style="cursor: pointer;">Consulta de Caixas</a>.
+               <br> <b>OBS.:</b> Caso a forma de Pagamento do Pedido baixado seja Cheque, Depósito, Boleto ou Mensalista(Faturado), o mesmo ficará 'Aguardando Baixa'.
+               Assim será necessário finalizar a baixa do Pedido em questão em <a onclick="testeFilho('.L147')" style="cursor: pointer;">Consulta de Caixas</a>.
 
                <br><br>Caso for necessário cancelar a Baixa de um Item, ou de todo o Pedido, basta, na aba 'Baixados',
-               selecionar o Pedido e o Item, se houver mais de um, que desejar desfazer a Baixa e clicar em
+               selecionar o Pedido e os Itens que desejar desfazer a Baixa e clicar em
                <img src="Prints Sagres/Financeiro/Caixa/estItem.png" alt="Estornar Item"> ou
                <img src="Prints Sagres/Financeiro/Caixa/estTudo.png" alt="Estornar Tudo">.
-               <br> <b>OBS.:</b> Caso a forma de Pagamento do Pedido à ter a baixa cancelada seja Cheque, Depósito, ou Boleto, será necessário realizar
+               <br> <b>OBS.:</b> Caso a forma de Pagamento do Pedido à ter a baixa cancelada seja Cheque, Depósito, Boleto ou Mensalista(Faturado), será necessário realizar
                o cancelamento da baixa em <a onclick="testeFilho('.L147')" style="cursor: pointer;">Consulta de Caixas</a>. Feito isso, a baixa poderá ser cancelada na aba 'Baixados' na
-               tela de Movimento de Caixa.
+               tela apresentada abaixo.
 
                <br><br>A mesma operação descrita acima poderá ser realizada na aba 'A Baixar'. Assim, o Pedido será retirado
-               do Caixa e assim, o pagamento do mesmo poderá ser alterado na tela de
+               do Caixa e assim, o pagamento do mesmo poderá ser alterado ou excluído na tela de
                <a onclick="testeFilho('.L121')" style="cursor: pointer;">Cadastro do Pedido</a>.
             </p>
             <br><br>
@@ -6287,7 +6330,7 @@
 
           <br>
 
-          <div id="texto3"></div>
+          <div id="texto20"></div>
           <br><br><br><br>
           <h2 id="tplink"> ▸ Saída </h2>
           <div id='texto'>
@@ -6348,16 +6391,19 @@
               <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Endereçamento/filtro.png" alt="Filtro">
               e repetir as operações descritas acima.
 
-              <br><br>Caso a Forma de Pagamento do Item baixado seja Cheque, Depósito ou Boleto, é necessário Efetuar a Baixa do mesmo.
-              Basta selecionar um, dentre os Itens listados, que está na situação 'Aguardando Baixa', e clicar em
+              <br><br>Caso a Forma de Pagamento do Item baixado seja Cheque, Depósito, Boleto ou Mensalista(Faturado), é necessário Efetuar a Baixa do mesmo.
+              Basta selecionar um, dentre os Itens listados, que esteja na situação 'Aguardando Baixa', e clicar em
               <img src="Prints Sagres/Financeiro/Caixa/efetuar.png" alt="Efetuar Baixa">
               à direita da lista de Itens.
               Assim, basta obter a autorização do Operador responsável que a Baixa do Item será efetuada.
+              <br>Caso a forma de pagamento seja Depósito, será necessário, antes de obter autorização do responsável,
+              incluir o número do Documento a ser relacionado com o Depósito em questão.
 
-              <br><br>Sendo necessário, é possível cancelar a baixa de um Item cuja Forma de Pagamento seja Cheque, Depósito ou Boleto.
-              Basta selecionar o item que deseja realizar o cancelamento e clicar em
+              <br><br>Sendo necessário, é possível cancelar a baixa de um Item cuja Forma de Pagamento seja Cheque, Depósito, Boleto ou Mensalista(Faturado).
+              Basta selecionar um item que esteja na situação 'Baixado' e clicar em
               <img src="Prints Sagres/Financeiro/Caixa/CancelarBaixa.png" alt="Cancelar Baixa">, à direita da lista de Itens. Assim, após autorização do responsável, a baixa de tal
-              item será cancelada, porém irá permanecer como 'Baixado' em <a onclick="testeFilho('.L146')" style="cursor: pointer;">Movimento de Caixa</a>.
+              item será cancelada, porém irá permanecer como 'Baixado' na tela de <a onclick="testeFilho('.L146')" style="cursor: pointer;">Movimento de Caixa</a>, sendo ainda necessário
+              realizar o estorno da Baixa na tela em questão.
 
               <br><br>Também à direita da lista de Itens, é possível realizar outras operações:<br>
 
