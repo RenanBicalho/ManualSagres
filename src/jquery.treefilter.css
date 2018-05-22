@@ -35,10 +35,10 @@
   font-weight: 800;
   line-height: 30px;
   text-align: center;
-  transition: .1s linear;
+  transition: .10s linear;
 }
 
-.tf-tree .tf-child-true.tf-open > div { font-weight: 600; }
+.tf-tree .tf-child-true.tf-open > div { text-decoration: underline; font-weight: 600; }
 
 .tf-tree .tf-child-true.tf-open > ul { display: block; }
 
@@ -55,7 +55,7 @@
 }
 
 .tf-child-false:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .tf-tree .tf-child-false:before {
@@ -77,10 +77,10 @@
 
 .tf-tree .tf-selected {
   text-decoration: underline;
-  font-size: 20px;
+  /* font-size: 20px; */
   /* background: white; */
-  /* color: #; */
-  font-weight: 600;
+  color: #5b9d2f;
+  /* font-weight: 600; */
   /* border-radius: 20px; */
 }
 

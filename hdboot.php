@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <title>Criatos ▸ Manual</title>
+  <title>Help Desk Criatos</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="logoCasa6.png"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Gugi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Montserrat" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,11 +17,12 @@
   <link type='text/css' rel='stylesheet' href='src/jquery.treefilter.css?version=444'>
 
   <!-- <link type="text/css" rel="stylesheet" href="lorem.css"> -->
-  <!-- <link type='text/css' rel='stylesheet' href='src/jquery.treefilter.css?version=33'> -->
+  <link type='text/css' rel='stylesheet' href='src/jquery.treefilter.css?version=33'>
 
   <style>
 
-    body	{ background: url('bg_raissa.png'), #d1d1d1d1; border-radius: 8px; }
+    body	{ background: url('bg_raissa.png'), #d1d1d1d1; }
+    /* body	{ background: #d1d1d1d1; } */
 
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content { height: 750px; }
@@ -29,15 +30,16 @@
     /* Set gray background color and 100% height */
     .sidenav {
       /* border: solid #a1a1a1; */
-      border-radius: 40px 0px 0px 40px;
-      margin-top: 100px;
+      /* border-radius: 0px 40px 40px 0px; */
+      margin-top: 0px;
       /* background-color: #eeeeeeee; */
-      background-color: #d1d1d1;
-      height:80.5vh;
-      width: 23.5%;
+      background-color: #c1c1c1;
+      height:100vh;
+      /* height:80.5vh; */
+      width: 25.5%;
       overflow: auto;
       position: fixed;
-      margin-left: 1035px;
+      margin-left: 0px;
     }
 
     /* .bloco {
@@ -57,12 +59,13 @@
 
     /* width */
     ::-webkit-scrollbar {
-        width: 9px;
+        width: 7px;
     }
 
     /* Track */
     ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey;
+        /* box-shadow: inset 0 0 5px grey; */
+        box-shadow: inset 0 0 5px #5b9d2f;
         border-radius: 20px;
     }
 
@@ -74,7 +77,8 @@
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-        background: gray;
+        background: #5b9d2f;
+        /* background: gray; */
     }
 
     /* Set black background color, white text and some padding */
@@ -88,6 +92,7 @@
       /* margin-top: 671px; */
       /* background: darkgray; */
       background: #d1d1d1;
+      /* background: #d1d1d1; */
       position: fixed;
       left: 0px;
       z-index: 1000;
@@ -104,38 +109,53 @@
     }
 
     /* .titulo	{text-shadow: -1px 0 #ddd, 0 1px white, 1px 0 #ddd, 0 -1px #ddd; font-family: 'Righteous', cursive; font-weight:500; font-size:32px; float: left; z-index: 100; margin-top: 5px; margin-left: 250px; } */
-    .titulo	{font-family: 'Agency FB', Regular; font-weight:800; font-size:60px; float: left; z-index: 100; margin-top: 8px; margin-left: 545px; letter-spacing: 2px; }
+    /* .titulo	  {font-family: 'Sunflower', sans-serif; font-weight:300; font-size:45px; float: left; z-index: 100; margin-top: 8px; margin-left: 210px; letter-spacing: 2px; } */
+    .titulo2	{font-family: 'Agency FB', Regular; font-weight:800; font-size:35px; float: left; z-index: 100; margin-top: 90px; margin-left: 13px; letter-spacing: 2px; }
 		/* .fred	{font-family: 'Dawning of a New Day', cursive; font-weight:10; font-size:33px; padding-top: 0px; padding-left: 380px; color: #bbb; margin: 0px;} */
 
-		.ms1	{ padding: 15px 0px 0px 0px; z-index: 100; position: fixed;}
+		.ms1	{ padding: 165px 0px 0px 0px; z-index: 100; position: fixed;}
 		/* .ms2	{outline:none; z-index: 100; float: left; padding: 5px 180px 5px 50px; } */
 
-		.ms3	{ float: left; padding: 120px 0px 0px 9px; top: 0; display: none; }
+		.ms3	{ float: left; padding: 40px 0px 0px 350px; top: 0; display: none; }
 		/* .ms4	{float: left; padding: 5px 0px 5px 80px; z-index: 100; }
 		.ms5	{float: left; padding: 5px 0px 5px 2px; z-index: 100; } */
 
-		#my-search { font-size:15px; color: slategray; z-index: 100; padding: 0px 10px; height: 35px; width: 120%; border-radius: 50px; background: #ddd;}
+		#my-search { font-size:14px; color: slategray; z-index: 100; padding: 0px 10px; height: 30px; width: 135%; border-radius: 50px; background: #ddd;}
 		/* #my-search2 { z-index: 100; padding: 0px 10px; height: 75%; width: 150%; } */
-		#my-search3 { font-size:15px; color: slategray; width: 120%; height: 35px; padding: 0px 10px; border-radius: 50px; background: #eeeeeeee; float: left;}
+		#my-search3 { font-size:14px; color: slategray; width: 120%; height: 30px; padding: 0px 10px; border-radius: 50px; background: #eeeeeeee; float: left;}
 
-		ul#my-tree	{ position: absolute; margin: 0px; left: 0; padding: 40px 25px; color: solid black; z-index: 0; height: auto; }
+		ul#my-tree	{ position: absolute; margin: 0px; left: 0; padding: 190px 35px; color: solid black; z-index: 0; height: auto; }
 		ul#my-tree	li { margin:22px 0px; font-size: 20px; font-family: 'Righteous', cursive; }
 
     .header{
   		 padding: 8px 10px;
   		 height: 15%;
-  		 width: 100%;
+  		 width: 20%;
   		 /* background: darkgray; */
-  		 background: #d1d1d1;
+  		 /* background: #d1d1d1; */
   		 position: fixed;
   		 left: 0px;
        z-index: 1000;
 		}
 
+    .header2{
+      padding: 8px 0px;
+      height: 23.5%;
+      width: 24%;
+      /* background: darkgray; */
+      /* background: #d1d1d1; */
+      background: #c1c1c1;
+      position: fixed;
+      left: 6px;
+      top: 0px;
+      z-index: 1000;
+      border-radius: 20px;
+    }
+
     #img{
-			width: 22%;
+			width: 14%;
 			height: auto;
-      margin-top: -15px;
+      margin-top: 0px;
 			padding-top: 14px;
 			margin-left: -10px;
 			padding-right: 0px;
@@ -147,11 +167,11 @@
 		}
 
     #sagres{
-			width: 5%;
+			width: 4%;
 			height: auto;
       margin-top: -15px;
 			padding-top: 14px;
-			margin-left: 1220px;
+			margin-left: 250px;
 			padding-right: 0px;
 			float: left;
 			cursor: pointer;
@@ -161,10 +181,10 @@
 		}
 
 		#home{
-			padding-top: 130px;
-			padding-left: 145px;
+			padding-top: 80px;
+			padding-left: 390px;
 			font-weight: 600;
-			font-size: 24px;
+			font-size: 30px;
 			font-family: 'Arima Madurai', cursive;
 			position: fixed;
 		}
@@ -180,8 +200,8 @@
 			/* padding-left: 100px;
 			padding-top: 200px; */
 			position: fixed;
-      margin-left: 220px;
-      margin-top: 170px;
+      margin-left: 480px;
+      margin-top: 150px;
 		}
 
     #logo:hover{
@@ -198,11 +218,11 @@
 
 		.content3 {
       z-index: 100;
-			padding-top: 120px;
+			padding-top: 50px;
 			padding-right: 0px;
-			padding-left: 70px;
+			padding-left: 400px;
 			/* margin-left: 0px; */
-			width: 90%;
+			width: 130%;
 			text-align: justify;
 		}
 
@@ -214,6 +234,7 @@
     #texto6{padding-left: 35px; text-align: justify;}
     #texto7{padding-left: 35px; text-align: justify;}
     #texto8{padding-left: 35px; text-align: justify;}
+    #texto15{padding-left: 35px; text-align: justify;}
     #texto20{padding-left: 35px; text-align: justify;}
 
 		h2{	font-family: 'Encode Sans Expanded', cursive;	padding-top: 40px; padding-bottom: 5px; font-size: 20px; cursor: pointer; }
@@ -224,13 +245,16 @@
     h2:hover{text-decoration: underline;}
 
     .btn{
-      margin-left: 20px;
-      margin-top: 570px;
+      margin-left: 1200px;
+      margin-top: 612px;
       display: none; /* Hidden by default*/
       position: fixed; /* Fixed/sticky position */
       z-index: 100;
-      border-radius: 50%;
-      border: 1.5px solid #aaa;
+      border-radius: 50px;
+      border: 2px solid black;
+      color: #5b9d2f;
+      font-family: 'Agency FB';
+      font-size: 20px;
     }
 
     #tplink{
@@ -247,6 +271,11 @@
 
     #link{
       color: dimgray;
+      font-weight: 600;
+    }
+
+    #link:hover{
+      color: #5b9d2f;
     }
 
     #datahora{
@@ -263,6 +292,15 @@
       padding-top: 0px;
     }
 
+    .pai:hover{
+      /* text-decoration: underline; */
+      color: #5b9d2f;
+    }
+
+    .titulo2:hover{
+      color: #5b9d2f;
+    }
+
   </style>
 </head>
 
@@ -270,7 +308,7 @@
 
 <div class="container-fluid">
   <div class="row content">
-
+    <div class="header2"></div>
     <div class="col-sm-9">
       <div class="header">
 <!-- Logo Cartório Cabeçalho -->
@@ -280,15 +318,18 @@
   			</div>
 
 <!-- Título Página -->
-  			<div class="titulo" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;">
+  			<!-- <div class="titulo content1" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;"> -->
   					 <!-- CRIATOS &#xb7; MANUAL DO SISTEMA -->
-  					 MANUAL
+  					 <!-- HELP DESK CRIATOS -->
              <!-- ▸ Sistema de Automação para Cartórios -->
+  			<!-- </div> -->
+        <div class="titulo2" onclick="window.location.reload()" onclick="window.scrollTo(0,0)" style="cursor:pointer; position:fixed;" title="Home">
+  					 Help Desk &#xb7; Criatos
   			</div>
       </div>
 
 <!-- Rodapé -->
-      <footer class="fixed-bottom">
+      <footer class="fixed-bottom" style="color: #5b9d2f;">
 
           © 2018
           <a href='http://www.sagres.com.br' target="_blank" id="link"> Sagres Informática e Comunicação LTDA.  </a>
@@ -335,9 +376,9 @@
       <!-- </div> -->
 
 <!-- Bem Vindo -->
-      <div id='home' class='content1'>
+      <div id='home' class='content1' style="color: #5b9d2f;">
               <!-- <span class="glyphicon glyphicon-home"></span> -->
-              Bem Vindo!
+              Bem Vindo ao Help Desk do Sistema Criatos!
       </div>
 
 <!-- Imagem Inicial CRIATOS -->
@@ -350,7 +391,8 @@
       <div class="ms3"><input type="search" id="my-search3" placeholder="Palavra-Chave.." title="Pesquisar Documentos por Palavras-Chave"></div>
 
 <!-- Voltar ao Topo -->
-      <a class='btn btn-default' id="btn" role='button' title="Voltar ao Topo" onclick="topFunction()"><span class="glyphicon glyphicon-chevron-up"></a>
+      <!-- <a class='btn btn-default' id="btn" role='button' title="Voltar ao Topo" onclick="topFunction()"><span class="glyphicon glyphicon-chevron-up"></a> -->
+      <a class='btn btn-default' id="btn" role='button' title="Voltar ao Topo" onclick="topFunction()">Voltar ao Topo</a>
 
       <div class="content3">
 <!-- Cartorial -->
@@ -1647,7 +1689,7 @@
 
           <br><br>
           <figure>
-            <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Serviços/Serviços.png" alt="Serviços" width="110%" height="auto">
+            <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Serviços/Serviços.png" alt="Serviços" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 390px;">Tela Serviços</figcaption>
           </figure>
 
@@ -2226,7 +2268,7 @@
 
           <br><br>
           <figure>
-            <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/AtoRegistro/ModeloRegistro.png" alt="Registros Classe" width="112%" height="auto" style="padding-left: 50px;">
+            <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/AtoRegistro/ModeloRegistro.png" alt="Registros Classe" width="112%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 390px;">Tela Registros de Classe</figcaption>
           </figure>
         </div>
@@ -2518,7 +2560,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Financeiro/ConvenioBancoAdm.png" alt="Convênios Bancos/Adm Cartão" width="110%" height="auto" style="padding-left: 10px;">
+            <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Financeiro/ConvenioBancoAdm.png" alt="Convênios Bancos/Adm Cartão" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 350px;">Tela Convênios Bancos/Adm Cartão</figcaption>
           </figure>
         </div>
@@ -4147,7 +4189,7 @@
 
             <br><br>
             <figure>
-              <img src="Prints Sagres/Indicador/Cadastro2.png" alt="Pessoa" width="110%" height="auto">
+              <img src="Prints Sagres/Indicador/Cadastro2.png" alt="Pessoa" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Pessoa</figcaption>
             </figure>
           </div>
@@ -4234,7 +4276,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Ajustes/Cadastro/Contrato.png" alt="Contrato">
+            <img src="Prints Sagres/Ajustes/Cadastro/Contrato.png" alt="Contrato" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 390px;">Tela Mensalista</figcaption>
           </figure>
         </div>
@@ -4272,7 +4314,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Ajustes/Cadastro/Veiculos.png" alt="Veículo" width="110%" height="auto">
+            <img src="Prints Sagres/Ajustes/Cadastro/Veiculos.png" alt="Veículo" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 390px;">Tela Veículo</figcaption>
           </figure>
         </div>
@@ -4426,7 +4468,7 @@
           </div>
 
           <figure>
-            <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/Cadastro.png" alt="Cadastro" width="110%" height="auto">
+            <img src="Prints Sagres/Ajustes/Cadastro/Usuarios/Cadastro.png" alt="Cadastro" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 360px;">Tela Cadastro Usuarios</figcaption>
           </figure>
         </div>
@@ -4619,7 +4661,7 @@
 
             <br><br>
             <figure>
-              <img src="Prints Sagres/Indicador/Cadastro2.png" alt="Pessoa" width="110%" height="auto">
+              <img src="Prints Sagres/Indicador/Cadastro2.png" alt="Pessoa" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Indicador Pessoal</figcaption>
             </figure>
           </div>
@@ -4722,7 +4764,7 @@
             </p>
             <br><br>
             <figure>
-              <img src="Prints Sagres/Matricula/Rascunho.png" alt="Rascunho" width="110%" height="auto">
+              <img src="Prints Sagres/Matricula/Rascunho.png" alt="Rascunho" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Rascunho Matrícula</figcaption>
             </figure>
           </div>
@@ -4763,7 +4805,7 @@
             </p>
             <br><br>
             <figure>
-              <img src="Prints Sagres/Matricula/Cadastro.png" alt="Cadastro" width="115%" height="auto" style="padding-right: 30px;">
+              <img src="Prints Sagres/Matricula/Cadastro.png" alt="Cadastro" width="115%" height="auto" style="margin-left: -80px;">
               <figcaption style="padding-left: 340px;">Tela Cadastro Matrícula</figcaption>
             </figure>
           </div>
@@ -4796,7 +4838,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Matricula/Pesquisar.png" alt="Pesquisar" width="110%" height="auto">
+            <img src="Prints Sagres/Matricula/Pesquisar.png" alt="Pesquisar" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Pesquisa Matrícula</figcaption>
           </figure>
         </div>
@@ -4853,7 +4895,7 @@
 
             <br><br>
             <figure>
-              <img src="Prints Sagres/Transcricao/Cadastro.png" alt="Cadastro" width="110%" height="auto">
+              <img src="Prints Sagres/Transcricao/Cadastro.png" alt="Cadastro" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Cadastro Transcrição</figcaption>
             </figure>
           </div>
@@ -4886,7 +4928,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Transcricao/Pesquisar.png" alt="Pesquisar" width="110%" height="auto">
+            <img src="Prints Sagres/Transcricao/Pesquisar.png" alt="Pesquisar" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Pesquisa Transcrição</figcaption>
           </figure>
         </div>
@@ -4943,7 +4985,7 @@
             </p>
             <br><br>
             <figure>
-              <img src="Prints Sagres/RegistroAuxiliar/Cadastro.png" alt="Pesquisar" width="110%" height="auto">
+              <img src="Prints Sagres/RegistroAuxiliar/Cadastro.png" alt="Pesquisar" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Cadastro Registro Auxiliar</figcaption>
             </figure>
           </div>
@@ -4976,7 +5018,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/RegistroAuxiliar/Pesquisar.png" alt="Pesquisar" width="110%" height="auto">
+            <img src="Prints Sagres/RegistroAuxiliar/Pesquisar.png" alt="Pesquisar" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Pesquisa Registro Auxiliar</figcaption>
           </figure>
         </div>
@@ -5037,7 +5079,7 @@
             <br><br>
 
             <figure>
-              <img src="Prints Sagres/Loteamento/Cadastro.png" alt="Cadastro" width="110%" height="auto">
+              <img src="Prints Sagres/Loteamento/Cadastro.png" alt="Cadastro" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Cadastro Loteamento</figcaption>
             </figure>
           </div>
@@ -5149,7 +5191,7 @@
           </div>
           <br><br><br>
           <figure>
-            <img src="Prints Sagres/Balcao/LocProt.png" alt="Pedido" width="110%" height="auto">
+            <img src="Prints Sagres/Balcao/LocProt.png" alt="Pedido" width="100%" height="auto">
             <figcaption style="padding-left: 350px;">Tela Pesquisa Protocolo</figcaption>
           </figure>
 
@@ -5194,7 +5236,7 @@
             </p>
             <br><br>
             <figure>
-              <img src="Prints Sagres/Balcao/Protocolo.png" alt="Protocolo" width="110%" height="auto">
+              <img src="Prints Sagres/Balcao/Protocolo.png" alt="Protocolo" width="105%" height="auto">
               <figcaption style="padding-left: 340px;">Tela Cadastro Protocolo</figcaption>
             </figure>
           </div>
@@ -5243,7 +5285,7 @@
             <br>
 
             <figure>
-              <img src="Prints Sagres/Balcao/AtoRegistro2.png" alt="Rascunho Atos" style="padding-left: 20px;" width="115%" height="auto">
+              <img src="Prints Sagres/Balcao/AtoRegistro2.png" alt="Rascunho Atos" style="margin-left: -65px;" width="114%" height="auto">
               <figcaption style="padding-left: 420px;">Rascunho Atos</figcaption>
             </figure>
         </div>
@@ -5281,7 +5323,7 @@
           </div>
           <br><br><br>
           <figure>
-            <img src="Prints Sagres/Balcao/Pedido.png" alt="Pedido" width="110%" height="auto">
+            <img src="Prints Sagres/Balcao/Pedido.png" alt="Pedido" width="110%" height="auto" style="margin-left: -47px;">
             <figcaption style="padding-left: 350px;">Tela Pesquisa Pedido</figcaption>
           </figure>
 
@@ -5409,8 +5451,8 @@
             <br><br><br>
 
             <figure>
-              <img src="Prints Sagres/Balcao/CadPedido.png" alt="Cadastro Pedido" style="margin-right: 50px;" width="112%" height="auto">
-              <figcaption style="padding-left: 380px;">Tela Cadastro Pedido</figcaption>
+              <img src="Prints Sagres/Balcao/CadPedido.png" alt="Cadastro Pedido" style="margin-left: -55px; margin-right: 50px;" width="112%" height="auto">
+              <figcaption style="padding-left: 350px;">Tela Cadastro Pedido</figcaption>
             </figure>
 
             <br><br><br><br>
@@ -5474,8 +5516,8 @@
             </div>
             <br>
             <figure>
-              <img src="Prints Sagres/Balcao/Certidao.png" alt="Certidão" style="padding-left: 50px;" width="115%" height="auto">
-              <figcaption style="padding-left: 450px;">Tela Certidão</figcaption>
+              <img src="Prints Sagres/Balcao/Certidao.png" alt="Certidão" style="margin-left: -55px;" width="112%" height="auto">
+              <figcaption style="padding-left: 370px;">Tela Certidão</figcaption>
             </figure>
 
             <br><br>
@@ -5574,19 +5616,23 @@
               <p>
                 Ao realizar o Pagamento referente aos Serviços incluídos no Pedido, como Certidões e Atos, a tela abaixo será exibida, onde
                 será apresentado o valor total a ser pago por um determinado Pedido no campo 'TOTAL PEDIDO'.
-                Assim, basta selecionar a Forma de Pagamento, sendo estas já cadastradas no Sistema, o Convênio (se necessário) e o valor a ser
-                pago pelo Cliente. É possível dar um duplo-clique no campo 'Valor' para preenchê-lo automaticamente com o valor total do pedido.
-                <br>Feito isso, clique em <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Serviços/plus.png" alt="Ícone Mais"> para incluir
-                o pagamento. Dessa maneira, o tela de <a onclick="testeFilho('.L146')" style="cursor: pointer;">  Movimento de Caixa </a> será exibida
+                Assim, basta selecionar a Forma de Pagamento, sendo esta já cadastrada no Sistema, o Convênio (se for selecionado Cartão como Forma de Pagamento)
+                e o valor a ser pago pelo Cliente. Um duplo-clique no campo 'Valor' irá preenchê-lo com o valor total do pedido.
+                <br>Caso for necesário, é possível inserir um Valor maior do que o total a ser pago, sendo que o remanescente será mantido como crédito
+                para Serviços que forem futuramente requisitados pelo Cliente em questão. O mesmo ocorrerá quando for realizado um pagamento sem Serviços incluídos
+                no Pedido.
+                <br><br> Para incluir o pagamento clique em <img src="Prints Sagres/Ajustes/Cadastro/TabelasInternas/Serviços/plus.png" alt="Ícone Mais">.
+                Dessa maneira, a tela de <a onclick="testeFilho('.L146')" style="cursor: pointer;">  Movimento de Caixa </a> será exibida
                 para que o valor seja registrado.
-                <br>Os demais botões à direita podem ser utilizados para Excluir, Editar e Registrar um Pagamento.
+                <br>Os demais botões à direita podem ser utilizados para Excluir, Editar e acessar o
+                <a onclick="testeFilho('.L146')" style="cursor: pointer;">  Movimento de Caixa </a>.
               </p>
             </div>
 
             <br>
             <figure>
               <img src="Prints Sagres/Balcao/FormasPagamento.png" alt="Formas de Pagamento" style="padding-left: 60px;">
-              <figcaption style="padding-left: 390px;">Tela Formas de Pagamento</figcaption>
+              <figcaption style="padding-left: 350px;">Tela Formas de Pagamento</figcaption>
             </figure>
 
             <br><br>
@@ -5630,7 +5676,7 @@
             </p>
             <br><br>
             <figure>
-              <img src="Prints Sagres/Balcao/OperacaoVeiculo.png" alt="Operação Veículo" width="110%" height="auto">
+              <img src="Prints Sagres/Balcao/OperacaoVeiculo.png" alt="Operação Veículo" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 340px;">Tela Operação Veículo</figcaption>
             </figure>
           </div>
@@ -5696,7 +5742,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Balcao/GED/Documento.png" alt="Documento" width="110%" height="auto">
+            <img src="Prints Sagres/Balcao/GED/Documento.png" alt="Documento" width="105%" height="auto">
             <figcaption style="padding-left: 340px;">Tela Pesquisa Documento GED</figcaption>
           </figure>
         </div>
@@ -5768,7 +5814,7 @@
             <br><br>
 
             <figure>
-              <img src="Prints Sagres/Balcao/Indisponibilidade.png" alt="Indisponibilidade Manual" width="110%" height="auto">
+              <img src="Prints Sagres/Balcao/Indisponibilidade.png" alt="Indisponibilidade Manual" width="110%" height="auto" style="margin-left: -40px;">
               <figcaption style="padding-left: 340px;">Tela Indisponibilidade Manual</figcaption>
             </figure>
           </div>
@@ -5983,7 +6029,7 @@
           </div>
           <br>
           <figure>
-            <img src="Prints Sagres/Processos/Integracoes/Receita/GerarDOI.png" alt="Exportação Selo" style="padding-left: 40px;" width="115%" height="auto">
+            <img src="Prints Sagres/Processos/Integracoes/Receita/GerarDOI.png" alt="Exportação Selo" style="margin-left: -40px;" width="110%" height="auto">
             <figcaption style="padding-left: 410px;">Tela Geração DOI</figcaption>
           </figure>
 
@@ -6062,14 +6108,13 @@
               <br><br>Caso seja necessário, é possível Matrícular um Rascunho. Basta selecionar os Rascunhos que desejar matricular,
               dentre os resultantes da pesquisa, e clicar em
               <img src="Prints Sagres/Processos/matricular.png" alt="Matricular">
-              no canto superior direito.
-              Assim, o Rascunho será matriculado no Sistema.
+              no canto superior direito. Assim, o Rascunho será matriculado no Sistema.
             </p>
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Processos/MatriculaLote.png" alt="Matrícula Lote" width="110%" height="auto">
-            <figcaption style="padding-left: 340px;">Tela Matrícula Lote</figcaption>
+            <img src="Prints Sagres/Processos/MatriculaLote.png" alt="Matrícula Lote" width="110%" height="auto" style="margin-left: -45px;">
+            <figcaption style="padding-left: 350px;">Tela Matrícula Lote</figcaption>
           </figure>
 
         </div>
@@ -6096,7 +6141,7 @@
 
               <br><br>
               <figure>
-                <img src="Prints Sagres/Processos/SelarLote.png" alt="Selar Lote" width="110%" height="auto">
+                <img src="Prints Sagres/Processos/SelarLote.png" alt="Selar Lote" width="110%" height="auto" style="margin-left: -50px;">
                 <figcaption style="padding-left: 340px;">Tela Selar Item Lote</figcaption>
               </figure>
           </p>
@@ -6217,7 +6262,7 @@
               Ao clicar em "Abertura", será exibida a tela abaixo, onde o Operador responsável
               fará a abertura do Caixa, inserindo o Saldo Inicial, incluindo anotações que julgar necessárias
               no campo inferior e, por fim, clicando no botão
-              <img src="Prints Sagres/Financeiro/Caixa/abertura/btnAbrirCaixa.png" alt="Abrir Caixa">.
+              <img src="Prints Sagres/Financeiro/Caixa/abertura/btnAbrirCaixa.png" alt="Abrir Caixa">
             </p>
           </div>
 
@@ -6253,7 +6298,7 @@
           </div>
 
           <figure>
-            <img src="Prints Sagres/Financeiro/Caixa/fechamento/Fechamento.png" alt="Fechamento" width="110%" height="auto">
+            <img src="Prints Sagres/Financeiro/Caixa/fechamento/Fechamento.png" alt="Fechamento" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 370px; padding-bottom: 80px;">Fechamento de Caixa</figcaption>
           </figure>
 
@@ -6324,7 +6369,7 @@
           </div>
 
           <figure>
-            <img src="Prints Sagres/Financeiro/Caixa/Movimento.png" alt="Movimento" width="110%" height="auto" style="padding-left: 20px;">
+            <img src="Prints Sagres/Financeiro/Caixa/Movimento.png" alt="Movimento" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 370px;">Tela Movimento de Caixa</figcaption>
           </figure>
 
@@ -6433,7 +6478,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Financeiro/Caixa/Consulta.png" alt="Consulta Caixa" width="110%" height="auto">
+            <img src="Prints Sagres/Financeiro/Caixa/Consulta.png" alt="Consulta Caixa" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 370px;">Tela Consulta Caixa</figcaption>
           </figure>
         </div>
@@ -6563,14 +6608,14 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Financeiro/FaturarContrato.png" alt="Faturar Contrato" width="112%" height="auto">
+            <img src="Prints Sagres/Financeiro/FaturarContrato.png" alt="Faturar Contrato" width="112%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 370px;">Tela Faturar Contrato</figcaption>
           </figure>
         </div>
 
         <div class='content2 L151' hidden=true>
           <h2 id="AltTop" onclick="testeFilho('.L142')" style="cursor: pointer;"> Financeiro ▸ Cobrança Boleto </h2>
-          <img src="Prints Sagres/Financeiro/CobrancaBoleto.png" alt="Cobrança Boleto" width="110%" height="auto">
+          <img src="Prints Sagres/Financeiro/CobrancaBoleto.png" alt="Cobrança Boleto" width="110%" height="auto" style="margin-left: -50px;">
         </div>
 
         <div class='content2 L152' hidden=true>
@@ -6653,7 +6698,7 @@
             </p>
           </div>
 
-          <h2 id="tplink" onclick="testeFilho('.L163')" style="cursor: pointer;"> ▸ Pesquisa a Base de Dados </h2>
+          <h2 id="tplink" onclick="testeFilho('.L165')" style="cursor: pointer;"> ▸ Pesquisa a Base de Dados </h2>
           <div id='texto'>
             <p>
               Realizar Consulta à Base de Dados do Sistema, podendo utilizar filtros de pesquisa, se
@@ -6695,7 +6740,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/ConsTabPrecos.png" alt="Tabela Preço" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/ConsTabPrecos.png" alt="Tabela Preço" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Consulta Preços</figcaption>
           </figure>
         </div>
@@ -6726,7 +6771,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/EstoqueSelo.png" alt="Estoque Selo" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/EstoqueSelo.png" alt="Estoque Selo" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Consulta Estoque Selo</figcaption>
           </figure>
         </div>
@@ -6768,7 +6813,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/ProtocolosVenc.png" alt="Protocolos Vencidos" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/ProtocolosVenc.png" alt="Protocolos Vencidos" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Consulta Protocolos</figcaption>
           </figure>
         </div>
@@ -6805,7 +6850,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/AtosRegistros.png" alt="AtosRegistros" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/AtosRegistros.png" alt="AtosRegistros" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Consulta Atos/Registros</figcaption>
           </figure>
         </div>
@@ -6870,7 +6915,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/Indisponibilidades.png" alt="Indisponibilidades" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/Indisponibilidades.png" alt="Indisponibilidades" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Consulta Indisponibilidades</figcaption>
           </figure>
         </div>
@@ -6903,7 +6948,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/Exigencias.png" alt="Exigências" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/Exigencias.png" alt="Exigências" width="110%" height="auto" style="margin-left: -50px;">
             <figcaption style="padding-left: 340px;">Tela Consulta Pedidos Exigências</figcaption>
           </figure>
         </div>
@@ -6990,7 +7035,7 @@
             <br><br>
 
             <figure>
-              <img src="Prints Sagres/Consultas/Dashboards/Eventos.png" alt="Dashboard Eventos" width="110%" height="auto">
+              <img src="Prints Sagres/Consultas/Dashboards/Eventos.png" alt="Dashboard Eventos" width="110%" height="auto" style="margin-left: -50px;">
               <figcaption style="padding-left: 390px;">Tela Dashboard Eventos</figcaption>
             </figure>
           </div>
@@ -7029,7 +7074,7 @@
           </div>
           <br><br>
           <figure>
-            <img src="Prints Sagres/Consultas/PesquisaBase.png" alt="Pesquisa a Base" width="110%" height="auto">
+            <img src="Prints Sagres/Consultas/PesquisaBase.png" alt="Pesquisa a Base" width="110%" height="auto" style="margin-left: -50px;"  >
             <figcaption style="padding-left: 390px;">Tela Consulta Base de Dados</figcaption>
           </figure>
         </div>
@@ -7104,7 +7149,7 @@
 				require_once("banco/confBD.php");
 
 				echo "<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>";
-				echo "<script src='src/jquery.treefilter.js?version=99'></script>";
+				echo "<script src='src/jquery.treefilter.js?version=974'></script>";
 				echo "<script src='jquery.mark.min.js?version=2'></script>";
         // echo "<link type='text/css' rel='stylesheet' href='src/jquery.treefilter.css'>";
 
@@ -7223,7 +7268,7 @@
 				echo "<script>
 								$(function() {
 
-							    var \$input = $('input#my-search3');
+							    var \$input = $('input#my-search');
 
 									\$input.on('input', function() {
 							    	var searchVal = this.value.toLowerCase();
@@ -7274,10 +7319,10 @@
             if ($arg[$i]['codP'] == 1 || $arg[$i]['codP'] == 18 || $arg[$i]['codP'] == 19 || $arg[$i]['codP'] == 20 || $arg[$i]['codP'] == 21
                     || $arg[$i]['codP'] == 22 || $arg[$i]['codP'] == 23 || $arg[$i]['codP'] == 25 || $arg[$i]['codP'] == 28 || $arg[$i]['codP'] == 30 ) {
 
-                      echo '<li class="pai" id='.utf8_decode($arg[$i]['docNome']).'><div><span onclick="teste(\''.'.'.$arg[$i]['docNome'].'\');">'.html_entity_decode($arg[$i]['titulo']).'</span></div>';
+                      echo '<li id='.utf8_decode($arg[$i]['docNome']).'><div><span class="pai" onclick="teste(\''.'.'.$arg[$i]['docNome'].'\');">'.html_entity_decode($arg[$i]['titulo']).'</span></div>';
 						}
             else {
-              echo '<li id='.utf8_decode($arg[$i]['docNome']).'><div><span onclick="teste(\''.'.'.$arg[$i]['docNome'].'\');">'.html_entity_decode($arg[$i]['titulo']).'</span></div>';
+              echo '<li id='.utf8_decode($arg[$i]['docNome']).'><div><span class="pai" onclick="teste(\''.'.'.$arg[$i]['docNome'].'\');">'.html_entity_decode($arg[$i]['titulo']).'</span></div>';
             }
 
             $f[$cp] -= 1;
