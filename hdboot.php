@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="logoCasa6.png"/>
+  <link rel="shortcut icon" href="logoPena10.png"/>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Satisfy|Arima+Madurai|Encode+Sans+Expanded:800|Ubuntu|Poppins|Montserrat" rel="stylesheet">
@@ -110,7 +110,7 @@
 
     /* .titulo	{text-shadow: -1px 0 #ddd, 0 1px white, 1px 0 #ddd, 0 -1px #ddd; font-family: 'Righteous', cursive; font-weight:500; font-size:32px; float: left; z-index: 100; margin-top: 5px; margin-left: 250px; } */
     /* .titulo	  {font-family: 'Sunflower', sans-serif; font-weight:300; font-size:45px; float: left; z-index: 100; margin-top: 8px; margin-left: 210px; letter-spacing: 2px; } */
-    .titulo2	{font-family: 'Agency FB', Regular; font-weight:800; font-size:35px; float: left; z-index: 100; margin-top: 90px; margin-left: 13px; letter-spacing: 2px; }
+    .titulo2	{font-family: 'Century Gothic', Regular; font-weight:800; font-size:28px; float: left; z-index: 100; margin-top: 90px; margin-left: 13px; letter-spacing: 2px; }
 		/* .fred	{font-family: 'Dawning of a New Day', cursive; font-weight:10; font-size:33px; padding-top: 0px; padding-left: 380px; color: #bbb; margin: 0px;} */
 
 		.ms1	{ padding: 165px 0px 0px 0px; z-index: 100; position: fixed;}
@@ -156,8 +156,8 @@
 			width: 14%;
 			height: auto;
       margin-top: 0px;
-			padding-top: 14px;
-			margin-left: -10px;
+			padding-top: 7px;
+			margin-left: 0px;
 			padding-right: 0px;
 			float: left;
 			cursor: pointer;
@@ -313,7 +313,7 @@
       <div class="header">
 <!-- Logo Cartório Cabeçalho -->
         <div class="img">
-  				<img onclick="window.location.reload()" id="img" src='logoCriatosTransp6.png' title="Criatos"></img>
+  				<img onclick="window.location.reload()" id="img" src='logoCriatos10.png' title="Criatos"></img>
   				<a href='http://www.sagres.com.br' target="_blank"> <img id="sagres" target="_blank" src='logosagres.png' title="Sagres"></img> </a>
   			</div>
 
